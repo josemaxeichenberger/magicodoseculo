@@ -41,11 +41,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300&display=swap" rel="stylesheet">
-    <style>
-        .btn-login{
-    background-color: linear-gradient(90deg, rgba(135,41,222,1) 20%, rgba(135,41,222,1) 53%, rgba(82,5,140,1) 100%);
-}
-    </style>
+
 </head>
 
 <body class="">
@@ -95,10 +91,11 @@
                                 <label
                                     class="list-group-item d-flex align-items-center mb-3 font-size-14 text-white fw-500"><input
                                         class="form-check-input m-0 me-2" type="checkbox">Remember Me</label>
-                                <div class="">
-                                    <div class="">
-                                        <a href="#" class="btn-login w-75 rounded-pill mx-auto d-block btn btn-primary text-uppercase position-relative">
+                                <div class="full-button">
+                                    <div class="iq-button active">
+                                        <a href="#" class="btn  text-uppercase position-relative">
                                             <span class="button-text">log in</span>
+                                            <i class="fa-solid fa-play"></i>
                                         </a>
                                     </div>
                                 </div>
