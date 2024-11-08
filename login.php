@@ -67,7 +67,7 @@
             <div class="container">
                 <div class="row justify-content-center align-items-center height-self-center vh-100">
                     <div class="col-lg-5 col-md-12 align-self-center">
-                        <div class="user-login-card " style="backdrop-filter:unset;">
+                        <div class=" " style="backdrop-filter:unset;">
                             <div class="text-center">
                                 <div class="logo-default">
                                     <a class="navbar-brand text-primary" href="./index.html">
