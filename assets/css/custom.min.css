@@ -6310,7 +6310,3 @@ pre[class*=language-] {
     cursor: help
 }
 
-/*# sourceMappingURL=maps/custom.min.css.map */
-.btn-login{
-    background-color: linear-gradient(90deg, rgba(135,41,222,1) 20%, rgba(135,41,222,1) 53%, rgba(82,5,140,1) 100%) !important;
-}
