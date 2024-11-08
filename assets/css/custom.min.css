@@ -6311,3 +6311,6 @@ pre[class*=language-] {
 }
 
 /*# sourceMappingURL=maps/custom.min.css.map */
+.user-login-card .iq-button{
+    border-radius: 50rem !important;
+}
