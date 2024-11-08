@@ -41,11 +41,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300&display=swap" rel="stylesheet">
-        <style>
-            .user-login-card .full-button .iq-button{
-    border-radius: 50rem !important;
-}
-        </style>
+        
 </head>
 
 <body class="">
@@ -96,7 +92,7 @@
                                     class="list-group-item d-flex align-items-center mb-3 font-size-14 text-white fw-500"><input
                                         class="form-check-input m-0 me-2" type="checkbox">Remember Me</label>
                                 <div class="full-button" >
-                                    <div class="iq-button">
+                                    <div class="btn-primary">
                                         <a href="#" class="btn text-uppercase position-relative">
                                             <span class="button-text">log in</span>
                                             <i class="fa-solid fa-play"></i>
