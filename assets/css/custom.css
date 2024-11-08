@@ -1929,7 +1929,7 @@ li.swiper-active.last .card-hover-style-two .block-images:hover .img-box {
   -webkit-transform: perspective(0.063em) translateZ(0);
           transform: perspective(0.063em) translateZ(0);
 }
-.iq-button .btn:focus, .iq-button .btn:active {
+.iq-button .btn:focus, .iq-button .btn:active,.iq-button .btn:hover {
   border-color: var(--bs-primary);
   background: var(--bs-primary);
 }
