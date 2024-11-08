@@ -180,7 +180,22 @@
   --bs-form-invalid-color: #ea868f;
   --bs-form-invalid-border-color: #ea868f;
 }
-
+[data-bs-theme=hotstar] {
+  --bs-primary:linear-gradient(90deg, rgba(135,41,222,1) 20%, rgba(135,41,222,1) 53%, rgba(82,5,140,1) 100%);
+  --bs-primary-rgb:linear-gradient(90deg, rgba(135,41,222,1) 20%, rgba(135,41,222,1) 53%, rgba(82,5,140,1) 100%);
+  --bs-primary-shade-20:linear-gradient(90deg, rgba(138, 43, 226,1) 20%, rgba(138, 43, 226,1) 53%, rgba(82,5,140,1) 100%);
+  --bs-secondary-color: #fff;
+  --bs-secondary-color-rgb: 255, 255, 255;
+  --bs-body-color: #fff;
+  --bs-body-color-rgb: 255, 255, 255;
+  --bs-heading-color: #fff;
+  --bs-body-bg: #0F1014;
+  --bs-body-bg-rgb: 15, 16, 20;
+  --bs-gray-900: #191923;
+  --bs-gray-900-rgb: 25, 25, 35;
+  --bs-gray-800: #252833;
+  --bs-gray-800-rgb: 37, 40, 51;
+}
 *,
 *::before,
 *::after {
