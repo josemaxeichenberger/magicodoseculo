@@ -305,8 +305,8 @@ img {
 }
 
 [data-bs-theme=hotstar] {
-  --bs-primary: #0959E4;
-  --bs-primary-rgb: 22, 121, 231;
+  --bs-primary: #8729de;
+  --bs-primary-rgb: rgb(135, 41, 222);
   --bs-secondary-color: #fff;
   --bs-secondary-color-rgb: 255, 255, 255;
   --bs-body-color: #fff;
