@@ -20872,3 +20872,7 @@ footer .menu li:last-child {
 .user-login-card .iq-button{
     border-radius: 50rem !important;
 }
+
+.user-login-card > .iq-button .btn:focus,.btn:hover, .iq-button .btn:active{
+    background-color: var(--bs-primary) !important;
+}
