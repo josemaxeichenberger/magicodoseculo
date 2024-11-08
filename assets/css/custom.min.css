@@ -4792,8 +4792,7 @@ body {
 }
 
 .user-login-card .full-button .btn {
-    width: 100%;
-    border-radius:50rem !important;
+    width: 100%
 }
 
 .user-login-card .full-button .btn i {

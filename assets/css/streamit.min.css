@@ -20869,5 +20869,6 @@ footer .menu li:last-child {
     -webkit-box-shadow: none;
     box-shadow: none
 }
-
-/*# sourceMappingURL=maps/streamit.min.css.map */
+.user-login-card .iq-button{
+    border-radius: 50rem !important;
+}
