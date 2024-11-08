@@ -307,6 +307,7 @@ img {
 [data-bs-theme=hotstar] {
   --bs-primary: #8729de;
   --bs-primary-rgb: rgb(135, 41, 222);
+  --bs-primary-shade-20:rgba(135, 41, 222,0.6);
   --bs-secondary-color: #fff;
   --bs-secondary-color-rgb: 255, 255, 255;
   --bs-body-color: #fff;
@@ -15851,13 +15852,13 @@ textarea.form-control-lg {
 }
 .btn.btn-primary:hover {
   color: var(--bs-white);
-  background-color: var(--bs-primary);
-  border-color: var(--bs-primary);
+  background-color: var(--bs-primary-shade-20);
+  border-color: var(--bs-primary-shade-20);
 }
 .btn.btn-primary:focus {
   color: var(--bs-white);
   background-color: var(--bs-primary);
-  border-color: var(--bs-primary);
+  border-color: var(--bs-primary-shade-20);
 }
 .btn.btn-primary:active, .btn.btn-primary.active {
   color: var(--bs-white);
