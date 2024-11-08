@@ -4793,7 +4793,7 @@ body {
 
 .user-login-card .full-button .btn {
     width: 100%;
-    border-radius:;
+    border-radius:50rem !important;
 }
 
 .user-login-card .full-button .btn i {
