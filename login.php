@@ -92,8 +92,8 @@
                                     class="list-group-item d-flex align-items-center mb-3 font-size-14 text-white fw-500"><input
                                         class="form-check-input m-0 me-2" type="checkbox">Remember Me</label>
                                 <div class="full-button">
-                                    <div class="iq-button ">
-                                        <a href="#" class="btn active  text-uppercase position-relative">
+                                    <div class="iq-button active">
+                                        <a href="#" class="btn  text-uppercase position-relative">
                                             <span class="button-text">log in</span>
                                             <i class="fa-solid fa-play"></i>
                                         </a>
