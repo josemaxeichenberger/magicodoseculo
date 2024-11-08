@@ -92,7 +92,7 @@
                                     class="list-group-item d-flex align-items-center mb-3 font-size-14 text-white fw-500"><input
                                         class="form-check-input m-0 me-2" type="checkbox">Remember Me</label>
                                 <div class="">
-                                    <div class="btn-primary rounded-pill  ">
+                                    <div class="btn btn-primary rounded-pill  ">
                                         <a href="#" class="btn text-uppercase position-relative">
                                             <span class="button-text">log in</span>
                                             <i class="fa-solid fa-play"></i>
