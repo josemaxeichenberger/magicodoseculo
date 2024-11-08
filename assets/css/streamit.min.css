@@ -314,7 +314,7 @@ img {
     --bs-form-valid-border-color: #72f1b8;
     --bs-form-invalid-color: #989eac;
     --bs-form-invalid-border-color: #989eac
-}
+} 
 
 [data-bs-theme=dark] {
     --bs-gray-900: #141314;
