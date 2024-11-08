@@ -2240,8 +2240,9 @@ li.swiper-active.last .card-hover-style-two .block-images:hover .img-box {
 
 .iq-button.link-button .btn {
     padding: 0;
-    background: var(--bs-primary);
+    color: var(--bs-primary);
     border: 0;
+    background: rgba(0, 0, 0, 0)
 }
 
 .iq-button.link-button .btn::before {
