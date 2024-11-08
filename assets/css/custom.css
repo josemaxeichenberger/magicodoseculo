@@ -1963,11 +1963,11 @@ li.swiper-active.last .card-hover-style-two .block-images:hover .img-box {
   transition: transform 0.3s ease-out;
   transition: transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
 }
-/* .iq-button .btn:hover::before {
+.iq-button .btn:hover::before {
   -webkit-transform: scaleX(0);
   -ms-transform: scaleX(0);
       transform: scaleX(0);
-} */
+}
 .iq-button.link-button .btn {
   padding: 0;
   color: var(--bs-primary);
