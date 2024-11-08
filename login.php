@@ -93,7 +93,7 @@
                                         class="form-check-input m-0 me-2" type="checkbox">Remember Me</label>
                                 <div class="">
                                     <div class="">
-                                        <a href="#" class=" w-25 mx-auto d-block btn btn-primary text-uppercase position-relative">
+                                        <a href="#" class=" w-75 mx-auto d-block btn btn-primary text-uppercase position-relative">
                                             <span class="button-text">log in</span>
                                         </a>
                                     </div>
