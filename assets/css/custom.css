@@ -5655,3 +5655,6 @@ pre[class*=language-] {
 .token.entity {
   cursor: help;
 }
+.btn-login{
+  background-color: var(--bs-primary);
+}
