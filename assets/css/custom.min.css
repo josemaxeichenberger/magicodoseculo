@@ -2195,7 +2195,8 @@ li.swiper-active.last .card-hover-style-two .block-images:hover .img-box {
 .iq-button .btn:focus,
 .iq-button .btn:active {
     border-color: var(--bs-primary);
-    background: var(--bs-primary)
+    background: var(--bs-primary);
+    border-radius: 50rem;
 }
 
 .iq-button .btn i {
