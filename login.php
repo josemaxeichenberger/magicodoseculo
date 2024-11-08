@@ -69,25 +69,9 @@
                     <div class="col-lg-5 col-md-12 align-self-center">
                         <div class="user-login-card " style="backdrop-filter:unset;">
                             <div class="text-center">
-                                <!--Logo -->
                                 <div class="logo-default">
                                     <a class="navbar-brand text-primary" href="./index.html">
                                         <img class="img-fluid logo" src="./assets/images/logo.webp" loading="lazy" alt="streamit" />
-                                    </a>
-                                </div>
-                                <div class="logo-hotstar">
-                                    <a class="navbar-brand text-primary" href="./index.html">
-                                        <img class="img-fluid logo" src="./assets/images/logo-hotstar.webp" loading="lazy" alt="streamit" />
-                                    </a>
-                                </div>
-                                <div class="logo-prime">
-                                    <a class="navbar-brand text-primary" href="./index.html">
-                                        <img class="img-fluid logo" src="./assets/images/logo-prime.webp" loading="lazy" alt="streamit" />
-                                    </a>
-                                </div>
-                                <div class="logo-hulu">
-                                    <a class="navbar-brand text-primary" href="./index.html">
-                                        <img class="img-fluid logo" src="./assets/images/logo-hulu.webp" loading="lazy" alt="streamit" />
                                     </a>
                                 </div>
                             </div>
@@ -108,7 +92,7 @@
                                     class="list-group-item d-flex align-items-center mb-3 font-size-14 text-white fw-500"><input
                                         class="form-check-input m-0 me-2" type="checkbox">Remember Me</label>
                                 <div class="full-button">
-                                    <div class="iq-button">
+                                    <div class="iq-button   rounded-pill  ">
                                         <a href="#" class="btn text-uppercase position-relative">
                                             <span class="button-text">log in</span>
                                             <i class="fa-solid fa-play"></i>
