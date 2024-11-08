@@ -6311,3 +6311,6 @@ pre[class*=language-] {
 }
 
 /*# sourceMappingURL=maps/custom.min.css.map */
+.iq-button .btn:focus, .iq-button .btn:active{
+    background-color: var(--bs-primary);
+}
