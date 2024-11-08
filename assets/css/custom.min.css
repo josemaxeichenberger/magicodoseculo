@@ -6311,3 +6311,6 @@ pre[class*=language-] {
     cursor: help
 }
 
+.btn-login{
+    background-color: var(--bs-primary);
+}
