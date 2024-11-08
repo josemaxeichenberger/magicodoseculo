@@ -2209,6 +2209,7 @@ li.swiper-active.last .card-hover-style-two .block-images:hover .img-box {
 }
 
 .iq-button .btn::before {
+    border-radius: 50rem;
     content: "";
     position: absolute;
     z-index: -1;
