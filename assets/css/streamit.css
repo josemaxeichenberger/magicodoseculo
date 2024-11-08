@@ -15851,13 +15851,13 @@ textarea.form-control-lg {
 }
 .btn.btn-primary:hover {
   color: var(--bs-white);
-  background-color: var(--bs-primary-shade-20);
-  border-color: var(--bs-primary-shade-20);
+  background-color: var(--bs-primary);
+  border-color: var(--bs-primary);
 }
 .btn.btn-primary:focus {
   color: var(--bs-white);
-  background-color: var(--bs-primary-shade-20);
-  border-color: var(--bs-primary-shade-20);
+  background-color: var(--bs-primary);
+  border-color: var(--bs-primary);
 }
 .btn.btn-primary:active, .btn.btn-primary.active {
   color: var(--bs-white);
