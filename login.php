@@ -91,13 +91,14 @@
                                 <label
                                     class="list-group-item d-flex align-items-center mb-3 font-size-14 text-white fw-500"><input
                                         class="form-check-input m-0 me-2" type="checkbox">Remember Me</label>
-                                <div class="full-button">
-                                    <div class="iq-button active">
-                                        <a href="#" class="btn  text-uppercase position-relative">
-                                            <span class="button-text">log in</span>
-                                            <i class="fa-solid fa-play"></i>
-                                        </a>
-                                    </div>
+                                <div class="seperator d-flex justify-content-center align-items-center">
+                                    <span class="line"></span>
+                                </div>
+                                <div class="iq-button">
+                                    <a href="login.html" class="btn text-uppercase position-relative">
+                                        <span class="button-text">log in</span>
+                                        <i class="fa-solid fa-play"></i>
+                                    </a>
                                 </div>
                             </form>
                             <p class="my-4 text-center fw-500 text-white">New to Streamit? <a href="register.html"
