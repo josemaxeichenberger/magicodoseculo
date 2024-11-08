@@ -83,7 +83,7 @@
       theme_style_appearance: {
         target: "html",
         choices: ["dark", "hotstar", "prime", "hulu"],
-        value: ["dark"],
+        value: ["hotstar"],
       },
     };
   }
