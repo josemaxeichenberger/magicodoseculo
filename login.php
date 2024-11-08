@@ -29,10 +29,10 @@
   
   
   <!-- Streamit Design System Css -->
-  <link rel="stylesheet" href="./assets/css/streamit.css?v=5.2.1" />
+  <link rel="stylesheet" href="./assets/css/streamit.min.css?v=5.2.1" />
   
   <!-- Custom Css -->
-  <link rel="stylesheet" href="./assets/css/custom.css?v=5.2.1" />
+  <link rel="stylesheet" href="./assets/css/custom.min.css?v=5.2.1" />
   
   <!-- Rtl Css -->
   <link rel="stylesheet" href="./assets/css/rtl.min.css?v=5.2.1" />
