@@ -1,48 +1,49 @@
 <!doctype html>
-<html lang="en" data-bs-theme="dark">
+<html lang="en" data-bs-theme="hotstar">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>StreamIT | Responsive Bootstrap 5 Template</title>
-  <!-- Google Font Api KEY-->
-  <meta name="google_font_api" content="AIzaSyBG58yNdAjc20_8jAvLNSVi9E4Xhwjau_k">
-  
-  <!-- Favicon -->
-  <link rel="shortcut icon" href="./assets/images/favicon.ico" />
-  
-  <!-- Library / Plugin Css Build -->
-  <link rel="stylesheet" href="./assets/css/core/libs.min.css" />
-  
-  <!-- font-awesome css -->
-  <link rel="stylesheet" href="./assets/vendor/font-awesome/css/all.min.css" />
-  
-  <!-- Iconly css -->
-  <link rel="stylesheet" href="./assets/vendor/iconly/css/style.css" />
-  
-  <!-- Animate css -->
-  <link rel="stylesheet" href="./assets/vendor/animate.min.css" />
-  
-  
-  
-  
-  
-  
-  <!-- Streamit Design System Css -->
-  <link rel="stylesheet" href="./assets/css/streamit.min.css?v=5.2.1" />
-  
-  <!-- Custom Css -->
-  <link rel="stylesheet" href="./assets/css/custom.min.css?v=5.2.1" />
-  
-  <!-- Rtl Css -->
-  <link rel="stylesheet" href="./assets/css/rtl.min.css?v=5.2.1" />
-  
-  <!-- Google Font -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300&display=swap" rel="stylesheet">
-  
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>StreamIT | Responsive Bootstrap 5 Template</title>
+    <!-- Google Font Api KEY-->
+    <meta name="google_font_api" content="AIzaSyBG58yNdAjc20_8jAvLNSVi9E4Xhwjau_k">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./assets/images/favicon.ico" />
+
+    <!-- Library / Plugin Css Build -->
+    <link rel="stylesheet" href="./assets/css/core/libs.min.css" />
+
+    <!-- font-awesome css -->
+    <link rel="stylesheet" href="./assets/vendor/font-awesome/css/all.min.css" />
+
+    <!-- Iconly css -->
+    <link rel="stylesheet" href="./assets/vendor/iconly/css/style.css" />
+
+    <!-- Animate css -->
+    <link rel="stylesheet" href="./assets/vendor/animate.min.css" />
+
+
+
+
+
+
+    <!-- Streamit Design System Css -->
+    <link rel="stylesheet" href="./assets/css/streamit.min.css?v=5.2.1" />
+
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="./assets/css/custom.min.css?v=5.2.1" />
+
+    <!-- Rtl Css -->
+    <link rel="stylesheet" href="./assets/css/rtl.min.css?v=5.2.1" />
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300&display=swap" rel="stylesheet">
+
 </head>
+
 <body class="">
     <span class="screen-darken"></span>
     <!-- loader Start -->
@@ -66,7 +67,7 @@
             <div class="container">
                 <div class="row justify-content-center align-items-center height-self-center vh-100">
                     <div class="col-lg-5 col-md-12 align-self-center">
-                        <div class=" " style="backdrop-filter:unset;">
+                        <div class="user-login-card " style="backdrop-filter:unset;">
                             <div class="text-center">
                                 <div class="logo-default">
                                     <a class="navbar-brand text-primary" href="./index.html">
@@ -90,14 +91,13 @@
                                 <label
                                     class="list-group-item d-flex align-items-center mb-3 font-size-14 text-white fw-500"><input
                                         class="form-check-input m-0 me-2" type="checkbox">Remember Me</label>
-                                <div class="seperator d-flex justify-content-center align-items-center">
-                                    <span class="line"></span>
-                                </div>
-                                <div class="iq-button">
-                                    <a href="login.html" class="btn text-uppercase position-relative">
-                                        <span class="button-text">log in</span>
-                                        <i class="fa-solid fa-play"></i>
-                                    </a>
+                                <div class="">
+                                    <div class="iq-button ">
+                                        <a href="#" class="  text-uppercase position-relative">
+                                            <span class="button-text">log in</span>
+                                            <i class="fa-solid fa-play"></i>
+                                        </a>
+                                    </div>
                                 </div>
                             </form>
                             <p class="my-4 text-center fw-500 text-white">New to Streamit? <a href="register.html"
