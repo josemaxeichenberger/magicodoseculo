@@ -20796,7 +20796,8 @@ footer .menu li:last-child {
     padding-bottom: 0
 }
 .user-login-card .iq-button .btn:hover {
-    background: var(--bs-primary)
+    background: var(--bs-primary);
+    border-radius: 50rem;
 }
 .footer-merchandise {
     background: var(--bs-gray-900)
