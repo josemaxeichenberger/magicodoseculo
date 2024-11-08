@@ -2233,6 +2233,7 @@ li.swiper-active.last .card-hover-style-two .block-images:hover .img-box {
 }
 
 .iq-button .btn:hover::before {
+    border-radius: 50rem;
     -webkit-transform: scaleX(0);
     -ms-transform: scaleX(0);
     transform: scaleX(0);
