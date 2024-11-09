@@ -18,13 +18,12 @@ spl_autoload_register("my_autoload"); // Carrega as classes
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>StreamIT | Responsive Bootstrap 5 Template</title>
+  <title>Mágico do Século</title>
   <!-- Google Font Api KEY-->
   <meta name="google_font_api" content="AIzaSyBG58yNdAjc20_8jAvLNSVi9E4Xhwjau_k">
 
   <!-- Favicon -->
-  <link rel="shortcut icon" href="./assets/images/favicon.ico" />
-
+  <link rel="shortcut icon" href="./assets/identidade/002.png" />
   <!-- Library / Plugin Css Build -->
   <link rel="stylesheet" href="./assets/css/core/libs.min.css" />
 
