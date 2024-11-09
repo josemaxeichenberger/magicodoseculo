@@ -138,7 +138,7 @@ spl_autoload_register("my_autoload"); // Carrega as classes
                         <div class="slider-content">
                           <div class="d-flex align-items-center RightAnimate mb-3">
                             <span
-                              class="iq-custom-badge badge-costumer rounded-5 text-white text-uppercase px-3 py-2 me-3  mr-3"><?php echo $row['video_nome'] ?></span>
+                              class="iq-custom-badge badge-costumer rounded-5 text-white text-uppercase px-3 py-2 me-3  mr-3">Aula <?php echo $row['video_indice_aula'] ?></span>
                            
                           </div>
                           <h1
