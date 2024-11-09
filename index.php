@@ -156,13 +156,11 @@ spl_autoload_register("my_autoload"); // Carrega as classes
                               <span class="text-white me-2 font-size-14 fw-500">4</span>
                              
                             </div>
-                            <span class="font-size-14 fw-500">2hr 6mins</span>
-                            <div class="text-primary font-size-14 fw-500 text-capitalize">genres <a
-                                href="view-all-movie.html" class="text-decoration-none ms-1">Drama</a>
+                            <span class="font-size-14 fw-500"><?php echo $row['video_duracao'] ?></span>
+                            <div class="text-primary font-size-14 fw-500 text-capitalize" style="color:#B7FF2F">Aula em Destaque 
+                           
                             </div>
-                            <div class="text-primary font-size-14 fw-500 text-capitalize">Starting <a
-                                href="person-detail.html" class="text-decoration-none ms-1">Jeffrey Silver</a>
-                            </div>
+                          
                           </div>
                         </div>
                         <div class="RightAnimate-four">
