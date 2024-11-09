@@ -339,7 +339,7 @@
                                                     <img src="./assets/images/movies/playlist/01.webp" alt="movie-card" class="img-fluid object-cover w-100 d-block border-0">
                                                     <div class="iq-button position-relative" style="top: -3rem;">
                                         <button type="button" class="btn text-uppercase position-relativ" data-bs-toggle="modal" data-bs-target="#addNewPlaylist">
-                                            <span class="button-text">Create Playlist</span>
+                                          
                                             <i class="fa-solid fa-play"></i>
                                         </button>
                                     </div>
