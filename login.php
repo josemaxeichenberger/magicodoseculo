@@ -76,6 +76,7 @@
                                 </div>
                             </div>
                             <form action="post">
+                                <h2>Conecte <br> <span class="fw-bold">sua conta</span></h2>
                                 <div class="mb-3">
                                     <label class="text-white fw-500 mb-2">Username or Email Address</label>
                                     <input type="text" class="form-control rounded-0" required="">
