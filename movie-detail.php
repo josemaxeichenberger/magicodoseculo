@@ -886,14 +886,18 @@
         <i class="fa-solid fa-chevron-up"></i>
      </a>
   </div>
-  <!-- Wrapper End-->
+   <!-- Wrapper End-->
   <!-- Library Bundle Script -->
   <script src="./assets/js/core/libs.min.js"></script>
   <!-- Plugin Scripts -->
   
   
+  <!-- SwiperSlider Script -->
+  <script src="./assets/vendor/swiperSlider/swiper.min.js"></script>
   
   
+    <!-- Select2 Script -->
+    <script src="./assets/js/plugins/select2.js" defer></script>
   
   
   <!-- Lodash Utility -->
