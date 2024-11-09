@@ -6406,3 +6406,9 @@ pre[class*=language-] {
     border: rgba(226, 226, 226,0.3) solid 2px;
     color:rgba(226, 226, 226,0.3);
 }
+.input-my:focus{
+    background: var(--bs-body-bg);
+    background-color: var(--bs-body-bg);
+    border: rgba(226, 226, 226,0.3) solid 2px;
+    color:rgba(226, 226, 226,0.3);
+}
