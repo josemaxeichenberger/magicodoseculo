@@ -1,7 +1,7 @@
 <?php
 function my_autoload($pClassName)
 {
-  include('Class' . "/" . $pClassName . ".class.php");
+  include('./Class' . "/" . $pClassName . ".class.php");
 }
 
 spl_autoload_register("my_autoload"); // Carrega as classes 
