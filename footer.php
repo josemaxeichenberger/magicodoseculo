@@ -11,16 +11,16 @@
                 <div class="col-md-6" style="color: #7E7E80;">
                     <ul class="menu list-inline p-0 d-flex flex-wrap align-items-center">
                         <li class="menu-item">
-                            <a href="#"> Termos de uso </a>
+                            <a href="#"style="color: #7E7E80;"> Termos de uso </a>
                         </li>
                         <li id="menu-item-7316" class="menu-item">
-                            <a href="./privacy-policy.html"> Política de Privacidade </a>
+                            <a href="#"style="color: #7E7E80;"> Política de Privacidade </a>
                         </li>
                         <li class="menu-item">
-                            <a href="./faq.html"> Perguntas frequentes </a>
+                            <a href="#"style="color: #7E7E80;"> Perguntas frequentes </a>
                         </li>
                         <li class="menu-item">
-                            <a href="./playlist.html"> Lista de observação </a>
+                            <a href="#"style="color: #7E7E80;"> Lista de observação </a>
                         </li>
                     </ul>
                     <p class="font-size-14">© <span class="currentYear"></span> <span class="text-primary">ROLETA MÁGICA</span>. Todos os direitos reservados. Todos os vídeos informativos neste aplicativo são marcas registradas e todas as imagens e conteúdos relacionados são propriedade do Mágico do Século. <br> <br>A duplicação e plágio disto são estritamente proibidos. </p>
