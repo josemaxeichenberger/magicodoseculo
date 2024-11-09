@@ -342,8 +342,6 @@
 
                                                             <i class="fa-solid fa-play"></i>
                                                         </button>
-                                                    </div>
-                                                </div>
 
                                                 <div class="card-description">
                                                     <h5 class="text-capitalize fw-500"> <a href="">Play List 1</a> </h5>
@@ -359,6 +357,9 @@
 
                                                     </div>
                                                 </div>
+                                                    </div>
+                                                </div>
+
                                             </div>
                                         </div>
                                     </div>
