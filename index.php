@@ -138,13 +138,13 @@ spl_autoload_register("my_autoload"); // Carrega as classes
                         <div class="slider-content">
                           <div class="d-flex align-items-center RightAnimate mb-3">
                             <span
-                              class="iq-custom-badge badge-costumer rounded-5 text-white text-capitalize  px-3 py-2 me-3  mr-3">Aula <?php echo $row['video_indice_aula'] ?></span>
+                              class="iq-custom-badge badge-costumer rounded-5 text-white text-capitalize SFProDisplayRegular  px-3 py-2 me-3  mr-3">Aula <?php echo $row['video_indice_aula'] ?></span>
                            
                           </div>
                           <h1
                             class="texture-text big-font letter-spacing-1 line-count-1 text-capitalize RightAnimate-two">
                             <?php echo $row['video_nome'] ?> </h1>
-                          <p class="line-count-3 RightAnimate-two"><?php echo $row['video_texto'] ?></p>
+                          <p class="line-count-3 RightAnimate-two SFProDisplayRegular"><?php echo $row['video_texto'] ?></p>
                           <div class="d-flex flex-wrap align-items-center gap-3 RightAnimate-three">
                             <div class="slider-ratting d-flex align-items-center">
                               <ul
