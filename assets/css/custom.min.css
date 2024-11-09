@@ -6412,3 +6412,6 @@ pre[class*=language-] {
     border: rgba(226, 226, 226,0.3) solid 2px;
     color:rgba(226, 226, 226,0.3);
 }
+.input-my::placeholder{
+    color:rgba(226, 226, 226,0.3); 
+}
