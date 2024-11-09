@@ -45,16 +45,14 @@
                           <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                               data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                               aria-label="Toggle navigation">
-                              <span class="navbar-toggler-btn">
-                                  <span class="navbar-toggler-icon"></span>
-                              </span>
+                              
                           </button>
                           <ul class="navbar-nav align-items-center ms-auto mb-2 mb-xl-0">
                               
                               <li class="nav-item dropdown" id="itemdropdown1">
                                   <a class="nav-link d-flex align-items-center" href="#" id="navbarDropdown" role="button"
                                       data-bs-toggle="dropdown" aria-expanded="false">
-                                      <div class="btn-icon rounded-pill user-icons">
+                                      <!-- <div class="btn-icon rounded-pill user-icons">
                                           <span class="btn-inner">
                                               <svg class="icon-18" width="18" viewBox="0 0 24 24" fill="none"
                                                   xmlns="http://www.w3.org/2000/svg">
@@ -72,7 +70,10 @@
                                                       stroke-linecap="round" stroke-linejoin="round"></path>
                                               </svg>
                                           </span>
-                                      </div>
+                                      </div> -->
+                                      <span class="navbar-toggler-btn">
+                                  <span class="navbar-toggler-icon"></span>
+                              </span>
                                   </a>
                                   <ul class="dropdown-menu dropdown-menu-end dropdown-user border-0 p-0 m-0"
                                       aria-labelledby="navbarDropdown">
