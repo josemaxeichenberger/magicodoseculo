@@ -320,7 +320,7 @@ img {
     --bs-gray-900: #141314;
     --bs-gray-900-rgb: 20, 19, 20;
     --bs-gray-800: #343a40
-} 
+}
 
 [data-bs-theme=hotstar] {
     --bs-primary:linear-gradient(90deg, rgba(135,41,222,1) 20%, rgba(135,41,222,1) 53%, rgba(82,5,140,1) 100%);
@@ -330,7 +330,7 @@ img {
     --bs-body-color: #fff;
     --bs-body-color-rgb: 255, 255, 255;
     --bs-heading-color: #fff;
-    --bs-body-bg: linear-gradient(90deg, rgba(8,8,8,0.9724264705882353) 17%, rgba(0,0,0,1) 100%);
+    --bs-body-bg: linear-gradient(90deg, rgba(8,8,8,1) 17%, rgba(0,0,0,1) 100%);
     --bs-body-bg-rgb: 15, 16, 20;
     --bs-gray-900: #191923;
     --bs-gray-900-rgb: 25, 25, 35;
