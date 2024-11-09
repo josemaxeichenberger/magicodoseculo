@@ -99,10 +99,8 @@
                                     <a href="reset-password.html" class="text-primary fw-semibold fst-italic">Forgot
                                         Password?</a>
                                 </div>
-                                <label
-                                    class="list-group-item d-flex align-items-center mb-3 font-size-14 text-white fw-500"><input
-                                        class="form-check-input m-0 me-2" type="checkbox">Remember Me</label>
-                                <label class="custom-checkbox">
+                                
+                                <label class="custom-checkbox mb-3">
                                     <input type="checkbox">
                                     <span class="checkmark"></span>
                                     Aceito os termos e condições
