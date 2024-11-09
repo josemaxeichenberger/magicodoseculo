@@ -330,11 +330,11 @@
                                 
                                 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
                                     <div class="col mb-4">
-                                        <div class="watchlist-warpper card-hover-style-two rounded-4">
-                                            <div class="block-images position-relative w-100 ">
+                                        <div class="watchlist-warpper card-hover-style-two ">
+                                            <div class="block-images position-relative w-100 rounded-4">
                                                 <div class="img-box">
                                                     <a href="watchlist-detail.html" class="position-absolute top-0 bottom-0 start-0 end-0"></a>
-                                                    <img src="./assets/images/movies/playlist/01.webp" alt="movie-card" class="img-fluid object-cover w-100 d-block border-0">
+                                                    <img src="./assets/images/movies/playlist/01.webp" alt="movie-card" class="img-fluid rounded-4 object-cover w-100 d-block border-0">
                                                     <div class="position-relative px-2" style="top: -6rem;">
                                                         <div class=" align-items-center">
                                                             <h5 class="text-capitalize fw-500 position-relative" style=" top:1.2rem;"> <a href="">Play List 1</a> </h5>
