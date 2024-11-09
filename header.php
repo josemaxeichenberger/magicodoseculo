@@ -4,37 +4,13 @@
               <div class="container-fluid navbar-inner">
                   <div class="d-flex align-items-center justify-content-between w-100 landing-header">
                       <div class="d-flex gap-3 gap-xl-0 align-items-center">
-                          <div>
-                              <button type="button" data-bs-toggle="offcanvas" data-bs-target="#navbar_main"
-                                  aria-controls="navbar_main"
-                                  class="d-xl-none btn btn-primary rounded-pill p-1 pt-0 toggle-rounded-btn">
-                                  <svg width="20px" class="icon-20" viewBox="0 0 24 24">
-                                      <path fill="currentColor"
-                                          d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z"></path>
-                                  </svg>
-                              </button>
-                          </div>
-                          <!--Logo -->
-                          <div class="logo-default">
-                              <a class="navbar-brand text-primary" href="./index.html">
-                                  <img class="img-fluid logo" src="./assets/images/logo.webp" loading="lazy" alt="streamit" />
-                              </a>
-                          </div>
+                     
                           <div class="logo-hotstar">
                               <a class="navbar-brand text-primary" href="./index.html">
                                   <img class="img-fluid logo" src="./assets/images/logo-hotstar.webp" loading="lazy" alt="streamit" />
                               </a>
                           </div>
-                          <div class="logo-prime">
-                              <a class="navbar-brand text-primary" href="./index.html">
-                                  <img class="img-fluid logo" src="./assets/images/logo-prime.webp" loading="lazy" alt="streamit" />
-                              </a>
-                          </div>
-                          <div class="logo-hulu">
-                              <a class="navbar-brand text-primary" href="./index.html">
-                                  <img class="img-fluid logo" src="./assets/images/logo-hulu.webp" loading="lazy" alt="streamit" />
-                              </a>
-                          </div>
+                          
 
                       </div>
                       <nav id="navbar_main" class="offcanvas mobile-offcanvas nav navbar navbar-expand-xl hover-nav horizontal-nav mega-menu-content py-xl-0">
