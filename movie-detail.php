@@ -338,7 +338,7 @@
                                                     <a href="watchlist-detail.html" class="position-absolute top-0 bottom-0 start-0 end-0"></a>
                                                     <img src="./assets/images/movies/playlist/01.webp" alt="movie-card" class="img-fluid object-cover w-100 d-block border-0">
                                                     <div class="position-relative" style="top: -3rem;">
-                                                        <button type="button" class="btn d-block ms-auto btn-lg btn-play rounded-circle text-uppercase position-relative mx-0" >
+                                                        <button type="button" class="btn d-block ms-auto me-1 btn-lg btn-play rounded-circle text-uppercase position-relative mx-0" >
 
                                                             <i class="fa-solid fa-play"></i>
                                                         </button>
