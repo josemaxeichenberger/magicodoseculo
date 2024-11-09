@@ -6346,4 +6346,6 @@ pre[class*=language-] {
         top: -8rem;
     }
 }
-
+.navbar{
+  background-color: linear-gradient(90deg, rgba(135,41,222,1) 20%, rgba(135,41,222,1) 53%, rgba(82,5,140,1) 100%)!important;  
+}
