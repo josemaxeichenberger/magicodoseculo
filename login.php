@@ -88,17 +88,11 @@
                             <form action="post">
                                 <h2 class="text-center SFProDisplayRegular">Conecte <br> <span class="SFProDisplayBold">sua conta</span></h2>
                                 <div class="mb-3">
-                                    <label class="text-white fw-500 mb-2">Username or Email Address</label>
-                                    <input type="text" class="form-control rounded-0" required="">
+                                    <label class="text-white fw-500 mb-2">Email</label>
+                                    <input type="text" class="form-control rounded-0" required="" placeholder="Insira seu melhor email">
                                 </div>
-                                <div class="mb-3">
-                                    <label class="text-white fw-500 mb-2">Password</label>
-                                    <input type="password" class="form-control rounded-0" required="">
-                                </div>
-                                <div class="text-end mb-3">
-                                    <a href="reset-password.html" class="text-primary fw-semibold fst-italic">Forgot
-                                        Password?</a>
-                                </div>
+                               
+                            
                                 
                                 <label class="custom-checkbox mb-3">
                                     <input type="checkbox">
