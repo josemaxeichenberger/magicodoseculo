@@ -237,7 +237,8 @@ class videos extends ConexaoMysql
                 videos.destaque AS video_destaque,
                 videos.data_liberacao AS video_data_liberacao,
                 videos.bloqueado AS video_bloqueado,
-                videos.capa_bloqueado AS video_capa_bloqueado
+                videos.capa_bloqueado AS video_capa_bloqueado,
+                videos.indice_aula AS video_indice_aula
             FROM 
                 modulos
             JOIN 
@@ -246,7 +247,7 @@ class videos extends ConexaoMysql
                 videos.destaque = :destaque
                 AND videos.bloqueado = :bloqueado
             ORDER BY 
-                videos.id
+                modulos.id, videos.indice_aula
         ");
     
         // Ligação dos valores dos parâmetros usando métodos específicos
@@ -263,5 +264,6 @@ class videos extends ConexaoMysql
             return "Erro ao buscar vídeos: " . $e->getMessage();
         }
     }
+    
     
 }
