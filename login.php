@@ -63,7 +63,7 @@
 
 
         <div class="">
-            <img src="assets/identidade/HomeBanner.png" class="img-fluid d-block" alt="">
+            <img src="assets/identidade/HomeBanner.png" class="img-fluid d-block mx-auto" alt="">
             <div class="container">
                 <div class="row justify-content-center align-items-center height-self-center vh-100">
                     <div class="col-lg-5 col-md-12 align-self-center">
