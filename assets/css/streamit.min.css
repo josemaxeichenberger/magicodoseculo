@@ -337,7 +337,7 @@ img {
     --bs-gray-800: #252833;
     --bs-gray-800-rgb: 37, 40, 51
 }
-
+/* 
 [data-bs-theme=amazonprime] {
     --bs-primary: #1A98FF;
     --bs-primary-rgb: 26, 152, 255;
@@ -352,9 +352,9 @@ img {
     --bs-gray-900-rgb: 29, 33, 39;
     --bs-gray-800: #191E25;
     --bs-gray-800-rgb: 25, 30, 37
-}
+} */
 
-[data-bs-theme=hulu] {
+/* [data-bs-theme=hulu] {
     --bs-primary: #3ee783;
     --bs-primary-rgb: 62, 231, 131;
     --bs-secondary-color: #fff;
@@ -368,7 +368,7 @@ img {
     --bs-gray-900-rgb: 39, 44, 53;
     --bs-gray-800: #242830;
     --bs-gray-800-rgb: 36, 40, 48
-}
+} */
 
 *,
 *::before,
