@@ -57,269 +57,279 @@
 <?php include('./header.php') ?>
       <!--bread-crumb-->
       <!--bread-crumb-->
-      <section id="home-banner-slider" class="iq-main-slider p-0 swiper banner-home-swiper overflow-hidden"
-   data-swiper="home-banner-slider">
-   <div class="slider m-0 p-0 swiper-wrapper home-slider">
-      <div class="swiper-slide slide s-bg-1 p-0">
-         <div class="banner-home-swiper-image">
-            <img src="./assets/images/movies/banner1.webp" alt="banner-home-swiper-image">
-         </div>
-         <div class="container-fluid position-relative h-100">
-            <div class="slider-inner h-100">
-               <div class="row align-items-center iq-ltr-direction h-100">
-                  <div class="col-lg-7 col-md-12">
-                     <h1 class="texture-text big-font-5 letter-spacing-1 line-count-1 text-uppercase mb-0 RightAnimate">another
-                        danger
-                     </h1>
-                     <div class="d-flex flex-wrap align-items-center r-mb-23 RightAnimate-two">
-                        <div class="slider-ratting d-flex align-items-center">
-                           <ul
-                              class="ratting-start p-0 m-0 list-inline text-warning d-flex align-items-center justify-content-left">
-                              <li>
-                                 <i class="fa fa-star" aria-hidden="true"></i>
-                              </li>
-                              <li>
-                                 <i class="fa fa-star" aria-hidden="true"></i>
-                              </li>
-                              <li>
-                                 <i class="fa fa-star" aria-hidden="true"></i>
-                              </li>
-                              <li>
-                                 <i class="fa fa-star" aria-hidden="true"></i>
-                              </li>
-                              <li>
-                                 <i class="fa fa-star-half" aria-hidden="true"></i>
-                              </li>
-                           </ul>
-                           <span class="text-white ms-2 font-size-14 fw-500">4.3/5</span>
-                           <span class="ms-2">
-                           <img src="./assets/images/movies/imdb-logo.svg" alt="imdb logo" class="img-fluid">
-                           </span>
-                        </div>
-                        <span class="badge rounded-0 text-white text-uppercase p-2 mx-3 bg-secondary">action</span>
-                        <span class="font-size-14 fw-500 time">2hr 6mins</span>
-                     </div>
-                     <p class="line-count-3 RightAnimate-two"> Piracy is an act of robbery or criminal violence by ship or
-                        boat-borne attackers upon another ship or a coastal area, typically with the goal of stealing cargo and
-                        other valuable items or properties. 
-                     </p>
-                     <div class="trending-list RightAnimate-three">
-                        <div class="text-primary genres fw-500"> Genres:
-                           <a href="view-all-movie.html" class="fw-normal text-white text-decoration-none ms-2"> Action </a>
-                        </div>
-                        <div class="text-primary tag fw-500"> Tag:
-                           <a href="view-all-movie.html" class="fw-normal text-white text-decoration-none ms-2"> Action, </a>
-                           <a href="view-all-movie.html" class="fw-normal text-white text-decoration-none ms-2"> Adventure, </a>
-                           <a href="view-all-movie.html" class="fw-normal text-white text-decoration-none ms-2"> Horror </a>
-                        </div>
-                     </div>
-                     <div class="RightAnimate-four">
-                        <div class="iq-button">
-                            <a href="movie-detail.html" class="btn text-uppercase position-relative">
-                                <span class="button-text">play now</span>
-                                <i class="fa-solid fa-play"></i>
-                            </a>
-                        </div>
-                     </div>
+      <section class="banner-container">
+  <div class="movie-banner">
+    <div class="swiper swiper-banner-container" data-swiper="banner-detail-slider">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide movie-banner-1 p-0">
+          <div class="movie-banner-image">
+            <img src="./assets/images/movies/movie-banner-1.webp" alt="movie-banner-image">
+          </div>
+          <div class="shows-content h-100">
+            <div class="row align-items-center h-100">
+              <div class="col-lg-7 col-md-12">
+                <h1 class="texture-text big-font letter-spacing-1 line-count-1 text-uppercase RightAnimate-two"
+                  data-animation-in="fadeInLeft" data-delay-in="0.6">
+                  John Wick
+                </h1>
+                <div class="flex-wrap align-items-center fadeInLeft animated" data-animation-in="fadeInLeft"
+                  style="opacity: 1;">
+                  <div class="slider-ratting d-flex align-items-center gap-3">
+                    <ul class="ratting-start p-0 m-0 list-inline text-primary d-flex align-items-center justify-content-left">
+                      <li>
+                        <i class="fas fa-star" aria-hidden="true"></i>
+                      </li>
+                      <li>
+                        <i class="fas fa-star" aria-hidden="true"></i>
+                      </li>
+                      <li>
+                        <i class="fas fa-star" aria-hidden="true"></i>
+                      </li>
+                      <li>
+                        <i class="fa fa-star-half" aria-hidden="true"></i>
+                      </li>
+                    </ul>
+                    <span class="text-white">
+                      3.5(lmdb)
+                    </span>
                   </div>
-                  <div class="col-lg-5 col-md-12 trailor-video iq-slider d-none d-lg-block">
-                     <a href="./assets/images/video/trailer.mp4" class="video-open playbtn text-decoration-none"
-                        tabindex="0">
-                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
-                           y="0px" width="80px" height="80px" viewBox="0 0 213.7 213.7" enable-background="new 0 0 213.7 213.7"
-                           xml:space="preserve">
-                           <polygon class="triangle" fill="none" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"
-                              stroke-miterlimit="10" points="73.5,62.5 148.5,105.8 73.5,149.1 "></polygon>
-                           <circle class="circle" fill="none" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"
-                              stroke-miterlimit="10" cx="106.8" cy="106.8" r="103.3"></circle>
-                        </svg>
-                        <span class="w-trailor text-uppercase"> Watch Trailer </span>
-                     </a>
+                  <div class="d-flex flex-wrap align-items-center gap-3 movie-banner-time">
+                    <span class="badge bg-secondary p-2">
+                      <i class="fa fa-eye"></i>
+                      PG
+                    </span>
+                    <span class="font-size-6">
+                      <i class="fa-solid fa-circle"></i>
+                    </span>
+                    <span class="trending-time font-normal">
+                      1hr 44mins
+                    </span>
+                    <span class="font-size-6">
+                      <i class="fa-solid fa-circle"></i>
+                    </span>
+                    <span class="trending-year font-normal">
+                      Feb 2018
+                    </span>
                   </div>
-               </div>
+                  <p class="movie-banner-text line-count-3" data-animation-in="fadeInUp" data-delay-in="1.2">
+                    Dinosaurs are a diverse group of reptiles of the clade Dinosauria.
+                They first appeared during the Triassic period, between 243 and 233.23 million years ago, although the exact
+                origin and timing of the evolution of dinosaurs is the subject of active research.
+                  </p>
+                </div>
+                <div class="iq-button" data-animation-in="fadeInUp" data-delay-in="1.2">
+                  <a href="movie-detail.html" class="btn text-uppercase position-relative">
+                    <span class="button-text">Play Now</span>
+                    <i class="fa-solid fa-play"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-5 col-md-12 trailor-video iq-slider d-none d-lg-block position-relative">
+                <a data-fslightbox="html5-video" href="./assets/images/video/trailer.mp4" class="video-open playbtn text-decoration-none" tabindex="0">
+                  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+                    y="0px" width="80px" height="80px" viewBox="0 0 213.7 213.7" enable-background="new 0 0 213.7 213.7"
+                    xml:space="preserve">
+                    <polygon class="triangle" fill="none" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"
+                      stroke-miterlimit="10" points="73.5,62.5 148.5,105.8 73.5,149.1 "></polygon>
+                    <circle class="circle" fill="none" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"
+                      stroke-miterlimit="10" cx="106.8" cy="106.8" r="103.3"></circle>
+                  </svg>
+                  <span class="w-trailor text-uppercase"> Watch Trailer </span>
+                </a>
+              </div>
             </div>
-         </div>
-      </div>
-      <div class="swiper-slide slide s-bg-1 p-0">
-         <div class="banner-home-swiper-image">
-            <img src="./assets/images/movies/banner2.webp" alt="banner-home-swiper-image">
-         </div>
-         <div class="container-fluid position-relative h-100">
-            <div class="slider-inner h-100">
-               <div class="row align-items-center iq-ltr-direction h-100">
-                  <div class="col-lg-7 col-md-12">
-                     <h1 class="texture-text big-font letter-spacing-1 line-count-1 text-uppercase mb-0 RightAnimate">Bumblebee </h1>
-                     <div class="d-flex flex-wrap align-items-center r-mb-23 RightAnimate-two">
-                        <div class="slider-ratting d-flex align-items-center">
-                           <ul
-                              class="ratting-start p-0 m-0 list-inline text-warning d-flex align-items-center justify-content-left">
-                              <li>
-                                 <i class="fa fa-star" aria-hidden="true"></i>
-                              </li>
-                              <li>
-                                 <i class="fa fa-star" aria-hidden="true"></i>
-                              </li>
-                              <li>
-                                 <i class="fa fa-star" aria-hidden="true"></i>
-                              </li>
-                              <li>
-                                 <i class="fa fa-star" aria-hidden="true"></i>
-                              </li>
-                              <li>
-                                 <i class="fa fa-star-half" aria-hidden="true"></i>
-                              </li>
-                           </ul>
-                           <span class="text-white ms-2 font-size-14 fw-500">4.3/5</span>
-                           <span class="ms-2">
-                           <img src="./assets/images/movies/imdb-logo.svg" alt="imdb logo" class="img-fluid">
-                           </span>
-                        </div>
-                        <span class="badge rounded-0 text-white text-uppercase p-2 mx-3 bg-secondary">action</span>
-                        <span class="font-size-14 fw-500 time">2hr 6mins</span>
-                     </div>
-                     <p class="line-count-3 RightAnimate-two">Optimus Prime sends Autobot scout B-127 to Earth to form a base where they can regroup. Later, the scout befriends a girl named Charlie, who names him Bumblebee. 
-                     </p>
-                     <div class="trending-list RightAnimate-three">
-                        <div class="text-primary genres fw-500"> Genres:
-                           <a href="view-all-movie.html" class="fw-normal text-white text-decoration-none ms-2"> Action </a>
-                        </div>
-                        <div class="text-primary tag fw-500"> Tag:
-                           <a href="view-all-movie.html" class="fw-normal text-white text-decoration-none ms-2"> Action, </a>
-                           <a href="view-all-movie.html" class="fw-normal text-white text-decoration-none ms-2"> Adventure, </a>
-                           <a href="view-all-movie.html" class="fw-normal text-white text-decoration-none ms-2"> Horror </a>
-                        </div>
-                     </div>
-                     <div class="RightAnimate-four">
-                        <div class="iq-button">
-                            <a href="movie-detail.html" class="btn text-uppercase position-relative">
-                                <span class="button-text">play now</span>
-                                <i class="fa-solid fa-play"></i>
-                            </a>
-                        </div>
-                     </div>
+          </div>
+        </div>        <div class="swiper-slide movie-banner-2 p-0">
+          <div class="movie-banner-image">
+            <img src="./assets/images/movies/movie-banner-2.webp" alt="movie-banner-image">
+          </div>
+          <div class="shows-content h-100">
+            <div class="row align-items-center h-100">
+              <div class="col-lg-7 col-md-12">
+                <h1 class="texture-text big-font letter-spacing-1 line-count-1 text-uppercase RightAnimate-two"
+                  data-animation-in="fadeInLeft" data-delay-in="0.6">
+                  jumanjj
+                </h1>
+                <div class="flex-wrap align-items-center fadeInLeft animated" data-animation-in="fadeInLeft"
+                  style="opacity: 1;">
+                  <div class="slider-ratting d-flex align-items-center gap-3">
+                    <ul class="ratting-start p-0 m-0 list-inline text-primary d-flex align-items-center justify-content-left">
+                      <li>
+                        <i class="fas fa-star" aria-hidden="true"></i>
+                      </li>
+                      <li>
+                        <i class="fas fa-star" aria-hidden="true"></i>
+                      </li>
+                      <li>
+                        <i class="fas fa-star" aria-hidden="true"></i>
+                      </li>
+                      <li>
+                        <i class="fa fa-star-half" aria-hidden="true"></i>
+                      </li>
+                    </ul>
+                    <span class="text-white">
+                      3.5(lmdb)
+                    </span>
                   </div>
-                  <div class="col-lg-5 col-md-12 trailor-video iq-slider d-none d-lg-block">
-                     <a href="./assets/images/video/trailer.mp4" class="video-open playbtn text-decoration-none"
-                        tabindex="0">
-                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
-                           y="0px" width="80px" height="80px" viewBox="0 0 213.7 213.7" enable-background="new 0 0 213.7 213.7"
-                           xml:space="preserve">
-                           <polygon class="triangle" fill="none" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"
-                              stroke-miterlimit="10" points="73.5,62.5 148.5,105.8 73.5,149.1 "></polygon>
-                           <circle class="circle" fill="none" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"
-                              stroke-miterlimit="10" cx="106.8" cy="106.8" r="103.3"></circle>
-                        </svg>
-                        <span class="w-trailor text-uppercase"> Watch Trailer </span>
-                     </a>
+                  <div class="d-flex flex-wrap align-items-center gap-3 movie-banner-time">
+                    <span class="badge bg-secondary p-2">
+                      <i class="fa fa-eye"></i>
+                      G
+                    </span>
+                    <span class="font-size-6">
+                      <i class="fa-solid fa-circle"></i>
+                    </span>
+                    <span class="trending-time font-normal">
+                      2hr 42mins
+                    </span>
+                    <span class="font-size-6">
+                      <i class="fa-solid fa-circle"></i>
+                    </span>
+                    <span class="trending-year font-normal">
+                      Nov 2017
+                    </span>
                   </div>
-               </div>
+                  <p class="movie-banner-text line-count-3" data-animation-in="fadeInUp" data-delay-in="1.2">
+                    The most brutal emperor in the history of world.He was the founder of
+                the most contiguous empire of the world i.e. the Mongol empire.He made an army by himself by uniting some
+                nomadic tribes and trained them.
+                  </p>
+                </div>
+                <div class="iq-button" data-animation-in="fadeInUp" data-delay-in="1.2">
+                  <a href="movie-detail.html" class="btn text-uppercase position-relative">
+                    <span class="button-text">Play Now</span>
+                    <i class="fa-solid fa-play"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-5 col-md-12 trailor-video iq-slider d-none d-lg-block position-relative">
+                <a data-fslightbox="html5-video" href="./assets/images/video/trailer.mp4" class="video-open playbtn text-decoration-none" tabindex="0">
+                  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+                    y="0px" width="80px" height="80px" viewBox="0 0 213.7 213.7" enable-background="new 0 0 213.7 213.7"
+                    xml:space="preserve">
+                    <polygon class="triangle" fill="none" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"
+                      stroke-miterlimit="10" points="73.5,62.5 148.5,105.8 73.5,149.1 "></polygon>
+                    <circle class="circle" fill="none" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"
+                      stroke-miterlimit="10" cx="106.8" cy="106.8" r="103.3"></circle>
+                  </svg>
+                  <span class="w-trailor text-uppercase"> Watch Trailer </span>
+                </a>
+              </div>
             </div>
-         </div>
-      </div>
-      <div class="swiper-slide slide s-bg-1 p-0">
-         <div class="banner-home-swiper-image">
-            <img src="./assets/images/movies/banner3.webp" alt="banner-home-swiper-image">
-         </div>
-         <div class="container-fluid position-relative h-100">
-            <div class="slider-inner h-100">
-               <div class="row align-items-center iq-ltr-direction h-100">
-                  <div class="col-lg-7 col-md-12">
-                     <h1 class="texture-text big-font letter-spacing-1 line-count-1 text-uppercase mb-0 RightAnimate">another
-                        danger
-                     </h1>
-                     <div class="d-flex flex-wrap align-items-center r-mb-23 RightAnimate-two">
-                        <div class="slider-ratting d-flex align-items-center">
-                           <ul
-                              class="ratting-start p-0 m-0 list-inline text-warning d-flex align-items-center justify-content-left">
-                              <li>
-                                 <i class="fa fa-star" aria-hidden="true"></i>
-                              </li>
-                              <li>
-                                 <i class="fa fa-star" aria-hidden="true"></i>
-                              </li>
-                              <li>
-                                 <i class="fa fa-star" aria-hidden="true"></i>
-                              </li>
-                              <li>
-                                 <i class="fa fa-star" aria-hidden="true"></i>
-                              </li>
-                              <li>
-                                 <i class="fa fa-star-half" aria-hidden="true"></i>
-                              </li>
-                           </ul>
-                           <span class="text-white ms-2 font-size-14 fw-500">4.3/5</span>
-                           <span class="ms-2">
-                           <img src="./assets/images/movies/imdb-logo.svg" alt="imdb logo" class="img-fluid">
-                           </span>
-                        </div>
-                        <span class="badge rounded-0 text-white text-uppercase p-2 mx-3 bg-secondary">action</span>
-                        <span class="font-size-14 fw-500 time">2hr 6mins</span>
-                     </div>
-                     <p class="line-count-3 RightAnimate-two"> Piracy is an act of robbery or criminal violence by ship or
-                        boat-borne attackers upon another ship or a coastal area, typically with the goal of stealing cargo and
-                        other valuable items or properties. 
-                     </p>
-                     <div class="trending-list RightAnimate-three">
-                        <div class="text-primary genres fw-500"> Genres:
-                           <a href="view-all-movie.html" class="fw-normal text-white text-decoration-none ms-2"> Action </a>
-                        </div>
-                        <div class="text-primary tag fw-500"> Tag:
-                           <a href="view-all-movie.html" class="fw-normal text-white text-decoration-none ms-2"> Action, </a>
-                           <a href="view-all-movie.html" class="fw-normal text-white text-decoration-none ms-2"> Adventure, </a>
-                           <a href="view-all-movie.html" class="fw-normal text-white text-decoration-none ms-2"> Horror </a>
-                        </div>
-                     </div>
-                     <div class="RightAnimate-four">
-                        <div class="iq-button">
-                            <a href="movie-detail.html" class="btn text-uppercase position-relative">
-                                <span class="button-text">play now</span>
-                                <i class="fa-solid fa-play"></i>
-                            </a>
-                        </div>
-                     </div>
+          </div>
+        </div>        <div class="swiper-slide movie-banner-3 p-0">
+          <div class="movie-banner-image">
+            <img src="./assets/images/movies/movie-banner-3.webp" alt="movie-banner-image">
+          </div>
+          <div class="shows-content h-100">
+            <div class="row align-items-center h-100">
+              <div class="col-lg-7 col-md-12">
+                <h1 class="texture-text big-font letter-spacing-1 line-count-1 text-uppercase RightAnimate-two"
+                  data-animation-in="fadeInLeft" data-delay-in="0.6">
+                  The Witcher
+                </h1>
+                <div class="flex-wrap align-items-center fadeInLeft animated" data-animation-in="fadeInLeft"
+                  style="opacity: 1;">
+                  <div class="slider-ratting d-flex align-items-center gap-3">
+                    <ul class="ratting-start p-0 m-0 list-inline text-primary d-flex align-items-center justify-content-left">
+                      <li>
+                        <i class="fas fa-star" aria-hidden="true"></i>
+                      </li>
+                      <li>
+                        <i class="fas fa-star" aria-hidden="true"></i>
+                      </li>
+                      <li>
+                        <i class="fas fa-star" aria-hidden="true"></i>
+                      </li>
+                      <li>
+                        <i class="fa fa-star-half" aria-hidden="true"></i>
+                      </li>
+                    </ul>
+                    <span class="text-white">
+                      3.5(lmdb)
+                    </span>
                   </div>
-                  <div class="col-lg-5 col-md-12 trailor-video iq-slider d-none d-lg-block">
-                     <a href="./assets/images/video/trailer.mp4" class="video-open playbtn text-decoration-none"
-                        tabindex="0">
-                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
-                           y="0px" width="80px" height="80px" viewBox="0 0 213.7 213.7" enable-background="new 0 0 213.7 213.7"
-                           xml:space="preserve">
-                           <polygon class="triangle" fill="none" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"
-                              stroke-miterlimit="10" points="73.5,62.5 148.5,105.8 73.5,149.1 "></polygon>
-                           <circle class="circle" fill="none" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"
-                              stroke-miterlimit="10" cx="106.8" cy="106.8" r="103.3"></circle>
-                        </svg>
-                        <span class="w-trailor text-uppercase"> Watch Trailer </span>
-                     </a>
+                  <div class="d-flex flex-wrap align-items-center gap-3 movie-banner-time">
+                    <span class="badge bg-secondary p-2">
+                      <i class="fa fa-eye"></i>
+                      PG-13
+                    </span>
+                    <span class="font-size-6">
+                      <i class="fa-solid fa-circle"></i>
+                    </span>
+                    <span class="trending-time font-normal">
+                      2hr 12mins
+                    </span>
+                    <span class="font-size-6">
+                      <i class="fa-solid fa-circle"></i>
+                    </span>
+                    <span class="trending-year font-normal">
+                      Dec 2018
+                    </span>
                   </div>
-               </div>
+                  <p class="movie-banner-text line-count-3" data-animation-in="fadeInUp" data-delay-in="1.2">
+                    Jumbo also known as Jumbo the Elephant and Jumbo the Circus Elephant,
+                was a 19th-century male African bush elephant born in Sudan. Jumbo was exported to Jardin des Plantes, a zoo in
+                Paris, and then transferred in 1865 to London Zoo in England. Despite public protest, Jumbo was sold to P. T.
+                Barnum, who took him to the United States for exhibition in March 1882.
+                  </p>
+                </div>
+                <div class="iq-button" data-animation-in="fadeInUp" data-delay-in="1.2">
+                  <a href="movie-detail.html" class="btn text-uppercase position-relative">
+                    <span class="button-text">Play Now</span>
+                    <i class="fa-solid fa-play"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-5 col-md-12 trailor-video iq-slider d-none d-lg-block position-relative">
+                <a data-fslightbox="html5-video" href="./assets/images/video/trailer.mp4" class="video-open playbtn text-decoration-none" tabindex="0">
+                  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+                    y="0px" width="80px" height="80px" viewBox="0 0 213.7 213.7" enable-background="new 0 0 213.7 213.7"
+                    xml:space="preserve">
+                    <polygon class="triangle" fill="none" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"
+                      stroke-miterlimit="10" points="73.5,62.5 148.5,105.8 73.5,149.1 "></polygon>
+                    <circle class="circle" fill="none" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"
+                      stroke-miterlimit="10" cx="106.8" cy="106.8" r="103.3"></circle>
+                  </svg>
+                  <span class="w-trailor text-uppercase"> Watch Trailer </span>
+                </a>
+              </div>
             </div>
-         </div>
+          </div>
+        </div>      </div>
+      <div class="swiper-banner-button-next">
+        <i class="iconly-Arrow-Right-2 icli arrow-icon"></i>
       </div>
-   </div>
-   <div class="swiper-banner-button-prev swiper-nav" id="home-banner-slider-prev">
-      <i></i>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 44" width="44" height="44" fill="none" stroke="currentColor">
-         <circle r="20" cy="22" cx="22"></circle>
-      </svg>
-   </div>
-   <div class="swiper-banner-button-next swiper-nav" id="home-banner-slider-next">
-      <i></i>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 44" width="44" height="44" fill="none" stroke="currentColor">
-         <circle r="20" cy="22" cx="22"></circle>
-      </svg>
-   </div>
-   <div class="swiper-pagination"></div>
-   <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
-      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 44" width="44px" height="44px" id="circle" fill="none"
-         stroke="currentColor">
-         <circle r="20" cy="22" cx="22" id="test"></circle>
-      </symbol>
-   </svg>
+      <div class="swiper-banner-button-prev">
+        <i class="iconly-Arrow-Left-2 icli arrow-icon"></i>
+      </div>
+    </div>
+  </div>
 </section>
 
 <section class="section-padding-bottom">
-    
+    <div class="profile-box">
+        <div class="container-fluid">
+            <div class="d-flex flex-wrap align-items-center justify-content-between gap-2">
+                <div class="d-flex align-items-center gap-3">
+                    <div class="account-logo d-flex align-items-center position-relative">
+                        <img src="./assets/images/pages/profile.webp" class="img-fluid object-cover rounded-3" alt="profile">
+                        <i class="fa-regular fa-pen-to-square"></i>
+                    </div>
+                    <div>
+                        <h6 class="font-size-18 text-capitalize text-white fw-500">admin</h6>
+                        <span class="font-size-14 text-white fw-500">admin@admin.com</span>
+                    </div>
+                </div>
+                <div class="iq-button">
+                    <a href="pricing-plan.html" class="btn text-uppercase position-relative">
+                        <span class="button-text">Subscription</span>
+                        <i class="fa-solid fa-play"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="tabs">
         <div class="container-fluid">
             <div class="content-details iq-custom-tab-style-two">
