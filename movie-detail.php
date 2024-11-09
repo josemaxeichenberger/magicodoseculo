@@ -337,14 +337,14 @@
                                                 <div class="img-box">
                                                     <a href="watchlist-detail.html" class="position-absolute top-0 bottom-0 start-0 end-0"></a>
                                                     <img src="./assets/images/movies/playlist/01.webp" alt="movie-card" class="img-fluid object-cover w-100 d-block border-0">
-                                                    <div class="iq-button rounded-circle position-relative" style="top: -3rem;">
-                                        <button type="button" class="btn  text-uppercase position-relative mx-0" data-bs-toggle="modal" data-bs-target="#addNewPlaylist">
-                                          
-                                            <i class="fa-solid fa-play"></i>
-                                        </button>
-                                    </div>
+                                                    <div class="position-relative" style="top: -3rem;">
+                                                        <button type="button" class="btn  text-uppercase position-relative mx-0" data-bs-toggle="modal" data-bs-target="#addNewPlaylist">
+
+                                                            <i class="fa-solid fa-play"></i>
+                                                        </button>
+                                                    </div>
                                                 </div>
-                                                
+
                                                 <div class="card-description">
                                                     <h5 class="text-capitalize fw-500"> <a href="">Play List 1</a> </h5>
                                                     <div class="d-flex align-items-center gap-3">
