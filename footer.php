@@ -4,7 +4,7 @@
         <div class="footer-bottom ">
             <div class="row align-items-center">
                 <div class="logo-hotstar">
-                    <a class="navbar-brand text-primary" href="/">
+                    <a class="navbar-brand text-primary text-center" href="/">
                         <img class="img-fluid logo" src="./assets/identidade/RodapeLogo.png" loading="lazy" alt="streamit" />
                     </a>
                 </div>
