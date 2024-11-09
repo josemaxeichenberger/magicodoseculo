@@ -326,7 +326,7 @@ spl_autoload_register("my_autoload"); // Carrega as classes
 
             <div class="card-style-slider">
               <div class="position-relative swiper swiper-card" data-slide="6" data-laptop="6" data-tab="3"
-                data-mobile="1" data-mobile-sm="1" data-autoplay="false" data-loop="true" data-navigation="true"
+                data-mobile="1" data-mobile-sm="1" data-autoplay="false" data-loop="false" data-navigation="true"
                 data-pagination="true">
                 <ul class="p-0 swiper-wrapper m-0  list-inline">
                   <?php
