@@ -5,6 +5,14 @@ function my_autoload($pClassName)
 }
 
 spl_autoload_register("my_autoload"); // Carrega as classes 
+
+
+$Destaques = new videos();
+$Destaques->setDestaque('S');
+$Destaques->setBloqueado('N');
+$res = $Destaques->SelectDestaque();
+var_dump($res);
+exit;
 ?>
 <!doctype html>
 <html lang="en" data-bs-theme="dark">
