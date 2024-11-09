@@ -353,9 +353,6 @@
                                                     </div>
                                                 </div>
 
-                                                <div class="card-description">
-
-                                                </div>
                                             </div>
                                         </div>
                                     </div>
