@@ -55,7 +55,7 @@
     </div>
     <!-- loader END --> <!-- loader END -->
     <main class="main-content">
-        <nav class="navbar bg-body-tertiary  bg-primary">
+        <nav class="navbar   bg-primary">
             <div class="container">
                 <a class="navbar-brand" href="#">
                     <img src="assets/identidade/001.png" alt="Bootstrap" width="30" height="24">
