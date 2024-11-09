@@ -6403,6 +6403,6 @@ pre[class*=language-] {
 .input-my{
     background: var(--bs-body-bg);
     background-color: var(--bs-body-bg);
-    border: #e2e2e2 solid 2px;
-    color: #e2e2e2;
+    border: rgba(226, 226, 226,0.3) solid 2px;
+    color:rgba(226, 226, 226,0.5);
 }
