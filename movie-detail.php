@@ -322,7 +322,7 @@
         </section>
         <section>
             <div class="tabs pb-5">
-                <div class="container-fluid">
+                <div class="container">
                     <div class="content-details iq-custom-tab-style-two">
 
                         <div id="playlist" class="tab-pane animated fadeInUp active show" role="tabpanel">
