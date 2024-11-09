@@ -323,7 +323,9 @@ spl_autoload_register("my_autoload"); // Carrega as classes
             <?php }
             $ws++;
             ?>
-
+   <div class="d-flex  align-items-baseline justify-content-start px-md-3 px-1 my-4">
+                <h5 class="main-title text-capitalize mb-0">Módulo - <?php echo $row['id']?></h5>
+                              </div>
             <div class="card-style-slider">
               <div class="position-relative swiper swiper-card" data-slide="6" data-laptop="6" data-tab="3"
                 data-mobile="1" data-mobile-sm="1" data-autoplay="false" data-loop="false" data-navigation="true"
