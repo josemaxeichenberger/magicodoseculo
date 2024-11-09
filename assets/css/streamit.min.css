@@ -330,7 +330,7 @@ img {
     --bs-body-color: #fff;
     --bs-body-color-rgb: 255, 255, 255;
     --bs-heading-color: #fff;
-    --bs-body-bg: #000;
+    --bs-body-bg: linear-gradient(90deg, rgba(8,8,8,0.9724264705882353) 17%, rgba(0,0,0,1) 100%);
     --bs-body-bg-rgb: 15, 16, 20;
     --bs-gray-900: #191923;
     --bs-gray-900-rgb: 25, 25, 35;
