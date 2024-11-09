@@ -187,27 +187,31 @@ class videos extends ConexaoMysql
     public function Select()
     {
         $videos = $this->pdo->prepare("SELECT 
-        modulos.id AS modulo_id,
-        modulos.nome AS modulo_nome,
-        modulos.status AS modulo_status,
-        modulos.apresentacao AS modulo_apresentacao,
-        videos.id AS video_id,
-        videos.nome AS video_nome,
-        videos.texto AS video_texto,
-        videos.time AS video_duracao,
-        videos.capa AS video_capa,
-        videos.banner AS video_banner,
-        videos.destaque AS video_destaque,
-        videos.data_liberacao AS video_data_liberacao,
-        videos.bloqueado AS video_bloqueado,
-        videos.capa_bloqueado AS video_capa_bloqueado
+    modulos.id AS modulo_id,
+    modulos.nome AS modulo_nome,
+    modulos.status AS modulo_status,
+    modulos.apresentacao AS modulo_apresentacao,
+    videos.id AS video_id,
+    videos.nome AS video_nome,
+    videos.texto AS video_texto,
+    videos.time AS video_duracao,
+    videos.capa AS video_capa,
+    videos.banner AS video_banner,
+    videos.destaque AS video_destaque,
+    videos.data_liberacao AS video_data_liberacao,
+    videos.bloqueado AS video_bloqueado,
+    videos.capa_bloqueado AS video_capa_bloqueado
     FROM 
         modulos
     JOIN 
         videos ON modulos.id = videos.id_modulo
+    WHERE 
+        modulos.id = :id_modulo
     ORDER BY 
-        modulos.id, videos.id;
+        videos.id;
+
     ");
+        $videos->bindValue(':id_modulo', $this->getId_modulo());
         try {
             $videos->execute();
             return $videos->fetchAll(PDO::FETCH_ASSOC);
