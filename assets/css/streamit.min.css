@@ -218,7 +218,7 @@ img {
     --bs-body-bg: #fff;
     --bs-body-bg-rgb: 255, 255, 255;
     --bs-emphasis-color: #000;
-    --bs-emphasis-color-rgb: 0, 0, 0;
+    --bs-emphasis-color-rgb: #6f42c1;
     --bs-secondary-color: rgba(73, 80, 87, 0.75);
     --bs-secondary-color-rgb: 73, 80, 87;
     --bs-secondary-bg: #e9ecef;
@@ -335,7 +335,8 @@ img {
     --bs-gray-900: #191923;
     --bs-gray-900-rgb: 25, 25, 35;
     --bs-gray-800: #252833;
-    --bs-gray-800-rgb: 37, 40, 51
+    --bs-gray-800-rgb: 37, 40, 51;
+    --bs-emphasis-color-rgb:linear-gradient(90deg, rgba(135,41,222,1) 20%, rgba(135,41,222,1) 53%, rgba(82,5,140,1) 100%);;
 }
 /* 
 [data-bs-theme=amazonprime] {
