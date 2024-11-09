@@ -343,13 +343,12 @@
                                                             <div class="d-flex align-items-center gap-1 font-size-12">
                                                                 <i class="fa-solid fa-earth-americas text-primary"></i>
                                                                 <span class="text-body fw-semibold text-capitalize">Public</span>
-                                                            </div>
-                                                            <div class="d-flex align-items-center gap-1 font-size-12">
                                                                 <button type="button" class="btn d-block ms-auto me-2 btn-lg mb-1 btn-play rounded-circle text-uppercase position-relative mx-0">
 
-                                                                    <i class="fa-solid fa-play"></i>
-                                                                </button>
+<i class="fa-solid fa-play"></i>
+</button>
                                                             </div>
+                                                        
 
                                                         </div>
 
