@@ -307,7 +307,7 @@
   </div>
 </section>
 
-<section class="section-padding-bottom">
+<!-- <section class="section-padding-bottom">
     <div class="profile-box">
         <div class="container-fluid">
             <div class="d-flex flex-wrap align-items-center justify-content-between gap-2">
@@ -874,7 +874,7 @@
       </div>
     </div>
   </div>
-</div>
+</div> -->
 
   </main>
 
