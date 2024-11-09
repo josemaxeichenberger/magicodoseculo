@@ -5,7 +5,7 @@
             <div class="row align-items-center">
                 <div class="logo-hotstar">
                     <a class="navbar-brand text-primary text-center" href="/">
-                        <img class="img-fluid logo" src="./assets/identidade/RodapeLogo.png" loading="lazy" alt="streamit" />
+                        <img class="img-fluid logo mx-auto d-block" src="./assets/identidade/RodapeLogo.png" loading="lazy" alt="streamit" />
                     </a>
                 </div>
                 <div class="col-md-6 mt-3" style="color: #7E7E80;">
