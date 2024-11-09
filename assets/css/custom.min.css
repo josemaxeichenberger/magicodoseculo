@@ -6419,3 +6419,8 @@ pre[class*=language-] {
 .badge-costumer{
     background: rgba(135,41,222,1) !important;
 }
+
+.iq-banner-thumb-slider{
+    border-bottom: rgba(135,41,222,1) !important;
+    width: 90%;
+}
