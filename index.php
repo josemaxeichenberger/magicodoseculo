@@ -313,7 +313,7 @@ spl_autoload_register("my_autoload"); // Carrega as classes
       <div class="container-fluid">
         <div class="overflow-hidden">
           <div class="d-flex align-items-center justify-content-between px-md-3 px-1 my-4">
-            <h5 class="main-title text-capitalize mb-0">Only on Streamit</h5>
+            <h2 class="main-title text-capitalize mb-0">Módulos do Curso</h2>
             <a href="view-all-movie.html" class="text-primary iq-view-all text-decoration-none flex-none">View All</a>
           </div>
           <div class="card-style-slider">
