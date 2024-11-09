@@ -192,7 +192,7 @@ spl_autoload_register("my_autoload"); // Carrega as classes
               <span class="fs-6 text-light">Acesse as últimas aulas que assistiu</span>
             </h5> 
             
-            <a href="view-all-movie.html" class="text-primary iq-view-all text-decoration-none flex-none">View All</a>
+            <a href="view-all-movie.html" class="text-secondary iq-view-all text-decoration-none flex-none">View All</a>
 
             
           </div>
