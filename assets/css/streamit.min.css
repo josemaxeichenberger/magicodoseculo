@@ -20877,3 +20877,6 @@ footer .menu li:last-child {
     border-radius: 50rem !important;
 }
 
+.badge-costumer{
+    background: rgba(135,41,222,1) !important;
+}
