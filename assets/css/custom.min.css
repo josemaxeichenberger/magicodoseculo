@@ -4024,7 +4024,7 @@ ul.shop_list_checkbox li {
 }
 
 .watchlist-warpper .block-images .img-box img {
-    height: 250px
+    height: 12.5rem
 }
 
 .watchlist-warpper .block-images .card-description {
@@ -4058,11 +4058,11 @@ ul.shop_list_checkbox li {
     background: var(--bs-gray-900)
 }
 
-.watchlist-warpper.card-style-two .block-images:hover .img-box {
+/* .watchlist-warpper.card-style-two .block-images:hover .img-box {
     -webkit-transform: none;
     -ms-transform: none;
     transform: none
-}
+} */
 
 .playlist-main-banner .img-detail {
     background: rgba(0, 0, 0, .5);
