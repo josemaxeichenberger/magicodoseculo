@@ -55,6 +55,13 @@
     </div>
     <!-- loader END --> <!-- loader END -->
     <main class="main-content">
+        <nav class="navbar bg-body-tertiary">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="Bootstrap" width="30" height="24">
+                </a>
+            </div>
+        </nav>
         <!--Nav Start-->
         <!--Nav End-->
 
@@ -63,10 +70,10 @@
 
 
         <div class="">
-        <div class="banner-wrapper">
-    <img src="assets/identidade/HomeBanner.png" class="img-fluid d-block mx-auto w-100" alt="">
-    <div class="overlay"></div>
-</div>
+            <div class="banner-wrapper">
+                <img src="assets/identidade/HomeBanner.png" class="img-fluid d-block mx-auto w-100" alt="">
+                <div class="overlay"></div>
+            </div>
             <div class="container form-login">
                 <div class="row justify-content-center align-items-center height-self-center ">
                     <div class="col-lg-5 col-md-12 align-self-center">
