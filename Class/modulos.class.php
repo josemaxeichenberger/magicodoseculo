@@ -91,15 +91,13 @@ class modulos extends ConexaoMysql
             return $retorno->getMessage();
         }
     }
-    public function Select()
+    public function SelectAll()
     {
-        $modulos = $this->pdo->prepare("SELECT * FROM modulos
-            WHERE  id = :id
-        ");
-        $modulos->bindValue(':id', $this->getId());
+        $modulos = $this->pdo->prepare("SELECT * FROM modulos where status =:status");  
+        $modulos->bindValue(':status', $this->getStatus());      
         try {
             $modulos->execute();
-            return $modulos->fetchAll();
+            return $modulos->fetchAll(PDO::FETCH_ASSOC);
         } catch (Exception $retorno) {
             return $retorno->getMessage();
         }

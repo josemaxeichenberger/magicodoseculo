@@ -210,15 +210,16 @@ class videos extends ConexaoMysql
     videos.destaque AS video_destaque,
     videos.data_liberacao AS video_data_liberacao,
     videos.bloqueado AS video_bloqueado,
-    videos.capa_bloqueado AS video_capa_bloqueado
+    videos.capa_bloqueado AS video_capa_bloqueado,
+    videos.indice_aula AS video_indice_aula
     FROM 
         modulos
     JOIN 
         videos ON modulos.id = videos.id_modulo
     WHERE 
         modulos.id = :id_modulo
-    ORDER BY 
-        videos.id;
+     ORDER BY 
+     modulos.id, videos.indice_aula
 
     ");
         $videos->bindValue(':id_modulo', $this->getId_modulo());
