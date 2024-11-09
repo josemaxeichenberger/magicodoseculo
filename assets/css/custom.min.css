@@ -688,9 +688,9 @@ body.uikit .btn-download {
     overflow: hidden;
     -webkit-border-radius: 3px;
     border-radius: 3px;
-    background: -webkit-linear-gradient(59deg, #341214 -1.66%, rgba(0, 0, 0, 0) 62.6%);
-    background: -o-linear-gradient(59deg, #341214 -1.66%, rgba(0, 0, 0, 0) 62.6%);
-    background: linear-gradient(31deg, #341214 -1.66%, rgba(0, 0, 0, 0) 62.6%)
+    background: -webkit-linear-gradient(59deg, #8a2be2 -1.66%, rgba(0, 0, 0, 0) 62.6%);
+    background: -o-linear-gradient(59deg, #8a2be2 -1.66%, rgba(0, 0, 0, 0) 62.6%);
+    background: linear-gradient(31deg, #8a2be2 -1.66%, rgba(0, 0, 0, 0) 62.6%)
 }
 
 .iq-banner-thumb-slider .slider .slider-bg .horizontal_thumb_slider .block-images .img-box img {
