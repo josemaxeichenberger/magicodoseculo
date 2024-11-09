@@ -104,7 +104,7 @@
                                 <div class="full-button">
                                     <div class="iq-button active">
                                         <a href="#" class="btn  text-uppercase position-relative">
-                                            <span class="button-text">log in</span>
+                                            <span class="button-text">ENTRAR</span>
                                             <i class="fa-solid fa-play"></i>
                                         </a>
                                     </div>
