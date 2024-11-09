@@ -1,4 +1,8 @@
 <?php
+error_reporting(E_ALL); // Exibe todos os tipos de erros
+ini_set('display_errors', 1); // Ativa a exibição de erros
+ini_set('display_startup_errors', 1); // Exibe erros ocorridos na inicialização
+
 function my_autoload($pClassName)
 {
   include('./Class' . "/" . $pClassName . ".class.php");
