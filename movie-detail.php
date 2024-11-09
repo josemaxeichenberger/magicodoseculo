@@ -337,7 +337,7 @@
                                                 <div class="img-box">
                                                     <a href="watchlist-detail.html" class="position-absolute top-0 bottom-0 start-0 end-0"></a>
                                                     <img src="./assets/images/movies/playlist/01.webp" alt="movie-card" class="img-fluid object-cover w-100 d-block border-0">
-                                                    <div class="position-relative px-2" style="top: -4rem;">
+                                                    <div class="position-relative px-2" style="top: -6rem;">
                                                         <h5 class="text-capitalize fw-500"> <a href="">Play List 1</a> </h5>
                                                         <div class=" align-items-center">
                                                             <div class="d-flex align-items-center gap-1 font-size-12">
