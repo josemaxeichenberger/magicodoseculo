@@ -58,7 +58,7 @@
         <nav class="navbar">
             <div class="container">
                 <a class="navbar-brand" href="#">
-                    <img src="assets/identidade/001.png" alt="Bootstrap" width="30" height="24">
+                    <img src="assets/identidade/002.png" alt="Bootstrap" width="30" height="24">
                 </a>
             </div>
         </nav>
