@@ -89,23 +89,23 @@ spl_autoload_register("my_autoload"); // Carrega as classes
               <div class="banner-thumb-slider-nav">
                 <div class="swiper-container " data-swiper="slider-thumbs-inner-ott">
                   <div class="swiper-wrapper">
-                    <?php 
-                      foreach($res as $row){
-                        
-                      }
-                    ?>
-                    <div class="swiper-slide swiper-bg">
-                      <div class="block-images position-relative ">
-                        <div class="img-box">
-                          <img src="./assets/images/movies/ott1.webp" class="img-fluid" alt=""
-                            loading="lazy">
-                          <div class="block-description">
-                            <h6 class="iq-title fw-500 mb-0">The Hunter</h6>
-                            <span class="fs-12">2hr 6 minute</span>
+                    <?php
+                    foreach ($res as $row) { ?>
+                      <div class="swiper-slide swiper-bg">
+                        <div class="block-images position-relative ">
+                          <div class="img-box">
+                            <img src="<?php echo $row['banner'] ?>" class="img-fluid" alt=""
+                              loading="lazy">
+                            <div class="block-description">
+                              <h6 class="iq-title fw-500 mb-0"><?php echo $row['nome'] ?></h6>
+                              <span class="fs-12"><?php echo $row['time'] ?></span>
+                            </div>
                           </div>
                         </div>
                       </div>
-                    </div>
+                    <?php                   }
+                    ?>
+
 
                   </div>
                 </div>
