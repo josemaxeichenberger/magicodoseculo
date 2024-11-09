@@ -338,28 +338,27 @@
                                                     <a href="watchlist-detail.html" class="position-absolute top-0 bottom-0 start-0 end-0"></a>
                                                     <img src="./assets/images/movies/playlist/01.webp" alt="movie-card" class="img-fluid object-cover w-100 d-block border-0">
                                                     <div class="position-relative" style="top: -4rem;">
-                                                        <button type="button" class="btn d-block ms-auto me-2 btn-lg mb-1 btn-play rounded-circle text-uppercase position-relative mx-0" >
+                                                        <h5 class="text-capitalize fw-500"> <a href="">Play List 1</a> </h5>
+                                                        <div class="d-flex align-items-center gap-3">
+                                                            <div class="d-flex align-items-center gap-1 font-size-12">
+                                                                <i class="fa-solid fa-earth-americas text-primary"></i>
+                                                                <span class="text-body fw-semibold text-capitalize">Public</span>
+                                                            </div>
+                                                            <div class="d-flex align-items-center gap-1 font-size-12">
+                                                                <button type="button" class="btn d-block ms-auto me-2 btn-lg mb-1 btn-play rounded-circle text-uppercase position-relative mx-0">
 
-                                                            <i class="fa-solid fa-play"></i>
-                                                        </button>
+                                                                    <i class="fa-solid fa-play"></i>
+                                                                </button>
+                                                            </div>
+
+                                                        </div>
+
+                                                    </div>
+                                                </div>
 
                                                 <div class="card-description">
-                                                    <h5 class="text-capitalize fw-500"> <a href="">Play List 1</a> </h5>
-                                                    <div class="d-flex align-items-center gap-3">
-                                                        <div class="d-flex align-items-center gap-1 font-size-12">
-                                                            <i class="fa-solid fa-earth-americas text-primary"></i>
-                                                            <span class="text-body fw-semibold text-capitalize">Public</span>
-                                                        </div>
-                                                        <div class="d-flex align-items-center gap-1 font-size-12">
-                                                            <i class="fa-regular fa-eye text-primary"></i>
-                                                            <span class="text-body fw-semibold text-capitalize">3 Views</span>
-                                                        </div>
 
-                                                    </div>
                                                 </div>
-                                                    </div>
-                                                </div>
-
                                             </div>
                                         </div>
                                     </div>
