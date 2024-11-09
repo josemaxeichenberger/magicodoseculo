@@ -64,7 +64,7 @@
 
         <div class="">
             <img src="assets/identidade/HomeBanner.png" class="img-fluid d-block mx-auto w-100" alt="">
-            <div class="container">
+            <div class="container form-login">
                 <div class="row justify-content-center align-items-center height-self-center ">
                     <div class="col-lg-5 col-md-12 align-self-center">
                         <div class="user-login-card " style="backdrop-filter:unset;">
