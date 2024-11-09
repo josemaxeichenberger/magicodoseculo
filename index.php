@@ -86,7 +86,7 @@ spl_autoload_register("my_autoload"); // Carrega as classes
         $Destaques->setDestaque('S');
         $Destaques->setBloqueado('N');
         $res = $Destaques->SelectDestaque();
-  var_dump($res);
+ 
 
         ?>
         <div class="position-relative slider-bg d-flex justify-content-end">
@@ -100,11 +100,11 @@ spl_autoload_register("my_autoload"); // Carrega as classes
                       <div class="swiper-slide swiper-bg">
                         <div class="block-images position-relative ">
                           <div class="img-box">
-                            <img src="<?php echo $row['capa'] ?>" class="img-fluid" alt=""
+                            <img src="<?php echo $row['video_capa'] ?>" class="img-fluid" alt=""
                               loading="lazy">
                             <div class="block-description">
-                              <h6 class="iq-title fw-500 mb-0"><?php echo $row['nome'] ?></h6>
-                              <span class="fs-12"><?php echo $row['time'] ?></span>
+                              <h6 class="iq-title fw-500 mb-0"><?php echo $row['video_nome'] ?></h6>
+                              <span class="fs-12"><?php echo $row['video_duracao'] ?></span>
                             </div>
                           </div>
                         </div>
@@ -130,7 +130,7 @@ spl_autoload_register("my_autoload"); // Carrega as classes
               <div class="swiper-wrapper m-0">
                 <div class="swiper-slide p-0">
                   <div class="slider--image block-images">
-                    <img src="<?php echo $row['benner'] ?>" loading="lazy" alt="banner" />
+                    <img src="<?php echo $row['video_banner'] ?>" loading="lazy" alt="banner" />
                   </div>
                   <div class="description">
                     <div class="row align-items-center h-100">
@@ -153,7 +153,7 @@ spl_autoload_register("my_autoload"); // Carrega as classes
                           </div>
                           <h1
                             class="texture-text big-font letter-spacing-1 line-count-1 text-capitalize RightAnimate-two">
-                            <?php echo $row['nome'] ?> </h1>
+                            <?php echo $row['video_nome'] ?> </h1>
                           <p class="line-count-3 RightAnimate-two">After the death of their father, two siblings
                             fight for the throne, thereby causing a civil war known as the Dance of the Dragons.
                             Rhaenyra tries to hold the realm together as the tension rises following a tragic
