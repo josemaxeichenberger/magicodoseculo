@@ -6378,6 +6378,7 @@ pre[class*=language-] {
 .custom-checkbox input[type="checkbox"]:checked + .checkmark {
     background-color: var(--bs-body-bg);
     border-color: var(--bs-body-bg);
+    border: 2px solid rgba(135,41,222,1);
 }
 
 /* Estilo do ícone de marcação dentro do checkbox */
