@@ -1,7 +1,7 @@
-<footer class="footer footer-default">
+<footer class="footer footer-default border-top">
     <div class="container-fluid">
 
-        <div class="footer-bottom border-top">
+        <div class="footer-bottom ">
             <div class="row align-items-center">
                 <div class="logo-hotstar">
                     <a class="navbar-brand text-primary" href="./index.html">
