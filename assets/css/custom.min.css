@@ -6404,4 +6404,5 @@ pre[class*=language-] {
     background: var(--bs-body-bg);
     background-color: var(--bs-body-bg);
     border: #e2e2e2 solid 2px;
+    color: #e2e2e2;
 }
