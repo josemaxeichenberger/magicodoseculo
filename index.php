@@ -142,7 +142,7 @@ spl_autoload_register("my_autoload"); // Carrega as classes
                            
                           </div>
                           <h1
-                            class="texture-text big-font letter-spacing-1 text-white line-count-1 text-capitalize RightAnimate-two">
+                            class="texture-text big-font letter-spacing-1 text-white line-count-2 text-capitalize RightAnimate-two">
                             <?php echo $row['video_nome'] ?> </h1>
                           <p class="line-count-3 RightAnimate-two SFProDisplayRegular"><?php echo $row['video_texto'] ?></p>
                           <div class="d-flex flex-wrap align-items-center gap-3 RightAnimate-three">
