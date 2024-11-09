@@ -6,6 +6,25 @@
 * NOTE: This file contains the styling for Template.
 *
 */
+/* Define the custom font */
+@font-face {
+    font-family: 'SFProDisplayBold';
+    src: url('SFPRODISPLAYBOLD.OTF') format('opentype'); /* Adjust the path if needed */
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SFProDisplayRegular';
+    src: url('fonts/SFPRODISPLAYREGULAR.OTF') format('opentype'); /* Update the path if necessary */
+    font-weight: normal;
+    font-style: normal;
+}
+.SFProDisplayBold {
+    font-family: 'SFProDisplayBold', sans-serif;
+}
+.SFProDisplayRegular {
+    font-family: 'SFProDisplayRegular', sans-serif;
+}
 :focus {
     outline: none
 }
