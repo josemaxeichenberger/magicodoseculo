@@ -6422,5 +6422,6 @@ pre[class*=language-] {
 
 .iq-banner-thumb-slider{
     border-bottom: rgba(135,41,222,1) !important;
-    width: 90%;
+    width: 90% !important;
+    border: 1px;
 }
