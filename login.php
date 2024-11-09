@@ -157,7 +157,7 @@
         </div>
 
     </main>
-
+    <?php include_once('./footer.php'); ?>    
 
 
     <div id="back-to-top" style="display: none;">
