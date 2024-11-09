@@ -337,26 +337,12 @@
                                                 <div class="img-box">
                                                     <a href="watchlist-detail.html" class="position-absolute top-0 bottom-0 start-0 end-0"></a>
                                                     <img src="./assets/images/movies/playlist/01.webp" alt="movie-card" class="img-fluid object-cover w-100 d-block border-0">
-                                                    <div class="card-description with-transition">
-                      <div class="cart-content">
-                        <div class="content-left">
-                          <h5 class="iq-title text-capitalize">
-                            <a href="./movie-detail.html">Soull Meate</a>
-                          </h5>
-                          <div class="movie-time d-flex align-items-center my-2">
-                            <span class="movie-time-text font-normal">2hr 30mins</span>
-                          </div>
-                        </div>
-                        <div class="watchlist">
-                          <a class="watch-list-not" href="playlist.html">
-                            <svg width="10" height="10" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-10">
-                              <path d="M12 4V20M20 12H4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                            </svg>
-                            <span class="watchlist-label"> Watchlist </span>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
+                                                    <div class="iq-button position-relative">
+                                        <button type="button" class="btn text-uppercase position-relativ" data-bs-toggle="modal" data-bs-target="#addNewPlaylist">
+                                            <span class="button-text">Create Playlist</span>
+                                            <i class="fa-solid fa-play"></i>
+                                        </button>
+                                    </div>
                                                 </div>
                                                 
                                                 <div class="card-description">
