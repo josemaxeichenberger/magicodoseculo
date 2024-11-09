@@ -62,8 +62,7 @@
         <!--bread-crumb-->
 
 
-        <div class="vh-50"
-            style="background: url('./assets/identidade/HomeBanner.png'); background-size: cover; background-repeat: no-repeat; position: relative;min-height:500px">
+        <div class="">
             <div class="container">
                 <div class="row justify-content-center align-items-center height-self-center vh-100">
                     <div class="col-lg-5 col-md-12 align-self-center">
