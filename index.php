@@ -138,18 +138,8 @@ spl_autoload_register("my_autoload"); // Carrega as classes
                         <div class="slider-content">
                           <div class="d-flex align-items-center RightAnimate mb-3">
                             <span
-                              class="badge rounded-0 text-dark text-uppercase px-3 py-2 me-3 bg-white mr-3">Pg</span>
-                            <ul class="p-0 mb-0 list-inline d-flex flex-wrap align-items-center movie-tag">
-                              <li class="position-relative text-capitalize font-size-14 letter-spacing-1">
-                                <a href="view-all-movie.html" class="text-decoration-none">Adventure</a>
-                              </li>
-                              <li class="position-relative text-capitalize font-size-14 letter-spacing-1">
-                                <a href="view-all-movie.html" class="text-decoration-none">Thriller</a>
-                              </li>
-                              <li class="position-relative text-capitalize font-size-14 letter-spacing-1">
-                                <a href="view-all-movie.html" class="text-decoration-none">Drama</a>
-                              </li>
-                            </ul>
+                              class="badge rounded-0 text-dark text-uppercase px-3 py-2 me-3 bg-white mr-3"><?php echo $row['video_nome'] ?></span>
+                           
                           </div>
                           <h1
                             class="texture-text big-font letter-spacing-1 line-count-1 text-capitalize RightAnimate-two">
