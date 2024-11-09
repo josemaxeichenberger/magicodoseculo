@@ -9,7 +9,7 @@
     <meta name="google_font_api" content="AIzaSyBG58yNdAjc20_8jAvLNSVi9E4Xhwjau_k">
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="./assets/identidade/001.png" />
+    <link rel="shortcut icon" href="./assets/identidade/002.png" />
 
     <!-- Library / Plugin Css Build -->
     <link rel="stylesheet" href="./assets/css/core/libs.min.css" />
@@ -58,7 +58,7 @@
         <nav class="navbar">
             <div class="container">
                 <a class="navbar-brand" href="#">
-                    <img src="assets/identidade/002.png" alt="Bootstrap" width="30" height="24">
+                    <img src="assets/identidade/001.png" alt="Bootstrap" width="30" height="24">
                 </a>
             </div>
         </nav>
