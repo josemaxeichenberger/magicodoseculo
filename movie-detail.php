@@ -339,7 +339,7 @@
                                                     <img src="./assets/images/movies/playlist/01.webp" alt="movie-card" class="img-fluid object-cover w-100 d-block border-0">
                                                     <div class="position-relative px-2" style="top: -6rem;">
                                                         <div class=" align-items-center">
-                                                            <h5 class="text-capitalize fw-500"> <a href="">Play List 1</a> </h5>
+                                                            <h5 class="text-capitalize fw-500 position-relative"style=" top:1.2rem;"> <a href="">Play List 1</a> </h5>
                                                             <div class="d-flex align-items-center gap-1 font-size-12">
                                                                 <i class="fa-solid fa-earth-americas text-primary"></i>
                                                                 <span class="text-body fw-semibold text-capitalize">Public</span>
