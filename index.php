@@ -157,7 +157,7 @@ spl_autoload_register("my_autoload"); // Carrega as classes
                              
                             </div>
                             <span class="font-size-14 fw-500"><?php echo $row['video_duracao'] ?></span>
-                            <div class="text-primary font-size-14 fw-500 text-capitalize" style="color:#B7FF2F">Aula em Destaque 
+                            <div class=" font-size-14 fw-500 text-capitalize" style="color:#B7FF2F">Aula em Destaque 
                            
                             </div>
                           
