@@ -187,7 +187,11 @@ spl_autoload_register("my_autoload"); // Carrega as classes
       <div class="container-fluid">
         <div class="overflow-hidden">
           <div class="d-flex align-items-center justify-content-between px-md-3 px-1 mb-4">
-            <h5 class="main-title text-capitalize mb-0">continue watching</h5>
+            <h5 class="main-title text-capitalize mb-0">Histórico de Aulas</h5> 
+            <a href="view-all-movie.html" class="text-primary iq-view-all text-decoration-none flex-none">View All</a>
+
+            <span>Acesse as últimas aulas que assistiu</span>
+            
           </div>
           <div class="position-relative swiper swiper-card" data-slide="5" data-laptop="5" data-tab="3" data-mobile="2"
             data-mobile-sm="2" data-autoplay="false" data-loop="false" data-navigation="true" data-pagination="true">
