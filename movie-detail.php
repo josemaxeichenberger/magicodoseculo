@@ -327,9 +327,7 @@
 
                         <div id="playlist" class="tab-pane animated fadeInUp active show" role="tabpanel">
                             <div class="overflow-hidden">
-                                <div class="d-flex align-items-center justify-content-between my-4">
-                                    <h5 class="main-title text-capitalize mb-0">My playlist</h5>
-                                </div>
+                                
                                 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
                                     <div class="col mb-4">
                                         <div class="watchlist-warpper card-hover-style-two">
@@ -339,16 +337,16 @@
                                                     <img src="./assets/images/movies/playlist/01.webp" alt="movie-card" class="img-fluid object-cover w-100 d-block border-0">
                                                     <div class="position-relative px-2" style="top: -6rem;">
                                                         <div class=" align-items-center">
-                                                            <h5 class="text-capitalize fw-500 position-relative"style=" top:1.2rem;"> <a href="">Play List 1</a> </h5>
+                                                            <h5 class="text-capitalize fw-500 position-relative" style=" top:1.2rem;"> <a href="">Play List 1</a> </h5>
                                                             <div class="d-flex align-items-center gap-1 font-size-12">
                                                                 <i class="fa-solid fa-earth-americas text-primary"></i>
                                                                 <span class="text-body fw-semibold text-capitalize">Public</span>
                                                                 <button type="button" class="btn d-block ms-auto me-2 btn-lg mb-1 btn-play rounded-circle text-uppercase position-relative mx-0">
 
-<i class="fa-solid fa-play"></i>
-</button>
+                                                                    <i class="fa-solid fa-play"></i>
+                                                                </button>
                                                             </div>
-                                                        
+
 
                                                         </div>
 
@@ -361,159 +359,9 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col mb-4">
-                                        <div class="watchlist-warpper card-hover-style-two">
-                                            <div class="block-images position-relative w-100">
-                                                <div class="img-box">
-                                                    <a href="watchlist-detail.html" class="position-absolute top-0 bottom-0 start-0 end-0"></a>
-                                                    <img src="./assets/images/movies/playlist/02.webp" alt="movie-card" class="img-fluid object-cover w-100 d-block border-0">
-                                                </div>
-                                                <div class="card-description">
-                                                    <h5 class="text-capitalize fw-500"> <a href="">Play List 2</a> </h5>
-                                                    <div class="d-flex align-items-center gap-3">
-                                                        <div class="d-flex align-items-center gap-1 font-size-12">
-                                                            <i class="fa-solid fa-earth-americas text-primary"></i>
-                                                            <span class="text-body fw-semibold text-capitalize">Private</span>
-                                                        </div>
-                                                        <div class="d-flex align-items-center gap-1 font-size-12">
-                                                            <i class="fa-regular fa-eye text-primary"></i>
-                                                            <span class="text-body fw-semibold text-capitalize">1 Views</span>
-                                                        </div>
-
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col mb-4">
-                                        <div class="watchlist-warpper card-hover-style-two">
-                                            <div class="block-images position-relative w-100">
-                                                <div class="img-box">
-                                                    <a href="watchlist-detail.html" class="position-absolute top-0 bottom-0 start-0 end-0"></a>
-                                                    <img src="./assets/images/movies/playlist/03.webp" alt="movie-card" class="img-fluid object-cover w-100 d-block border-0">
-                                                </div>
-                                                <div class="card-description">
-                                                    <h5 class="text-capitalize fw-500"> <a href="">Play List 3</a> </h5>
-                                                    <div class="d-flex align-items-center gap-3">
-                                                        <div class="d-flex align-items-center gap-1 font-size-12">
-                                                            <i class="fa-solid fa-earth-americas text-primary"></i>
-                                                            <span class="text-body fw-semibold text-capitalize">Public</span>
-                                                        </div>
-                                                        <div class="d-flex align-items-center gap-1 font-size-12">
-                                                            <i class="fa-regular fa-eye text-primary"></i>
-                                                            <span class="text-body fw-semibold text-capitalize">10 Views</span>
-                                                        </div>
-
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col mb-4">
-                                        <div class="watchlist-warpper card-hover-style-two">
-                                            <div class="block-images position-relative w-100">
-                                                <div class="img-box">
-                                                    <a href="watchlist-detail.html" class="position-absolute top-0 bottom-0 start-0 end-0"></a>
-                                                    <img src="./assets/images/movies/playlist/04.webp" alt="movie-card" class="img-fluid object-cover w-100 d-block border-0">
-                                                </div>
-                                                <div class="card-description">
-                                                    <h5 class="text-capitalize fw-500"> <a href="">Play List 4</a> </h5>
-                                                    <div class="d-flex align-items-center gap-3">
-                                                        <div class="d-flex align-items-center gap-1 font-size-12">
-                                                            <i class="fa-solid fa-earth-americas text-primary"></i>
-                                                            <span class="text-body fw-semibold text-capitalize">Public</span>
-                                                        </div>
-                                                        <div class="d-flex align-items-center gap-1 font-size-12">
-                                                            <i class="fa-regular fa-eye text-primary"></i>
-                                                            <span class="text-body fw-semibold text-capitalize">30 Views</span>
-                                                        </div>
-
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col mb-4">
-                                        <div class="watchlist-warpper card-hover-style-two">
-                                            <div class="block-images position-relative w-100">
-                                                <div class="img-box">
-                                                    <a href="watchlist-detail.html" class="position-absolute top-0 bottom-0 start-0 end-0"></a>
-                                                    <img src="./assets/images/movies/playlist/05.webp" alt="movie-card" class="img-fluid object-cover w-100 d-block border-0">
-                                                </div>
-                                                <div class="card-description">
-                                                    <h5 class="text-capitalize fw-500"> <a href="">Play List 5</a> </h5>
-                                                    <div class="d-flex align-items-center gap-3">
-                                                        <div class="d-flex align-items-center gap-1 font-size-12">
-                                                            <i class="fa-solid fa-earth-americas text-primary"></i>
-                                                            <span class="text-body fw-semibold text-capitalize">Private</span>
-                                                        </div>
-                                                        <div class="d-flex align-items-center gap-1 font-size-12">
-                                                            <i class="fa-regular fa-eye text-primary"></i>
-                                                            <span class="text-body fw-semibold text-capitalize">2 Views</span>
-                                                        </div>
-
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col mb-4">
-                                        <div class="watchlist-warpper card-hover-style-two">
-                                            <div class="block-images position-relative w-100">
-                                                <div class="img-box">
-                                                    <a href="watchlist-detail.html" class="position-absolute top-0 bottom-0 start-0 end-0"></a>
-                                                    <img src="./assets/images/movies/playlist/06.webp" alt="movie-card" class="img-fluid object-cover w-100 d-block border-0">
-                                                </div>
-                                                <div class="card-description">
-                                                    <h5 class="text-capitalize fw-500"> <a href="">Play List 6</a> </h5>
-                                                    <div class="d-flex align-items-center gap-3">
-                                                        <div class="d-flex align-items-center gap-1 font-size-12">
-                                                            <i class="fa-solid fa-earth-americas text-primary"></i>
-                                                            <span class="text-body fw-semibold text-capitalize">Public</span>
-                                                        </div>
-                                                        <div class="d-flex align-items-center gap-1 font-size-12">
-                                                            <i class="fa-regular fa-eye text-primary"></i>
-                                                            <span class="text-body fw-semibold text-capitalize">10 Views</span>
-                                                        </div>
-
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col mb-4">
-                                        <div class="watchlist-warpper card-hover-style-two">
-                                            <div class="block-images position-relative w-100">
-                                                <div class="img-box">
-                                                    <a href="watchlist-detail.html" class="position-absolute top-0 bottom-0 start-0 end-0"></a>
-                                                    <img src="./assets/images/movies/playlist/07.webp" alt="movie-card" class="img-fluid object-cover w-100 d-block border-0">
-                                                </div>
-                                                <div class="card-description">
-                                                    <h5 class="text-capitalize fw-500"> <a href="">Play List 7</a> </h5>
-                                                    <div class="d-flex align-items-center gap-3">
-                                                        <div class="d-flex align-items-center gap-1 font-size-12">
-                                                            <i class="fa-solid fa-earth-americas text-primary"></i>
-                                                            <span class="text-body fw-semibold text-capitalize">Public</span>
-                                                        </div>
-                                                        <div class="d-flex align-items-center gap-1 font-size-12">
-                                                            <i class="fa-regular fa-eye text-primary"></i>
-                                                            <span class="text-body fw-semibold text-capitalize">50 Views</span>
-                                                        </div>
-
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                   
                                 </div>
-                                <div class="text-center">
-                                    <div class="iq-button">
-                                        <button type="button" class="btn text-uppercase position-relativ" data-bs-toggle="modal" data-bs-target="#addNewPlaylist">
-                                            <span class="button-text">Create Playlist</span>
-                                            <i class="fa-solid fa-play"></i>
-                                        </button>
-                                    </div>
-                                </div>
+                                
                             </div>
                         </div>
                     </div>
