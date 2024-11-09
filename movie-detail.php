@@ -321,7 +321,7 @@
    </svg>
 </section>
 <section>
-<div class="tabs">
+<div class="tabs pb-5">
         <div class="container-fluid">
             <div class="content-details iq-custom-tab-style-two">
          
