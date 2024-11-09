@@ -126,8 +126,8 @@ spl_autoload_register("my_autoload"); // Carrega as classes
           </div>
           <div class="slider-images" data-swiper="slider-images-ott">
             <div class="swiper-container" data-swiper="slider-images-inner-ott">
-            <?php foreach ($res as $row) { ?>
               <div class="swiper-wrapper m-0">
+                <?php foreach ($res as $row) { ?>
                 <div class="swiper-slide p-0">
                   <div class="slider--image block-images">
                     <img src="<?php echo $row['video_banner'] ?>" loading="lazy" alt="banner" />
@@ -154,10 +154,7 @@ spl_autoload_register("my_autoload"); // Carrega as classes
                           <h1
                             class="texture-text big-font letter-spacing-1 line-count-1 text-capitalize RightAnimate-two">
                             <?php echo $row['video_nome'] ?> </h1>
-                          <p class="line-count-3 RightAnimate-two">After the death of their father, two siblings
-                            fight for the throne, thereby causing a civil war known as the Dance of the Dragons.
-                            Rhaenyra tries to hold the realm together as the tension rises following a tragic
-                            loss. Meanwhile, Daemon prepares for war.</p>
+                          <p class="line-count-3 RightAnimate-two"><?php echo $row['video_texto'] ?></p>
                           <div class="d-flex flex-wrap align-items-center gap-3 RightAnimate-three">
                             <div class="slider-ratting d-flex align-items-center">
                               <ul
