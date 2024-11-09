@@ -6417,5 +6417,5 @@ pre[class*=language-] {
     color:rgba(226, 226, 226,0.3); 
 }
 .badge-costumer{
-    background: rgba(135,41,222,1);
+    background: rgba(135,41,222,1) !important;
 }
