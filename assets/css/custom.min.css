@@ -1826,7 +1826,7 @@ body.uikit .btn-download {
 
 .iq-card .block-images .img-box img {
     mix-blend-mode: overlay;
-    /* aspect-ratio: 2/3 */
+    aspect-ratio: 2/3
 }
 
 .iq-card .block-images .card-description {
@@ -4024,7 +4024,7 @@ ul.shop_list_checkbox li {
 }
 
 .watchlist-warpper .block-images .img-box img {
-    height: 12.5rem
+    height: 10.5rem
 }
 
 .watchlist-warpper .block-images .card-description {
