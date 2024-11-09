@@ -150,7 +150,7 @@ spl_autoload_register("my_autoload"); // Carrega as classes
                               <ul
                                 class="ratting-start p-0 m-0 list-inline text-warning d-flex align-items-center justify-content-left">
                                 <li>
-                                  <i class="fa fa-star" aria-hidden="true"></i>
+                                  <i class="fa fa-heart" aria-hidden="true"></i>
                                 </li>
                               </ul>
                               <span class="text-white ms-2 font-size-14 fw-500">4.3/5</span>
