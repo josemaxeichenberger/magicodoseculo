@@ -94,7 +94,7 @@ spl_autoload_register("my_autoload"); // Carrega as classes
                       <div class="swiper-slide swiper-bg">
                         <div class="block-images position-relative ">
                           <div class="img-box">
-                            <img src="<?php echo $row['banner'] ?>" class="img-fluid" alt=""
+                            <img src="<?php echo $row['capa'] ?>" class="img-fluid" alt=""
                               loading="lazy">
                             <div class="block-description">
                               <h6 class="iq-title fw-500 mb-0"><?php echo $row['nome'] ?></h6>
