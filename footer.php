@@ -9,7 +9,7 @@
                     </a>
                 </div>
                 <div class="col-md-6" style="color: #7E7E80;">
-                    <ul class="menu list-inline p-0 d-flex flex-wrap align-items-center">
+                    <ul class="menu list-inline p-0 d-flex flex-wrap align-items-center SFProDisplayBold">
                         <li class="menu-item">
                             <a href="#"style="color: #7E7E80;"> Termos de uso </a>
                         </li>
