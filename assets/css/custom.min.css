@@ -6367,7 +6367,7 @@ pre[class*=language-] {
 .custom-checkbox .checkmark {
     width: 20px;
     height: 20px;
-    border: 2px solid #007bff;
+    border: 2px solid rgba(135,41,222,1);
     border-radius: 4px;
     margin-right: 8px;
     position: relative;
@@ -6376,8 +6376,8 @@ pre[class*=language-] {
 
 /* Aplicar cor de fundo ao checkbox quando estiver marcado */
 .custom-checkbox input[type="checkbox"]:checked + .checkmark {
-    background-color: #007bff;
-    border-color: #007bff;
+    background-color: rgba(135,41,222,1);
+    border-color: rgba(135,41,222,1);
 }
 
 /* Estilo do ícone de marcação dentro do checkbox */
