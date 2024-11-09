@@ -13,6 +13,7 @@ class videos extends ConexaoMysql
     public $data_liberacao;
     public $bloqueado;
     public $capa_bloqueado;
+    public $video_indice_aula;
     public function getId()
     {
         return $this->id;
@@ -56,6 +57,9 @@ class videos extends ConexaoMysql
     public function getCapa_bloqueado()
     {
         return $this->capa_bloqueado;
+    }
+    public function getVideo_indice_aula(){
+        return $this->video_indice_aula;
     }
     public function setId($id)
     {
@@ -101,6 +105,9 @@ class videos extends ConexaoMysql
     {
         $this->capa_bloqueado = $capa_bloqueado;
     }
+    public function setVideo_indice_aula($video_indice_aula){
+        $this->video_indice_aula = $video_indice_aula;
+    }
     public function Insert()
     {
         $videos = $this->pdo->prepare("INSERT INTO videos (
@@ -113,7 +120,8 @@ class videos extends ConexaoMysql
             destaque,
             data_liberacao,
             bloqueado,
-            capa_bloqueado
+            capa_bloqueado,
+            video_indice_aula
         ) VALUES (
             :id_modulo,
             :nome,
@@ -124,7 +132,8 @@ class videos extends ConexaoMysql
             :destaque,
             :data_liberacao,
             :bloqueado,
-            :capa_bloqueado
+            :capa_bloqueado,
+            :video_indice_aula
         )");
         $videos->bindValue(':id_modulo', $this->getId_modulo());
         $videos->bindValue(':nome', $this->getNome());
@@ -136,6 +145,7 @@ class videos extends ConexaoMysql
         $videos->bindValue(':data_liberacao', $this->getData_liberacao());
         $videos->bindValue(':bloqueado', $this->getBloqueado());
         $videos->bindValue(':capa_bloqueado', $this->getCapa_bloqueado());
+        $videos->bindValue(':video_indice_aula', $this->getVideo_indice_aula());
         try {
             return $videos->execute();
         } catch (Exception $retorno) {
