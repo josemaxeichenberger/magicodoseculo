@@ -6400,4 +6400,8 @@ pre[class*=language-] {
 .custom-checkbox input[type="checkbox"]:checked + .checkmark::after {
     opacity: 1;
 }
-
+.input-my{
+    background: var(--bs-body-bg);
+    background-color: var(--bs-body-bg);
+    border: #e2e2e2 solid 2px;
+}
