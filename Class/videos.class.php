@@ -219,4 +219,41 @@ class videos extends ConexaoMysql
             return $retorno->getMessage();
         }
     }
+    public function SelectDestaque()
+    {
+        $videos = $this->pdo->prepare("SELECT 
+    modulos.id AS modulo_id,
+    modulos.nome AS modulo_nome,
+    modulos.status AS modulo_status,
+    modulos.apresentacao AS modulo_apresentacao,
+    videos.id AS video_id,
+    videos.nome AS video_nome,
+    videos.texto AS video_texto,
+    videos.time AS video_duracao,
+    videos.capa AS video_capa,
+    videos.banner AS video_banner,
+    videos.destaque AS video_destaque,
+    videos.data_liberacao AS video_data_liberacao,
+    videos.bloqueado AS video_bloqueado,
+    videos.capa_bloqueado AS video_capa_bloqueado
+    FROM 
+        modulos
+    JOIN 
+        videos ON modulos.id = videos.id_modulo
+    WHERE 
+        videos.destaque  = :destaque
+        and 
+        videos.bloqueado =:bloqueado
+        
+    ORDER BY 
+        videos.id;");
+        $videos->bindValue(':destaque', $this->getDestaque());
+        $videos->bindValue(':bloqueado', $this->getBloqueado());
+        try {
+            $videos->execute();
+            return $videos->fetchAll(PDO::FETCH_ASSOC);
+        } catch (Exception $retorno) {
+            return $retorno->getMessage();
+        }
+    }
 }
