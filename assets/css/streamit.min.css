@@ -320,7 +320,7 @@ img {
     --bs-gray-900: #141314;
     --bs-gray-900-rgb: 20, 19, 20;
     --bs-gray-800: #343a40
-}
+} 
 
 [data-bs-theme=hotstar] {
     --bs-primary:linear-gradient(90deg, rgba(135,41,222,1) 20%, rgba(135,41,222,1) 53%, rgba(82,5,140,1) 100%);
