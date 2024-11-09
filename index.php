@@ -153,11 +153,8 @@ spl_autoload_register("my_autoload"); // Carrega as classes
                                   <i class="fa fa-heart" aria-hidden="true"></i>
                                 </li>
                               </ul>
-                              <span class="text-white ms-2 font-size-14 fw-500">4.3/5</span>
-                              <span class="ms-2">
-                                <img src="./assets/images/movies/imdb-logo.svg" alt="imdb logo"
-                                  class="img-fluid">
-                              </span>
+                              <span class="text-white me-2 font-size-14 fw-500">4</span>
+                             
                             </div>
                             <span class="font-size-14 fw-500">2hr 6mins</span>
                             <div class="text-primary font-size-14 fw-500 text-capitalize">genres <a
