@@ -80,7 +80,7 @@ spl_autoload_register("my_autoload"); // Carrega as classes
         $Destaques->setDestaque('S');
         $Destaques->setBloqueado('N');
         $res = $Destaques->SelectDestaque();
-
+  var_dump($res);
 
         ?>
         <div class="position-relative slider-bg d-flex justify-content-end">
