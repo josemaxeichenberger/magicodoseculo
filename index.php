@@ -120,10 +120,11 @@ spl_autoload_register("my_autoload"); // Carrega as classes
           </div>
           <div class="slider-images" data-swiper="slider-images-ott">
             <div class="swiper-container" data-swiper="slider-images-inner-ott">
+            <?php foreach ($res as $row) { ?>
               <div class="swiper-wrapper m-0">
                 <div class="swiper-slide p-0">
                   <div class="slider--image block-images">
-                    <img src="./assets/images/movies/ott1.webp" loading="lazy" alt="banner" />
+                    <img src="<?php echo $row['benner'] ?>" loading="lazy" alt="banner" />
                   </div>
                   <div class="description">
                     <div class="row align-items-center h-100">
@@ -146,7 +147,7 @@ spl_autoload_register("my_autoload"); // Carrega as classes
                           </div>
                           <h1
                             class="texture-text big-font letter-spacing-1 line-count-1 text-capitalize RightAnimate-two">
-                            The Hunter </h1>
+                            <?php echo $row['nome'] ?> </h1>
                           <p class="line-count-3 RightAnimate-two">After the death of their father, two siblings
                             fight for the throne, thereby causing a civil war known as the Dance of the Dragons.
                             Rhaenyra tries to hold the realm together as the tension rises following a tragic
@@ -186,128 +187,7 @@ spl_autoload_register("my_autoload"); // Carrega as classes
                     </div>
                   </div>
                 </div>
-                <div class="swiper-slide p-0">
-                  <div class="slider--image block-images">
-                    <img src="./assets/images/movies/ott2.webp" loading="lazy" alt="" />
-                  </div>
-                  <div class="description">
-                    <div class="row align-items-center h-100">
-                      <div class="col-lg-6 col-md-12">
-                        <div class="slider-content">
-                          <div class="d-flex align-items-center RightAnimate mb-3">
-                            <span
-                              class="badge rounded-0 text-dark text-uppercase px-3 py-2 me-3 bg-white mr-3">NC-17</span>
-                            <ul class="p-0 mb-0 list-inline d-flex flex-wrap align-items-center movie-tag">
-                              <li class="position-relative text-capitalize font-size-14 letter-spacing-1">
-                                <a href="view-all-movie.html" class="text-decoration-none">Animation</a>
-                              </li>
-                              <li class="position-relative text-capitalize font-size-14 letter-spacing-1">
-                                <a href="view-all-movie.html" class="text-decoration-none">Sci-Fi</a>
-                              </li>
-                              <li class="position-relative text-capitalize font-size-14 letter-spacing-1">
-                                <a href="view-all-movie.html" class="text-decoration-none">Action</a>
-                              </li>
-                            </ul>
-                          </div>
-                          <h1
-                            class="texture-text big-font letter-spacing-1 line-count-1 text-capitalize RightAnimate-two">
-                            The Mandalorian </h1>
-                          <p class="line-count-3 RightAnimate-two">After the fall of the Galactic Empire, a lone
-                            gunfighter makes his way through the outer reaches of the lawless galaxy he show
-                            follows the adventures of a lone Mandalorian bounty hunter, Din Djarin, as he
-                            navigates the outer reaches of the galaxy, far from the authority of the New
-                            Republic.</p>
-                          <div class="d-flex flex-wrap align-items-center gap-3 RightAnimate-three">
-                            <div class="slider-ratting d-flex align-items-center">
-                              <ul
-                                class="ratting-start p-0 m-0 list-inline text-warning d-flex align-items-center justify-content-left">
-                                <li>
-                                  <i class="fa fa-star" aria-hidden="true"></i>
-                                </li>
-                              </ul>
-                              <span class="text-white ms-2 font-size-14 fw-500">4.3/5</span>
-                            </div>
-                            <span class="font-size-14 fw-500">2hr 14mins</span>
-                            <div class="text-primary font-size-14 fw-500 text-capitalize">genres <a
-                                href="view-all-movie.html" class="text-decoration-none ms-1">Sci-Fi</a>
-                            </div>
-                            <div class="text-primary font-size-14 fw-500 text-capitalize">Starting
-                              <a href="person-detail.html" class="text-decoration-none ms-1">James Chinlund</a>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="RightAnimate-four">
-                          <div class="iq-button">
-                            <a href="movie-detail.html" class="btn text-uppercase position-relative">
-                              <span class="button-text">stream now</span>
-                              <i class="fa-solid fa-play"></i>
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="swiper-slide p-0">
-                  <div class="slider--image block-images">
-                    <img src="./assets/images/movies/ott3.webp" loading="lazy" alt="" />
-                  </div>
-                  <div class="description">
-                    <div class="row align-items-center h-100">
-                      <div class="col-lg-6 col-md-12">
-                        <div class="slider-content">
-                          <div class="d-flex align-items-center RightAnimate mb-3">
-                            <span
-                              class="badge rounded-0 text-dark text-uppercase px-3 py-2 me-3 bg-white mr-3">G</span>
-                            <ul class="p-0 mb-0 list-inline d-flex flex-wrap align-items-center movie-tag">
-                              <li class="position-relative text-capitalize font-size-14 letter-spacing-1">
-                                <a href="view-all-movie.html" class="text-decoration-none">History</a>
-                              </li>
-                              <li class="position-relative text-capitalize font-size-14 letter-spacing-1">
-                                <a href="view-all-movie.html" class="text-decoration-none">Action</a>
-                              </li>
-                            </ul>
-                          </div>
-                          <h1
-                            class="texture-text big-font letter-spacing-1 line-count-1 text-capitalize RightAnimate-two">
-                            Better call saul </h1>
-                          <p class="line-count-3 RightAnimate-two">Ex-con artist Jimmy McGill turns into a
-                            small-time attorney and goes through a series of trials and tragedies, as he
-                            transforms into his alter ego Saul Goodman, a morally challenged criminal lawyer.
-                          </p>
-                          <div class="d-flex flex-wrap align-items-center gap-3 RightAnimate-three">
-                            <div class="slider-ratting d-flex align-items-center">
-                              <ul
-                                class="ratting-start p-0 m-0 list-inline text-warning d-flex align-items-center justify-content-left">
-                                <li>
-                                  <i class="fa fa-star" aria-hidden="true"></i>
-                                </li>
-                              </ul>
-                            </div>
-                            <span class="font-size-14 fw-500">2hr 55mins</span>
-                            <div class="text-primary font-size-14 fw-500 text-capitalize">genres <a
-                                href="view-all-movie.html" class="text-decoration-none ms-1">horror</a>
-                            </div>
-                            <div class="text-primary font-size-14 fw-500 text-capitalize">Starting <a href="#"
-                                class="text-decoration-none ms-1">Brenda Chapman</a>
-                              <span class="text-body">,</span>
-                              <a href="person-detail.html" class="text-decoration-none ms-1">Caleb
-                                Deschannelr</a>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="RightAnimate-four">
-                          <div class="iq-button">
-                            <a href="movie-detail.html" class="btn text-uppercase position-relative">
-                              <span class="button-text">stream now</span>
-                              <i class="fa-solid fa-play"></i>
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+              <?php } ?>
               </div>
             </div>
           </div>
