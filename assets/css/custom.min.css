@@ -6434,5 +6434,8 @@ pre[class*=language-] {
 }
 .btn-play{
     background:  rgba(135, 41, 222, 1) !important;
-    
+    padding: 5px;
+    border-radius: 50rem;
+    border: none;
+    color: #fff;
 }
