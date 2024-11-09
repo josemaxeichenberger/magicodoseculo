@@ -165,8 +165,8 @@ spl_autoload_register("my_autoload"); // Carrega as classes
                         </div>
                         <div class="RightAnimate-four">
                           <div class="iq-button">
-                            <a href="movie-detail.html" class="btn text-uppercase position-relative">
-                              <span class="button-text">stream now</span>
+                            <a href="movie-detail.php?md=<?php echo $row['modulo_id'] ?>&ep=<?php echo $row['video_id'] ?> " class="btn text-uppercase position-relative">
+                              <span class="button-text">ASSISTIR AULA</span>
                               <i class="fa-solid fa-play"></i>
                             </a>
                           </div>
