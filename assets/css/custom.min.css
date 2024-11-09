@@ -6350,3 +6350,53 @@ pre[class*=language-] {
     /* background: rgba(135,41,222,1); */
   background: linear-gradient(90deg, rgba(135,41,222,1) 20%, rgba(135,41,222,1) 53%, rgba(82,5,140,1) 100%)!important;  
 }
+/* Ocultar o checkbox padrão */
+.custom-checkbox input[type="checkbox"] {
+    display: none;
+}
+
+/* Estilo para o contêiner do checkbox */
+.custom-checkbox {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Estilo do "checkmark" personalizado */
+.custom-checkbox .checkmark {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #007bff;
+    border-radius: 4px;
+    margin-right: 8px;
+    position: relative;
+    transition: background-color 0.3s ease;
+}
+
+/* Aplicar cor de fundo ao checkbox quando estiver marcado */
+.custom-checkbox input[type="checkbox"]:checked + .checkmark {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+/* Estilo do ícone de marcação dentro do checkbox */
+.custom-checkbox .checkmark::after {
+    content: "";
+    position: absolute;
+    left: 4px;
+    top: 0;
+    width: 6px;
+    height: 12px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    opacity: 0;
+    transform: rotate(45deg);
+    transition: opacity 0.3s ease;
+}
+
+/* Exibir o ícone de marcação ao marcar o checkbox */
+.custom-checkbox input[type="checkbox"]:checked + .checkmark::after {
+    opacity: 1;
+}
+
