@@ -148,7 +148,7 @@ spl_autoload_register("my_autoload"); // Carrega as classes
                           <div class="d-flex flex-wrap align-items-center gap-3 RightAnimate-three">
                             <div class="slider-ratting d-flex align-items-center">
                               <ul
-                                class="ratting-start p-0 m-0 list-inline text-warning d-flex align-items-center justify-content-left">
+                                class="ratting-start p-0 m-0 list-inline text-secondary d-flex align-items-center justify-content-left">
                                 <li>
                                   <i class="fa fa-heart" aria-hidden="true"></i>
                                 </li>
