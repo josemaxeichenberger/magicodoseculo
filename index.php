@@ -313,7 +313,7 @@ spl_autoload_register("my_autoload"); // Carrega as classes
       <div class="container-fluid">
         <div class="overflow-hidden">
           <div class="d-flex align-items-center justify-content-between px-md-3 px-1 my-4">
-            <h3 class="main-title text-capitalize mb-0">Módulos do <span class="fw-bold" style="color:rgba(135, 41, 222, 1);">Curso </span> <i style="background:rgba(135, 41, 222, 1);font-size:small" class="fa p-2fa-book text-dark"></i></h3>
+            <h3 class="main-title text-capitalize mb-0">Módulos do <span class="fw-bold" style="color:rgba(135, 41, 222, 1);">Curso </span> <i style="background:rgba(135, 41, 222, 1);font-size:small" class="fa p-2 fa-book text-dark"></i></h3>
           </div>
           <div class="card-style-slider">
             <div class="position-relative swiper swiper-card" data-slide="6" data-laptop="6" data-tab="3"
