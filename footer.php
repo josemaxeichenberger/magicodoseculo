@@ -1,13 +1,13 @@
 <footer class="footer footer-default">
     <div class="container-fluid">
-      
+
         <div class="footer-bottom border-top">
             <div class="row align-items-center">
-            <div class="logo-hotstar">
-                            <a class="navbar-brand text-primary" href="./index.html">
-                                <img class="img-fluid logo" src="./assets/images/logo-hotstar.webp" loading="lazy" alt="streamit" />
-                            </a>
-                        </div>
+                <div class="logo-hotstar">
+                    <a class="navbar-brand text-primary" href="./index.html">
+                        <img class="img-fluid logo" src="./assets/identidade/RodapeLogo.png" loading="lazy" alt="streamit" />
+                    </a>
+                </div>
                 <div class="col-md-6">
                     <ul class="menu list-inline p-0 d-flex flex-wrap align-items-center">
                         <li class="menu-item">
