@@ -80,8 +80,7 @@
                                         <img class="img-fluid logo" src="./assets/images/logo.webp" loading="lazy" alt="streamit">
                                     </a>
                                 </div>
-                            </div>
-                            <form id="contactForm">
+                                <form id="contactForm">
                                 <h2 class="text-center SFProDisplayRegular">Conecte <br> <span class="SFProDisplayBold">sua conta</span></h2>
                                 <div class="mb-3 ">
                                     <label class="text-white fw-500 mb-2 SFProDisplayRegular">Email</label>
@@ -105,6 +104,8 @@
                                     </div>
                                 </div>
                             </form>
+                            </div>
+                          
                         </div>
                     </div>
                 </div>
