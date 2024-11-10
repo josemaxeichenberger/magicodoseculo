@@ -98,6 +98,9 @@ spl_autoload_register("my_autoload"); // Carrega as classes
                                         <h1 class="texture-text big-font-5 letter-spacing-1 line-count-1 text-uppercase mb-0 RightAnimate">
                                         <?php echo $row['video_nome'] ?>
                                         </h1>
+                                        <p class="line-count-3 RightAnimate-two"> 
+                                        <?php echo $row['video_texto'] ?>
+                                        </p>
                                         <div class="d-flex flex-wrap align-items-center r-mb-23 RightAnimate-two">
                                             <div class="slider-ratting d-flex align-items-center">
                                                 <ul
@@ -126,9 +129,7 @@ spl_autoload_register("my_autoload"); // Carrega as classes
                                             <span class="badge rounded-0 text-white text-uppercase p-2 mx-3 bg-secondary">action</span>
                                             <span class="font-size-14 fw-500 time">2hr 6mins</span>
                                         </div>
-                                        <p class="line-count-3 RightAnimate-two"> 
-                                        <?php echo $row['video_texto'] ?>
-                                        </p>
+                                       
                                         <div class="trending-list RightAnimate-three">
                                             <div class="text-primary genres fw-500"> Genres:
                                                 <a href="view-all-movie.html" class="fw-normal text-white text-decoration-none ms-2"> Action </a>
