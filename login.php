@@ -117,7 +117,8 @@
     <!-- SweetAlert2 -->
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <!-- Validation Script -->
-    <script>
+
+       
        <script>
     $(document).ready(function() {
         $('#contactForm').formValidation({
@@ -151,7 +152,6 @@
         });
     });
 </script>
-    </script>
 
     <!-- Additional Scripts -->
     <script src="./assets/vendor/lodash/lodash.min.js"></script>
