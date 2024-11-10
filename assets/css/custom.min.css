@@ -2168,8 +2168,8 @@ body.uikit .btn-download {
 
 .card-hover-style-two .block-images:hover .img-box {
     z-index: 99;
-    -webkit-transform: scale3d(1.1, 1.1, 1) translate3d(0, 0, 0) perspective(31.25em);
-    transform: scale3d(1.1, 1.1, 1) translate3d(0, 0, 0) perspective(31.25em);
+    -webkit-transform: scale3d(1.1, 1.1, 1) translate3d(0, 0, 0) perspective(20.25em);
+    transform: scale3d(1.1, 1.1, 1) translate3d(0, 0, 0) perspective(20.25em);
     -webkit-transform-origin: 50% 50%;
     -ms-transform-origin: 50% 50%;
     transform-origin: 50% 50%;
