@@ -149,7 +149,7 @@
             }
         }).on('err.field.fv', function(e, data) {
             let id = data.element.attr('id');
-            $('#' + id + 'Error').css('border', '1px solid red');
+            $('#' + id + 'Error').css('border', '1px solid red !important');
         }).on('success.field.fv', function(e, data) {
             $('#' + id + 'Error').css('border', 'none');
 
