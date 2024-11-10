@@ -129,7 +129,7 @@
     </div>
     <!-- Wrapper End-->
     <!-- Library Bundle Script -->
-    <script src="./assets/js/core/libs.min.js"></script>
+    <!-- <script src="./assets/js/core/libs.min.js"></script> -->
     <!-- Plugin Scripts -->
 
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
