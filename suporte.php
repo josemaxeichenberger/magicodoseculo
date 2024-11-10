@@ -77,7 +77,7 @@ spl_autoload_register("my_autoload"); // Carrega as classes
         <section class="bg-body py-5">
             <div class="container py3">
                 <h1 class="mt-5 text-center">Está com <br> <span class="text-costumer">alguma dúvida?</span> </h1>
-                <form class="row g-3 px-5 px-xl-0 needs-validation" novalidate>
+                <form class="row g-3 px-4 px-xl-0 needs-validation" novalidate>
                     <div class="col-md-4">
                         <label for="validationCustom01" class="form-label">First name</label>
                         <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
