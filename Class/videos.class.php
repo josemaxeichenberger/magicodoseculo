@@ -58,7 +58,8 @@ class videos extends ConexaoMysql
     {
         return $this->capa_bloqueado;
     }
-    public function getVideo_indice_aula(){
+    public function getVideo_indice_aula()
+    {
         return $this->video_indice_aula;
     }
     public function setId($id)
@@ -105,7 +106,8 @@ class videos extends ConexaoMysql
     {
         $this->capa_bloqueado = $capa_bloqueado;
     }
-    public function setVideo_indice_aula($video_indice_aula){
+    public function setVideo_indice_aula($video_indice_aula)
+    {
         $this->video_indice_aula = $video_indice_aula;
     }
     public function Insert()
@@ -261,11 +263,11 @@ class videos extends ConexaoMysql
             ORDER BY 
                 modulos.id, videos.indice_aula
         ");
-    
+
         // Ligação dos valores dos parâmetros usando métodos específicos
         $videos->bindValue(':destaque', $this->getDestaque());
         $videos->bindValue(':bloqueado', $this->getBloqueado());
-    
+
         try {
             // Execução da consulta
             $videos->execute();
@@ -307,12 +309,12 @@ class videos extends ConexaoMysql
             ORDER BY 
                 modulos.id, videos.indice_aula
         ");
-    
+
         // Ligação dos valores dos parâmetros usando métodos específicos
         $videos->bindValue(':destaque', $this->getDestaque());
         $videos->bindValue(':bloqueado', $this->getBloqueado());
         $videos->bindValue(':id_modulo', $this->getId_modulo());
-    
+
         try {
             // Execução da consulta
             $videos->execute();
@@ -323,5 +325,45 @@ class videos extends ConexaoMysql
             return "Erro ao buscar vídeos: " . $e->getMessage();
         }
     }
-    
+
+
+    public function SelectById()
+    {
+        $videos = $this->pdo->prepare("SELECT 
+    modulos.id AS modulo_id,
+    modulos.nome AS modulo_nome,
+    modulos.status AS modulo_status,
+    modulos.apresentacao AS modulo_apresentacao,
+    videos.id AS video_id,
+    videos.nome AS video_nome,
+    videos.texto AS video_texto,
+    videos.time AS video_duracao,
+    videos.capa AS video_capa,
+    videos.banner AS video_banner,
+    videos.destaque AS video_destaque,
+    videos.data_liberacao AS video_data_liberacao,
+    videos.bloqueado AS video_bloqueado,
+    videos.capa_bloqueado AS video_capa_bloqueado,
+    videos.indice_aula AS video_indice_aula,
+    videos.video AS video
+    FROM 
+        modulos
+    JOIN 
+        videos ON modulos.id = videos.id_modulo
+    WHERE 
+        modulos.id = :id_modulo
+        AND videos.id = :id
+     ORDER BY 
+     modulos.id, videos.indice_aula
+
+    ");
+        $videos->bindValue(':id_modulo', $this->getId_modulo());
+        $videos->bindValue(':id', $this->getId());
+        try {
+            $videos->execute();
+            return $videos->fetch(PDO::FETCH_ASSOC);
+        } catch (Exception $retorno) {
+            return $retorno->getMessage();
+        }
+    }
 }

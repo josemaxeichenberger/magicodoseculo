@@ -79,6 +79,12 @@ spl_autoload_register("my_autoload"); // Carrega as classes
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="pt-0">
+                            <?php
+                              $videos = new videos();
+                              $videos->setId_modulo($_GET['md']);
+                              $videos->setId($_GET['ep']);
+                              $res = $videos->SelectById();
+                            ?>
                             <video id="my-video" poster="https://i.ytimg.com/vi_webp/rKVEoyTedv4/maxresdefault.webp"
                                 class="video-js vjs-big-play-centered w-100" controls preload="auto" data-setup='{}'>
                                 <source src="./assets/images/video/sample-video.mp4" type="video/mp4" />
