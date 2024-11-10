@@ -30,7 +30,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300&display=swap" rel="stylesheet">
-    
+
     <!-- jQuery -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <!-- FormValidation -->
@@ -42,14 +42,14 @@
 
 <body>
     <span class="screen-darken"></span>
-    
+
     <!-- Loader Start -->
     <div class="loader simple-loader">
         <div class="loader-body">
             <img src="./assets/images/loader.gif" alt="loader" class="img-fluid" width="300">
         </div>
     </div>
-    
+
     <main class="main-content">
         <nav class="navbar">
             <div class="container">
@@ -65,47 +65,47 @@
                 <div class="overlay"></div>
             </div>
             <div class="container form-login">
-    <div class="row justify-content-center align-items-center height-self-center">
-        <div class="col-lg-5 col-md-12 align-self-center">
-            <div class="user-login-card" style="backdrop-filter:unset;">
-                <div class="text-center">
-                    <div class="logo-default">
-                        <a class="navbar-brand text-primary" href="./index.html">
-                            <img class="img-fluid logo" src="./assets/images/logo.webp" loading="lazy" alt="streamit">
-                        </a>
-                    </div>
-                </div>
-                <form id="contactForm" novalidate="novalidate" class="fv-form fv-form-bootstrap">
-                    <h2 class="text-center SFProDisplayRegular">Conecte <br> <span class="SFProDisplayBold">sua conta</span></h2>
-                    <div class="mb-3 fv">
-                        <label class="text-white fw-500 mb-2 SFProDisplayRegular">Email</label>
-                        <input type="text" name="email" id="email" class="form-control rounded-0 input-my SFProDisplayRegular" placeholder="Insira seu melhor email" required="">
-                        <small class="form-text text-danger help-block" id="emailError">O e-mail é obrigatório</small>
-                    </div>
+                <div class="row justify-content-center align-items-center height-self-center">
+                    <div class="col-lg-5 col-md-12 align-self-center">
+                        <div class="user-login-card" style="backdrop-filter:unset;">
+                            <div class="text-center">
+                                <div class="logo-default">
+                                    <a class="navbar-brand text-primary" href="./index.html">
+                                        <img class="img-fluid logo" src="./assets/images/logo.webp" loading="lazy" alt="streamit">
+                                    </a>
+                                </div>
+                            </div>
+                            <form id="contactForm" novalidate="novalidate" class="fv-form fv-form-bootstrap">
+                                <h2 class="text-center SFProDisplayRegular">Conecte <br> <span class="SFProDisplayBold">sua conta</span></h2>
+                                <div class="mb-3 fv">
+                                    <label class="text-white fw-500 mb-2 SFProDisplayRegular">Email</label>
+                                    <input type="text" name="email" id="email" class="form-control rounded-0 input-my SFProDisplayRegular" placeholder="Insira seu melhor email" required="">
+                                    <small class="form-text text-danger help-block" id="emailError">O e-mail é obrigatório</small>
+                                </div>
 
-                    <label class="custom-checkbox mb-3 fv">
-                        <input type="checkbox" name="termos" id="termos" required="">
-                        <span class="checkmark"></span>
-                        Aceito os termos e condições
-                    </label>
-                    <small class="form-text text-danger" id="termosError"></small>
+                                <label class="custom-checkbox mb-3 fv">
+                                    <input type="checkbox" name="termos" id="termos" required="">
+                                    <span class="checkmark"></span>
+                                    Aceito os termos e condições
+                                </label>
+                                <small class="form-text text-danger" id="termosError"></small>
 
-                    <div class="full-button">
-                        <div class="iq-button active">
-                            <button type="submit" class="btn text-uppercase position-relative">
-                                <span class="button-text">ENTRAR</span>
-                                <i class="fa-solid fa-play"></i>
-                            </button>
+                                <div class="full-button">
+                                    <div class="iq-button active">
+                                        <button type="submit" class="btn text-uppercase position-relative">
+                                            <span class="button-text">ENTRAR</span>
+                                            <i class="fa-solid fa-play"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
                         </div>
                     </div>
-                </form>
+                </div>
             </div>
         </div>
-    </div>
-</div>
-        </div>
     </main>
-    
+
     <?php include_once('./footer.php'); ?>
 
     <div id="back-to-top" style="display: none;">
@@ -118,9 +118,9 @@
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <!-- Validation Script -->
 
-       
-       <script>
-   $(document).ready(function() {
+
+    <script>
+     $(document).ready(function() {
     $('#contactForm').formValidation({
         framework: 'bootstrap',
         fields: {
@@ -145,19 +145,19 @@
     }).on('err.field.fv', function(e, data) {
         var fieldId = data.element.attr('id');
         // Exibir mensagem de erro
-        $('#' + fieldId + 'Error').text(data.result.message);
+        $('#' + fieldId + 'Error').text(data.result.message).show();
         
         // Adicionando borda vermelha no campo com erro
         $('#' + fieldId).css('border', '1px solid red');
         
         // Exibindo o erro de "termos"
         if (fieldId === 'termos') {
-            $('#' + fieldId + 'Error').text(data.result.message);
+            $('#' + fieldId + 'Error').text(data.result.message).show();
         }
     }).on('success.field.fv', function(e, data) {
         var fieldId = data.element.attr('id');
         // Remover mensagem de erro
-        $('#' + fieldId + 'Error').text('');
+        $('#' + fieldId + 'Error').text('').hide();
         
         // Remover borda vermelha quando o erro for resolvido
         $('#' + fieldId).css('border', '');
@@ -167,7 +167,7 @@
     });
 });
 
-</script>
+    </script>
 
     <!-- Additional Scripts -->
     <script src="./assets/vendor/lodash/lodash.min.js"></script>
