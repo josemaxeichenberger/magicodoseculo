@@ -109,7 +109,7 @@ spl_autoload_register("my_autoload"); // Carrega as classes
                         <input type="text" class="form-control fp" id="validationCustom02" value="" required name="sobrenome" placeholder="Sobrenome">
 
                     </div>
-                    <div class="col-12">
+                    <div class="col-12 pb-3">
                         <input type="email" class="form-control fp" id="" aria-describedby="inputGroupPrepend" required name="email" placeholder="E-mail">
 
                     </div>
