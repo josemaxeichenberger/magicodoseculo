@@ -13,21 +13,16 @@
 
     <!-- Library / Plugin Css Build -->
     <link rel="stylesheet" href="./assets/css/core/libs.min.css" />
-
     <!-- font-awesome css -->
     <link rel="stylesheet" href="./assets/vendor/font-awesome/css/all.min.css" />
-
     <!-- Iconly css -->
     <link rel="stylesheet" href="./assets/vendor/iconly/css/style.css" />
-
     <!-- Animate css -->
     <link rel="stylesheet" href="./assets/vendor/animate.min.css" />
     <!-- Streamit Design System Css -->
     <link rel="stylesheet" href="./assets/css/streamit.min.css?v=5.2.1" />
-
     <!-- Custom Css -->
     <link rel="stylesheet" href="./assets/css/custom.min.css?v=5.2.1" />
-
     <!-- Rtl Css -->
     <link rel="stylesheet" href="./assets/css/rtl.min.css?v=5.2.1" />
 
@@ -35,23 +30,24 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300&display=swap" rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <!-- Adicione após jQuery -->
+    
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- FormValidation -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/formvalidation/0.6.2-dev/js/formValidation.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/formvalidation/0.6.2-dev/js/framework/bootstrap.min.js"></script>
-
 </head>
 
-<body class="">
+<body>
     <span class="screen-darken"></span>
-    <!-- loader Start -->
-    <!-- loader Start -->
+    
+    <!-- Loader Start -->
     <div class="loader simple-loader">
         <div class="loader-body">
-            <img src="./assets/images/loader.gif" alt="loader" class="img-fluid " width="300">
+            <img src="./assets/images/loader.gif" alt="loader" class="img-fluid" width="300">
         </div>
     </div>
-    <!-- loader END --> <!-- loader END -->
+    
     <main class="main-content">
         <nav class="navbar">
             <div class="container">
@@ -60,12 +56,6 @@
                 </a>
             </div>
         </nav>
-        <!--Nav Start-->
-        <!--Nav End-->
-
-        <!--bread-crumb-->
-        <!--bread-crumb-->
-
 
         <div class="">
             <div class="banner-wrapper">
@@ -73,9 +63,9 @@
                 <div class="overlay"></div>
             </div>
             <div class="container form-login">
-                <div class="row justify-content-center align-items-center height-self-center ">
+                <div class="row justify-content-center align-items-center height-self-center">
                     <div class="col-lg-5 col-md-12 align-self-center">
-                        <div class="user-login-card " style="backdrop-filter:unset;">
+                        <div class="user-login-card" style="backdrop-filter:unset;">
                             <div class="text-center">
                                 <div class="logo-default">
                                     <a class="navbar-brand text-primary" href="./index.html">
@@ -88,133 +78,108 @@
                                 <div class="mb-3">
                                     <label class="text-white fw-500 mb-2 SFProDisplayRegular">Email</label>
                                     <input type="text" name="email" id="email" class="form-control rounded-0 input-my SFProDisplayRegular" placeholder="Insira seu melhor email" required>
-                                    <small class="form-text text-danger" id="emailError"></small> <!-- Espaço para mensagem de erro -->
-
+                                    <small class="form-text text-danger" id="emailError"></small>
                                 </div>
-
-
 
                                 <label class="custom-checkbox mb-3">
                                     <input type="checkbox" name="termos" id="termos" required>
                                     <span class="checkmark"></span>
                                     Aceito os termos e condições
                                 </label>
-                                <small class="form-text text-danger" id="termsError"></small> <!-- Espaço para mensagem de erro -->
-
+                                <small class="form-text text-danger" id="termsError"></small>
 
                                 <div class="full-button">
                                     <div class="iq-button active">
-                                        <button type="submit" class="btn  text-uppercase position-relative">
+                                        <button type="submit" class="btn text-uppercase position-relative">
                                             <span class="button-text">ENTRAR</span>
                                             <i class="fa-solid fa-play"></i>
                                         </button>
                                     </div>
                                 </div>
                             </form>
-
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
     </main>
+    
     <?php include_once('./footer.php'); ?>
-
 
     <div id="back-to-top" style="display: none;">
         <a class="p-0 btn bg-primary btn-sm position-fixed top border-0 rounded-circle text-white" id="top" href="#top">
             <i class="fa-solid fa-chevron-up"></i>
         </a>
     </div>
-    <!-- Wrapper End-->
-    <!-- Library Bundle Script -->
-    <!-- <script src="./assets/js/core/libs.min.js"></script> -->
-    <!-- Plugin Scripts -->
 
+    <!-- SweetAlert2 -->
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-
+    <!-- Validation Script -->
     <script>
-$(document).ready(function() {
-    $('#contactForm').formValidation({
-        framework: 'bootstrap',
-        fields: {
-            email: {
-                validators: {
-                    notEmpty: {
-                        message: 'O e-mail é obrigatório'
+        $(document).ready(function() {
+            $('#contactForm').formValidation({
+                framework: 'bootstrap',
+                fields: {
+                    email: {
+                        validators: {
+                            notEmpty: {
+                                message: 'O e-mail é obrigatório'
+                            },
+                            emailAddress: {
+                                message: 'Insira um e-mail válido'
+                            }
+                        }
                     },
-                    emailAddress: {
-                        message: 'Insira um e-mail válido'
+                    termos: {
+                        validators: {
+                            notEmpty: {
+                                message: 'Você deve concordar com os termos'
+                            }
+                        }
                     }
                 }
-            },
-            termos: {
-                validators: {
-                    notEmpty: {
-                        message: 'Você deve concordar com os termos'
+            }).on('err.field.fv', function(e, data) {
+                $('#' + data.element.attr('id') + 'Error').text(data.result.message);
+            }).on('success.field.fv', function(e, data) {
+                $('#' + data.element.attr('id') + 'Error').text('');
+            }).on('success.form.fv', function(e) {
+                e.preventDefault();
+                $.ajax({
+                    url: 'login_validate.php',
+                    type: 'POST',
+                    data: $('#contactForm').serialize(),
+                    success: function(response) {
+                        window.location.href = 'index.php';
+                    },
+                    error: function(xhr) {
+                        let message;
+                        if (xhr.status === 401) {
+                            message = "E-mail não encontrado. Verifique suas informações!";
+                        } else if (xhr.status === 500) {
+                            message = "Erro no servidor. Tente novamente mais tarde!";
+                        } else {
+                            message = "E-mail não encontrado. Verifique suas informações!";
+                        }
+                        Swal.fire({
+                            icon: "error",
+                            title: "Oops...",
+                            text: message,
+                        });
                     }
-                }
-            }
-        }
-    }).on('err.field.fv', function(e, data) {
-        // Exibe a mensagem de erro no elemento pequeno correspondente
-        $('#' + data.element.attr('id') + 'Error').text(data.result.message);
-    }).on('success.field.fv', function(e, data) {
-        // Limpa a mensagem de erro no campo correspondente
-        $('#' + data.element.attr('id') + 'Error').text('');
-    }).on('success.form.fv', function(e) {
-        e.preventDefault();
-
-        // Enviar dados via AJAX
-        $.ajax({
-            url: 'login_validate.php',
-            type: 'POST',
-            data: $('#contactForm').serialize(),
-            success: function(response) {
-                window.location.href = 'index.php';
-            },
-            error: function(xhr) {
-                let message;
-                if (xhr.status === 401) {
-                    message = "E-mail não encontrado. Verifique suas informações!";
-                } else if (xhr.status === 500) {
-                    message = "Erro no servidor. Tente novamente mais tarde!";
-                } else {
-                    message = "E-mail não encontrado. Verifique suas informações!";
-                }
-
-                Swal.fire({
-                    icon: "error",
-                    title: "Oops...",
-                    text: message,
                 });
-            }
+            });
         });
-    });
-});
-
-
     </script>
 
-
-
-
-    <!-- Lodash Utility -->
+    <!-- Additional Scripts -->
     <script src="./assets/vendor/lodash/lodash.min.js"></script>
-    <!-- External Library Bundle Script -->
     <script src="./assets/js/core/external.min.js"></script>
-    <!-- countdown Script -->
     <script src="./assets/js/plugins/countdown.js"></script>
-    <!-- utility Script -->
     <script src="./assets/js/utility.js"></script>
-    <!-- Setting Script -->
     <script src="./assets/js/setting.js"></script>
     <script src="./assets/js/setting-init.js" defer></script>
-    <!-- Streamit Script -->
     <script src="./assets/js/streamit.js" defer></script>
     <script src="./assets/js/swiper.js" defer></script>
-
 </body>
 
 </html>
