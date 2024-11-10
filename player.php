@@ -79,11 +79,9 @@ spl_autoload_register("my_autoload"); // Carrega as classes
             data-swiper="home-banner-slider">
             <div class="slider m-0 p-0 swiper-wrapper home-slider">
                 <?php
-                $Destaques = new videos();
-                $Destaques->setDestaque('S');
-                $Destaques->setBloqueado('N');
-                $Destaques->setId_modulo($_GET['md']);
-                $res = $Destaques->Select();
+               $videos = new videos();
+               $videos->setId_modulo($_GET['md']);
+               $res = $videos->Select();
 
                 foreach ($res as $row) { ?>
 
