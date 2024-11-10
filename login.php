@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Sorte no Jogo - Allan Cabral</title>
+    <title>Mágico do Século</title>
     <!-- Google Font Api KEY-->
     <meta name="google_font_api" content="AIzaSyBG58yNdAjc20_8jAvLNSVi9E4Xhwjau_k">
 
@@ -55,11 +55,11 @@ label {
   font-family: 'SF Pro Display', sans-serif;
 }
 .login{
-    background: url('./assets/images/BG-TELA-LOGIN-SNJ.png'); background-size: cover; background-repeat: no-repeat; position: relative;min-height:500px;background-position:left;
+    background: url('assets/identidade/HomeBanner.png'); background-size: cover; background-repeat: no-repeat; position: relative;min-height:500px;background-position:left;
 }
 @media (max-width:700px){
     .login{
-    background: url('./assets/images/BG-TELA-LOGIN-SNJ.png'); background-size: cover; background-repeat: no-repeat; position: relative;min-height:500px;background-position:top;
+    background: url('assets/identidade/HomeBanner.png'); background-size: cover; background-repeat: no-repeat; position: relative;min-height:500px;background-position:top;
 }  
 }
     </style>
