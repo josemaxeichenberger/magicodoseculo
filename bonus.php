@@ -81,6 +81,7 @@ spl_autoload_register("my_autoload"); // Carrega as classes
             color: #797979;
 
         }
+        .iq-blog-box{ border-radius: 30rem;}
     </style>
 </head>
 
