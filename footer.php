@@ -23,7 +23,8 @@
                             <a href="#"style="color: #7E7E80;"> Lista de observação </a>
                         </li> -->
                     </ul>
-                    <p class="font-size-14">© <span class="currentYear"></span> <span class="text-primary">ROLETA MÁGICA</span>. Todos os direitos reservados. Todos os vídeos informativos neste aplicativo são marcas registradas e todas as imagens e conteúdos relacionados são propriedade do Mágico do Século. <br> <br>A duplicação e plágio disto são estritamente proibidos. </p>
+                    <p class="font-size-14">Todos os vídeos informativos neste aplicativo são marcas registradas e todas as imagens e conteúdos relacionados são propriedade do Mágico do Século. <br> <br>A duplicação e plágio disto são estritamente proibidos. </p>
+                    <p class="font-size-14">© <span class="currentYear"></span> <span class="text-primary" style="color:rgba(135, 41, 222, 1) !important;">ROLETA MÁGICA</span>. Todos os direitos reservados.</p>
                 </div>
                
             </div>
