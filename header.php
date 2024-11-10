@@ -33,8 +33,11 @@
                                           <img src="./assets/images/user/user1.webp" width="70" class="img-fluid rounded-circle mx-auto" alt="" loading="lazy">
                                       </li>
                                       <li>
-                                        <h4>Seu Nome</h4>
-                                        <p>seuemail@gmail.com</p>
+                                        <h4><?php 
+                                        echo $nome = explode('@',$_SESSION['email']);
+                                        ?>
+                                        </h4>
+                                        <p><?php echo $_SESSION['email']; ?></p>
                                       </li>
                                       <li>
                                           <a href="./playlist.html" class="iq-sub-card d-flex align-items-center gap-3">
