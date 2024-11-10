@@ -132,7 +132,7 @@
     </div>
     <!-- Wrapper End-->
     <!-- Library Bundle Script -->
-    <script src="./assets/js/core/libs.min.js"></script>
+    <!-- <script src="./assets/js/core/libs.min.js"></script> -->
     <!-- Plugin Scripts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/formvalidation/0.6.2-dev/js/formValidation.min.js" integrity="sha512-jT4uRuGBB3O1Mj42djc/4fXLD8+I5I39HQgvnlrY2q7UsTis9k+Xz0eYFPMeQQS4UM1aJHk5XHqNryA87g5Swg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/formvalidation/0.6.2-dev/js/framework/bootstrap.min.js" integrity="sha512-h4Z8SL8N9+oL0rKYc3snO2J5nlyM2N44lwRxrXsgixu2UuzyN3Xmr3PkbZ7TP3D8OHVzEkD4CCZm9MgpH2aYpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
