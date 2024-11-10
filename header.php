@@ -27,7 +27,7 @@
                                       <img src="assets/identidade/MenuIcon.png" width="30" alt="">
                                       
                                   </a>
-                                  <ul class="dropdown-menu dropdown-menu-end dropdown-user border-0 p-0 m-0 rounded-2"
+                                  <ul class="dropdown-menu dropdown-menu-end dropdown-user border-0 p-0 m-0 rounded-4"
                                       aria-labelledby="navbarDropdown">
                                       <li class=" mb-3 justify-content-center text-center pt-2">
                                           <img src="./assets/images/user/user1.webp" width="70" class="img-fluid rounded-circle mx-auto" alt="" loading="lazy">
