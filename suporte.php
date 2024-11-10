@@ -121,8 +121,8 @@ spl_autoload_register("my_autoload"); // Carrega as classes
         </section>
         <section class="contact bg-light container-fluid">
             <div class="container bg-light ">
-                <h1 class=" text-center text-dark">Suporte <br><span>Especiaalizado</span></h1>
-                <p class=" text-dark px-2">
+                <h1 class=" text-center text-dark">Suporte <br><span>Especializado</span></h1>
+                <p class=" text-dark px-2 px-xl-5">
                     Nesta aba você encontra todos os meios de comunicação para ter um suporte especializado, você poderá tirar suas dúvidas e possíveis problemas no decorrer da sua jornada, nossa equipe está pronta ara te ajudar em qualquer questão!
                 </p>
                 <div class="input-group input-group w-100 justify-content-center pb-5">
