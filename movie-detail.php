@@ -192,11 +192,29 @@ spl_autoload_register("my_autoload"); // Carrega as classes
                                                         <img src="<?php echo $r['video_capa'] ?>" alt="movie-card" class="img-fluid rounded-4  w-100 d-block border-0">
                                                         <div class="position-relative px-2" style="top: -6rem;">
                                                             <div class=" align-items-center">
-                                                                <!-- <h5 class="text-capitalize fw-500 position-relative" style=" top:1.2rem;"> <a href="">Play List 1</a> </h5> -->
+                                            
+                                                                <ul
+                                                                    class="ratting-start p-0 m-0 position-relative list-inline text-warning d-flex align-items-center justify-content-left" style=" top:1.2rem;">
+                                                                    <li>
+                                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                                    </li>
+                                                                    <li>
+                                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                                    </li>
+                                                                    <li>
+                                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                                    </li>
+                                                                    <li>
+                                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                                    </li>
+                                                                    <li>
+                                                                        <i class="fa fa-star-half" aria-hidden="true"></i>
+                                                                    </li>
+                                                                </ul>
                                                                 <div class="d-flex align-items-center gap-1 font-size-12">
                                                                     <i class="fa-solid fa-earth-americas text-primary"></i>
-                                                                    <!-- <span class="text-body fw-semibold text-capitalize">Public</span> -->
-                                                                    <button type="button" class="btn d-block ms-auto me-3 btn-lg mb-1 btn-play rounded-circle text-uppercase position-relative mx-0">
+                                                                    <span class="text-body fw-semibold text-capitalize">Public</span>
+                                                                    <button type="button" class="btn d-block ms-auto me-2 btn-lg mb-1 btn-play rounded-circle text-uppercase position-relative mx-0">
 
                                                                         <i class="fa-solid fa-play"></i>
                                                                     </button>
