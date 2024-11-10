@@ -22,13 +22,6 @@
 
     <!-- Animate css -->
     <link rel="stylesheet" href="./assets/vendor/animate.min.css" />
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/formvalidation/0.6.2-dev/css/formValidation.min.css" integrity="sha512-B9GRVQaYJ7aMZO3WC2UvS9xds1D+gWQoNiXiZYRlqIVszL073pHXi0pxWxVycBk0fnacKIE3UHuWfSeETDCe7w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-
-
-
-
     <!-- Streamit Design System Css -->
     <link rel="stylesheet" href="./assets/css/streamit.min.css?v=5.2.1" />
 
@@ -90,7 +83,7 @@
                                 <h2 class="text-center SFProDisplayRegular">Conecte <br> <span class="SFProDisplayBold">sua conta</span></h2>
                                 <div class="mb-3">
                                     <label class="text-white fw-500 mb-2 SFProDisplayRegular">Email</label>
-                                    <input type="text" name="email" id="email" class="form-control rounded-0 input-my SFProDisplayRegular" required="" placeholder="Insira seu melhor email" required>
+                                    <input type="text" name="email" id="email" class="form-control rounded-0 input-my SFProDisplayRegular" placeholder="Insira seu melhor email" required>
                                     <small class="form-text text-danger" id="emailError"></small> <!-- Espaço para mensagem de erro -->
 
                                 </div>
