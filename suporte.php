@@ -72,11 +72,11 @@ spl_autoload_register("my_autoload"); // Carrega as classes
             ;
         }
         .fp{
-            border-color: #D6D6D6;
+            border-color: #797979;
 
         }
         .fp::placeholder{
-            color: #D6D6D6;
+            color: #797979;
             
         }
     </style>
