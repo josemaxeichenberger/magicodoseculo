@@ -143,6 +143,7 @@
                 }
             }
         }).on('err.field.fv', function(e, data) {
+            alert(data.element.attr('id'));
             $('#' + data.element.attr('id') + 'Error').text(data.result.message);
         }).on('success.field.fv', function(e, data) {
             $('#' + data.element.attr('id') + 'Error').text('');
