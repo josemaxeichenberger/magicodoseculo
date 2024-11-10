@@ -114,7 +114,7 @@ spl_autoload_register("my_autoload"); // Carrega as classes
 
                     </div>
                     <div class="col-12 pb-5">
-                        <textarea class="form-control fp" name="msg" id="" placeholder="Digite aqui a sua dúvida" require rows="5"></textarea>
+                        <textarea class="form-control fp" name="msg" id="" placeholder="Digite aqui a sua dúvida" required rows="5"></textarea>
 
                     </div>
                     <div class="col-12 full-button">
