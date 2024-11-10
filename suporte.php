@@ -82,7 +82,7 @@ spl_autoload_register("my_autoload"); // Carrega as classes
         .elemento::after {
   content: "";
   position: absolute;
-  bottom: 10;          /* Posição na parte inferior */
+  top: 0;          /* Posição na parte inferior */
   left: 5%;           /* Define uma margem à esquerda */
   width: 90%;         /* Define a largura da borda como 90% */
   height: 2px;        /* Espessura da borda */
