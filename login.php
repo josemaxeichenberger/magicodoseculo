@@ -81,8 +81,8 @@
                                     </a>
                                 </div>
                             </div>
-                            <form id="contactForm">
-                                <h2 class="text-center SFProDisplayRegular">Conecte <br> <span class="SFProDisplayBold">sua conta</span></h2>
+                            <form id="contactForm" novalidate="novalidate">
+                            <h2 class="text-center SFProDisplayRegular">Conecte <br> <span class="SFProDisplayBold">sua conta</span></h2>
                                 <div class="mb-3 ">
                                     <label class="text-white fw-500 mb-2 SFProDisplayRegular">Email</label>
                                     <input type="text" name="email" id="email" class="form-control rounded-0 input-my SFProDisplayRegular" placeholder="Insira seu melhor email" required="">
