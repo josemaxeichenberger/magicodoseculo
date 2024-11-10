@@ -156,8 +156,8 @@ spl_autoload_register("my_autoload"); // Carrega as classes
 
 
 
+        <?php include('./footer.php') ?>
     </main>
-    <?php include('./footer.php') ?>
 
 
     <div id="back-to-top" style="display: none;">
