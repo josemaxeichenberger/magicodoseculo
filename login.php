@@ -39,7 +39,17 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/formvalidation/0.6.2-dev/js/formValidation.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/formvalidation/0.6.2-dev/js/framework/bootstrap.min.js"></script>
     <style>
-      
+      #emailError {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    color: red;
+}
+
+#termosError {
+    color: red;
+}
+
     </style>
 </head>
 
