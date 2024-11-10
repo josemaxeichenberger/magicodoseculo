@@ -123,13 +123,13 @@ spl_autoload_register("my_autoload"); // Carrega as classes
                                                     </li>
                                                 </ul>
                                             </div>
-                                            <span class="font-size-14 fw-500 time">2hr 6mins</span>
+                                            <span class="font-size-14 fw-500 time"> <?php echo $row['video_duracao'] ?></span>
                                         </div>
                                        
                                      
                                         <div class="RightAnimate-four">
                                             <div class="iq-button">
-                                                <a href="movie-detail.html" class="btn text-uppercase position-relative">
+                                                <a href="play.php?md=<?php echo $row['modulo_id'] ?>&ep=<?php echo $row['video_id'] ?>" class="btn text-uppercase position-relative">
                                                     <span class="button-text">ASSISTIR AULA </span>
                                                     <i class="fa-solid fa-play"></i>
                                                 </a>
