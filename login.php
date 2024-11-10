@@ -127,7 +127,7 @@
     <script>
      $(document).ready(function() {
     $('#contactForm').formValidation({
-        framework: 'bootstrap',
+        // framework: 'bootstrap',
         fields: {
             email: {
                 validators: {
