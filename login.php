@@ -12,7 +12,7 @@
     <link rel="shortcut icon" href="./assets/identidade/002.png" />
 
     <!-- Library / Plugin Css Build -->
-    <link rel="stylesheet" href="./assets/css/core/libs.min.css" />
+    <!-- <link rel="stylesheet" href="./assets/css/core/libs.min.css" /> -->
     <!-- font-awesome css -->
     <link rel="stylesheet" href="./assets/vendor/font-awesome/css/all.min.css" />
     <!-- Iconly css -->
