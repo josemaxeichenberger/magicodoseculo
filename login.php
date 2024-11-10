@@ -23,11 +23,6 @@
     <!-- Animate css -->
     <link rel="stylesheet" href="./assets/vendor/animate.min.css" />
 
-
-
-
-
-
     <!-- Streamit Design System Css -->
     <link rel="stylesheet" href="./assets/css/streamit.css?v=5.2.1" />
 
