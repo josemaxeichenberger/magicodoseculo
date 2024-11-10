@@ -59,6 +59,8 @@ spl_autoload_register("my_autoload"); // Carrega as classes
     <style>
         .was-validated .form-control:invalid, .form-control.is-invalid{
             border-color:red !important;
+            background-image: url('assets/alert.svg');
+            background-repeat: no-repeat;
         }
     </style>
 </head>
