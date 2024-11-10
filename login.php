@@ -124,56 +124,6 @@
     <!-- Validation Script -->
 
 
-    <script>
-     $(document).ready(function() {
-    $('#contactForm').formValidation({
-        // framework: 'bootstrap',
-        fields: {
-            email: {
-                validators: {
-                    notEmpty: {
-                        message: 'O e-mail é obrigatório'
-                    },
-                    emailAddress: {
-                        message: 'Insira um e-mail válido'
-                    }
-                }
-            },
-            termos: {
-                validators: {
-                    notEmpty: {
-                        message: 'Você deve concordar com os termos'
-                    }
-                }
-            }
-        }
-    }).on('err.field.fv', function(e, data) {
-        var fieldId = data.element.attr('id');
-        // Exibir mensagem de erro
-        $('#' + fieldId + 'Error').append(data.result.message);
-        
-        // Adicionando borda vermelha no campo com erro
-        $('#' + fieldId).css('border', '1px solid red');
-        
-        // Exibindo o erro de "termos"
-        if (fieldId === 'termos') {
-            // $('#' + fieldId + 'Error').text(data.result.message).show();
-        }
-    }).on('success.field.fv', function(e, data) {
-        var fieldId = data.element.attr('id');
-        // Remover mensagem de erro
-        // $('#' + fieldId + 'Error').text('').hide();
-        
-        // Remover borda vermelha quando o erro for resolvido
-        $('#' + fieldId).css('border', '');
-        
-    }).on('success.form.fv', function(e) {
-        e.preventDefault();
-        // Aqui pode colocar sua requisição Ajax para submissão
-    });
-});
-
-    </script>
 
     <!-- Additional Scripts -->
     <script src="./assets/vendor/lodash/lodash.min.js"></script>
@@ -184,6 +134,73 @@
     <script src="./assets/js/setting-init.js" defer></script>
     <script src="./assets/js/streamit.js" defer></script>
     <script src="./assets/js/swiper.js" defer></script>
+
+
+    <script>
+        $(document).ready(function() {
+            $('#contactForm').formValidation({
+                fields: {
+                    email: {
+                        validators: {
+                            notEmpty: {
+                                message: 'O e-mail é obrigatório'
+                            },
+                            emailAddress: {
+                                message: 'Insira um e-mail válido'
+                            }
+                        }
+                    },
+                    terms: {
+                        validators: {
+                            notEmpty: {
+                                message: 'Você deve concordar com os termos'
+                            }
+                        }
+                    }
+                }
+            }).on('err.field.fv', function(e, data) {
+                // Exibir a mensagem de erro abaixo do campo
+                $('#' + data.field + 'Error').text(data.validatorResult.message);
+            }).on('success.field.fv', function(e, data) {
+                // Limpar a mensagem de erro quando for válido
+                $('#' + data.field + 'Error').text('');
+            }).on('success.form.fv', function(e) {
+                e.preventDefault();
+
+                // Enviar dados via AJAX
+                $.ajax({
+                    url: 'login_validate.php',
+                    type: 'POST',
+                    data: $('#contactForm').serialize(),
+                    success: function(response) {
+                        window.location.href = 'index.php'; // Mensagem de sucesso do PHP
+                    },
+                    error: function(xhr, status, error) {
+                        if (xhr.status === 401) {
+                            Swal.fire({
+                                icon: "error",
+                                title: "Oops...",
+                                text: "E-mail não encontrado. Verifique suas informações!",
+                            });
+                        } else if (xhr.status === 500) {
+                            Swal.fire({
+                                icon: "error",
+                                title: "Oops...",
+                                text: "Erro no servidor. Tente novamente mais tarde!",
+                            });
+                        } else {
+                            Swal.fire({
+                                icon: "error",
+                                title: "Oops...",
+                                text: "E-mail não encontrado. Verifique suas informações!",
+                            });
+                        }
+                    }
+                });
+
+            });
+        });
+    </script>
 </body>
 
 </html>
