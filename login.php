@@ -162,7 +162,7 @@
                             }
                         }
                     },
-                    terms: {
+                    termos: {
                         validators: {
                             notEmpty: {
                                 message: 'Você deve concordar com os termos'
