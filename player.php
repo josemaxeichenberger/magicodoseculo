@@ -112,11 +112,9 @@ spl_autoload_register("my_autoload"); // Carrega as classes
                                        
                                     </div>
                                     <ul class="p-0 mt-2 list-inline d-flex flex-wrap movie-tag">
-                                        <li class="trending-list"><a class="text-primary" href="./view-all-movie.html">Action</a></li>
-                                        <li class="trending-list"><a class="text-primary" href="./view-all-movie.html">Adventure</a></li>
-                                        <li class="trending-list"><a class="text-primary" href="./view-all-movie.html">Drama</a></li>
+                                        <li class="trending-list"><a class="text-primary" >Módulo <?php echo $_GET['md']; ?></a></li>
+                                        <li class="trending-list"><a class="text-primary" > <?php echo $res['video_nome']; ?></a></li>
                                     </ul>
-                                    <span class="text-white fs-3 ms-2">  <?php echo $res['video_nome']; ?></span>
 
                                     <div class="d-flex flex-wrap align-items-center text-white text-detail flex-wrap mb-4">
                                         <span class="badge bg-secondary">Horror</span>
