@@ -38,7 +38,7 @@
                                         echo $nome[0];
                                         ?>
                                         </h5>
-                                        <p class="text-center text-secondarys"><?php echo $_SESSION['email']; ?></p>
+                                        <p class="text-center" style="color:#797979"><?php echo $_SESSION['email']; ?></p>
                                       </li>
                                       <li>
                                           <a href="./playlist.html" class="iq-sub-card d-flex align-items-center gap-3">
