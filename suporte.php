@@ -98,7 +98,6 @@ spl_autoload_register("my_autoload"); // Carrega as classes
         <?php
         include(__DIR__ . '/header.php');
         ?>
-
         <section class="bg-body py-5">
             <div class="container py3">
                 <img src="assets/identidade/Grupo150.png" width="55" class="mx-auto mt-5 mb-3 d-block" alt="">
