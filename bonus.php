@@ -115,7 +115,9 @@ spl_autoload_register("my_autoload"); // Carrega as classes
                                 <a href="#">
                                     <h3 class="mb-3 line-count-1 text-center blog-heading text-black SFProDisplayBold">Grupo Exclusivo</h3>
                                 </a>
-                                <p class="line-count-2 text-black">Praesent iaculis, purus ac vehicula mattis, arcu lorem blandit nisl, non laoreet dui mi eget elit. Donec porttitor ex vel augue maximus luctus. Vivamus finibus nibh eu nunc volutpat suscipit.</p>
+                                <p class="line-count-2 text-black px-3">
+                                    No grupo exclusivo, você terá acesso a informações privilegiadas e dicas avançadas para maximizar seus resultados.
+                                </p>
                                 <div class="iq-button mx-auto text-center justify-content-center ">
                                     <a href="#" class="btn mx-auto w-75 d-block text-capitalize position-relative">
                                         <span class="button-text">Entrar no grupo<i class="fa fa-angle-right ml-2" aria-hidden="true"></i></span>
