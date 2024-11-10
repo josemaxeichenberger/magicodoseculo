@@ -39,17 +39,16 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/formvalidation/0.6.2-dev/js/formValidation.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/formvalidation/0.6.2-dev/js/framework/bootstrap.min.js"></script>
     <style>
-      #emailError {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    color: red;
-}
+        #emailError {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            color: red;
+        }
 
-#termosError {
-    color: red;
-}
-
+        #termosError {
+            color: red;
+        }
     </style>
 </head>
 
@@ -85,7 +84,7 @@
                                 <div class="logo-default">
                                     <a class="navbar-brand text-primary" href="./index.html">
                                         <img class="img-fluid logo" src="./assets/images/logo.webp" loading="lazy" alt="streamit">
-                                    </a> 
+                                    </a>
                                 </div>
                             </div>
                             <form id="contactForm">
@@ -96,12 +95,12 @@
                                     <small class="form-text text-danger emailError" id="emailError"></small>
                                 </div>
                                 <div class="mb-3 fv">
-                                <label class="custom-checkbox mb-3 ">
-                                    <input type="checkbox" name="termos" id="termos" required="">
-                                    <span class="checkmark"></span>
-                                    Aceito os termos e condições
-                                </label>
-                                <small class="form-text text-danger termosError" id="termosError"></small>
+                                    <label class="custom-checkbox mb-3 ">
+                                        <input type="checkbox" name="termos" id="termos" required="">
+                                        <span class="checkmark"></span>
+                                        Aceito os termos e condições
+                                    </label>
+                                    <small class="form-text text-danger termosError" id="termosError"></small>
                                 </div>
                                 <div class="full-button">
                                     <div class="iq-button active">
@@ -168,7 +167,12 @@
                 }
             }).on('err.field.fv', function(e, data) {
                 // Exibir a mensagem de erro abaixo do campo
-                $('#' + data.field + 'Error').text(data.validatorResult.message);
+                // $('#' + data.field + 'Error').text(data.validatorResult.message);
+                Swal.fire({
+                    icon: "error",
+                    title: "Oops...",
+                    text: data.validatorResult.message,
+                });
             }).on('success.field.fv', function(e, data) {
                 // Limpar a mensagem de erro quando for válido
                 $('#' + data.field + 'Error').text('');
