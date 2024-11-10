@@ -107,7 +107,7 @@ spl_autoload_register("my_autoload"); // Carrega as classes
                                     <div class="d-block d-lg-flex align-items-center">
                                         <h2 class="trending-text fw-bold texture-text text-uppercase my-0 fadeInLeft animated d-inline-block"
                                             data-animation-in="fadeInLeft" data-delay-in="0.6" style="opacity: 1; animation-delay: 0.6s">
-                                            Zombie Island
+                                            <?php echo $res['video_nome']; ?>
                                         </h2>
                                         <div class="slider-ratting d-flex align-items-center ms-lg-3 ms-0">
                                             <ul class="ratting-start p-0 m-0 list-inline text-warning d-flex align-items-center justify-content-left">
@@ -117,7 +117,6 @@ spl_autoload_register("my_autoload"); // Carrega as classes
                                                 <li><i class="fa fa-star" aria-hidden="true"></i></li>
                                                 <li><i class="fa fa-star-half" aria-hidden="true"></i></li>
                                             </ul>
-                                            <span class="text-white ms-2">4.8 (imdb)</span>
                                         </div>
                                     </div>
                                     <ul class="p-0 mt-2 list-inline d-flex flex-wrap movie-tag">
