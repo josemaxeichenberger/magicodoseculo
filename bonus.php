@@ -111,22 +111,12 @@ spl_autoload_register("my_autoload"); // Carrega as classes
                                 </a>
                             </div>
                             <div class="iq-blog-detail">
-                                <div class="iq-blog-meta d-flex mb-3">
-                                    <ul class="list-inline mb-0">
-                                        <li class="border-gredient-left">
-                                            <a href="#"> <span>January 1, 2022</span></a>
-                                        </li>
-                                    </ul>
-                                    <ul class="iq-blogtag list-inline">
-                                        <li class="border-gredient-left"><a href="../blog/blog-tag.html">Movie</a></li>
-                                    </ul>
-                                </div>
 
                                 <a href="#">
-                                    <h3 class="mb-3 line-count-1 blog-heading">Emmy 2018: “Game of Throne” featured having 22 nominee</h3>
+                                    <h3 class="mb-3 line-count-1 blog-heading">Grupo Exclusivo</h3>
                                 </a>
                                 <p class="line-count-2">Praesent iaculis, purus ac vehicula mattis, arcu lorem blandit nisl, non laoreet dui mi eget elit. Donec porttitor ex vel augue maximus luctus. Vivamus finibus nibh eu nunc volutpat suscipit.</p>
-                                <div class="iq-button link-button">
+                                <div class="iq-button ">
                                     <a href="#" class="btn text-capitalize position-relative">
                                         <span class="button-text">Read More <i class="fa fa-angle-right ml-2" aria-hidden="true"></i></span>
                                     </a>
