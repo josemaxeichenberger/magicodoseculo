@@ -81,7 +81,10 @@ spl_autoload_register("my_autoload"); // Carrega as classes
             color: #797979;
 
         }
-        
+        .iq-blog-box{ border-radius: 30px;}
+        .iq-blog-box img {
+            border-top-left-radius: 30px;
+        }
     </style>
 </head>
 
@@ -106,12 +109,12 @@ spl_autoload_register("my_autoload"); // Carrega as classes
                 <div class="row row-cols-xl-3 row-cols-md-2 row-cols-1">
                     <div class="col px-5 px-xl-1">
                         <div class="iq-blog-box">
-                            <div class="iq-blog-image clearfix rounded-top-4">
+                            <div class="iq-blog-image clearfix">
                                 <a href="#">
                                     <img src="../assets/images/blog/blog1.webp" alt="blogImg-01" class="img-fluid w-100">
                                 </a>
                             </div>
-                            <div class="iq-blog-detail rounded-bottom-4">
+                            <div class="iq-blog-detail ">
 
                                 <a href="#">
                                     <h3 class="mb-3 line-count-1 text-center blog-heading text-black SFProDisplayBold">Grupo Exclusivo</h3>
