@@ -130,20 +130,11 @@ spl_autoload_register("my_autoload"); // Carrega as classes
                                             <span class="font-size-14 fw-500 time">2hr 6mins</span>
                                         </div>
                                        
-                                        <div class="trending-list RightAnimate-three">
-                                            <div class="text-primary genres fw-500"> Genres:
-                                                <a href="view-all-movie.html" class="fw-normal text-white text-decoration-none ms-2"> Action </a>
-                                            </div>
-                                            <div class="text-primary tag fw-500"> Tag:
-                                                <a href="view-all-movie.html" class="fw-normal text-white text-decoration-none ms-2"> Action, </a>
-                                                <a href="view-all-movie.html" class="fw-normal text-white text-decoration-none ms-2"> Adventure, </a>
-                                                <a href="view-all-movie.html" class="fw-normal text-white text-decoration-none ms-2"> Horror </a>
-                                            </div>
-                                        </div>
+                                     
                                         <div class="RightAnimate-four">
                                             <div class="iq-button">
                                                 <a href="movie-detail.html" class="btn text-uppercase position-relative">
-                                                    <span class="button-text">play now</span>
+                                                    <span class="button-text">ASSISTIR AULA </span>
                                                     <i class="fa-solid fa-play"></i>
                                                 </a>
                                             </div>
