@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" data-bs-theme="hotstar">
+<html lang="en" data-bs-theme="dark">
 
 <head>
     <meta charset="utf-8">
@@ -13,16 +13,27 @@
 
     <!-- Library / Plugin Css Build -->
     <link rel="stylesheet" href="./assets/css/core/libs.min.css" />
+
     <!-- font-awesome css -->
     <link rel="stylesheet" href="./assets/vendor/font-awesome/css/all.min.css" />
+
     <!-- Iconly css -->
     <link rel="stylesheet" href="./assets/vendor/iconly/css/style.css" />
+
     <!-- Animate css -->
     <link rel="stylesheet" href="./assets/vendor/animate.min.css" />
+
+
+
+
+
+
     <!-- Streamit Design System Css -->
-    <link rel="stylesheet" href="./assets/css/streamit.min.css?v=5.2.1" />
+    <link rel="stylesheet" href="./assets/css/streamit.css?v=5.2.1" />
+
     <!-- Custom Css -->
-    <link rel="stylesheet" href="./assets/css/custom.min.css?v=5.2.1" />
+    <link rel="stylesheet" href="./assets/css/custom.css?v=5.2.1" />
+
     <!-- Rtl Css -->
     <link rel="stylesheet" href="./assets/css/rtl.min.css?v=5.2.1" />
 
@@ -30,22 +41,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300&display=swap" rel="stylesheet">
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/formvalidation/0.6.2-dev/css/formValidation.min.css" integrity="sha512-B9GRVQaYJ7aMZO3WC2UvS9xds1D+gWQoNiXiZYRlqIVszL073pHXi0pxWxVycBk0fnacKIE3UHuWfSeETDCe7w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <!-- jQuery -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <!-- FormValidation -->
-    <style>
-        #emailError {
-            position: absolute;
-            top: 100%;
-            left: 0;
-            color: red;
-        }
-
-        #termosError {
-            color: red;
-        }
-    </style>
 </head>
 
 <body>
