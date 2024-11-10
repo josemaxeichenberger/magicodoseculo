@@ -39,9 +39,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/formvalidation/0.6.2-dev/js/formValidation.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/formvalidation/0.6.2-dev/js/framework/bootstrap.min.js"></script>
     <style>
-        .help-block{
-            display: none !important;
-        }
+      
     </style>
 </head>
 
