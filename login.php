@@ -165,7 +165,7 @@
         // $('#' + fieldId + 'Error').text('').hide();
         
         // Remover borda vermelha quando o erro for resolvido
-        $('#' + fieldId).css('border', '');
+        $('#.' + fieldId).css('border', '');
         
     }).on('success.form.fv', function(e) {
         e.preventDefault();
