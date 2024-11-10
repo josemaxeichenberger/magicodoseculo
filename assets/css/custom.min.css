@@ -2168,15 +2168,14 @@ body.uikit .btn-download {
 
 .card-hover-style-two .block-images:hover .img-box {
     z-index: 99;
-    -webkit-transform: scale3d(1.1, 1.1, 1) translate3d(0, 0, 0) perspective(10.25em);
-    transform: scale3d(1.1, 1.1, 1) translate3d(0, 0, 0) perspective(10.25em);
-    -webkit-transform-origin: 2% 0%;
-    -ms-transform-origin: 2% 0%;
-    transform-origin: 2% 0%;
-    -webkit-transition: all .6s ease 0s;
-    -o-transition: all .6s ease 0s;
-    transition: all .6s ease 0s
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    -webkit-transform-origin: center center;
+    transform-origin: center center;
+    -webkit-transition: transform 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out;
 }
+
 
 li.swiper-slide-active .card-hover-style-two .block-images:hover .img-box {
     -webkit-transform: scale3d(1.1, 1.1, 1) translate3d(2%, 0, 0) perspective(10.25em);
