@@ -27,11 +27,14 @@
                                       <img src="assets/identidade/MenuIcon.png" width="30" alt="">
                                       
                                   </a>
-                                  
-                              </li>
-                              <li class="user-info d-flex align-items-center gap-3 mb-3">
+                                  <ul class="dropdown-menu dropdown-menu-end dropdown-user border-0 p-0 m-0"
+                                      aria-labelledby="navbarDropdown">
+                                      <li class="user-info d-flex align-items-center gap-3 mb-3 rounded-circle">
                                           <img src="./assets/images/user/user1.webp" class="img-fluid" alt="" loading="lazy">
-                                          <span class="font-size-14 fw-500 text-capitalize text-white">Jenny</span>
+                                      </li>
+                                      <li>
+                                        <h4>Seu Nome</h4>
+                                        <p>seuemail@gmail.com</p>
                                       </li>
                                       <li>
                                           <a href="./playlist.html" class="iq-sub-card d-flex align-items-center gap-3">
@@ -77,6 +80,8 @@
                                               <h6 class="mb-0 font-size-14 fw-normal">Logout</h6>
                                           </a>
                                       </li>
+                                  </ul>
+                              </li>
                           </ul>
                       </div>
                   </div>
