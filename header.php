@@ -27,9 +27,9 @@
                                       <img src="assets/identidade/MenuIcon.png" width="30" alt="">
                                       
                                   </a>
-                                  <ul class="dropdown-menu dropdown-menu-end dropdown-user border-0 p-0 m-0"
-                                      aria-labelledby="navbarDropdown">
-                                      <li class="user-info d-flex align-items-center gap-3 mb-3">
+                                  
+                              </li>
+                              <li class="user-info d-flex align-items-center gap-3 mb-3">
                                           <img src="./assets/images/user/user1.webp" class="img-fluid" alt="" loading="lazy">
                                           <span class="font-size-14 fw-500 text-capitalize text-white">Jenny</span>
                                       </li>
@@ -77,8 +77,6 @@
                                               <h6 class="mb-0 font-size-14 fw-normal">Logout</h6>
                                           </a>
                                       </li>
-                                  </ul>
-                              </li>
                           </ul>
                       </div>
                   </div>
