@@ -62,7 +62,7 @@ spl_autoload_register("my_autoload"); // Carrega as classes
             background-image: url('assets/alert.svg');
             background-repeat: no-repeat;
         }
-        .btn.btn-primary {
+        .btn.btn-costumer {
     color: var(--bs-white);
     background-color: linear-gradient(90deg, rgba(135,41,222,1) 20%, rgba(135,41,222,1) 53%, rgba(82,5,140,1) 100%);
     border-color: linear-gradient(90deg, rgba(135,41,222,1) 20%, rgba(135,41,222,1) 53%, rgba(82,5,140,1) 100%);
@@ -106,7 +106,7 @@ spl_autoload_register("my_autoload"); // Carrega as classes
 
                     </div>
                     <div class="col-12">
-                        <button class="btn  w-100 rounded-pill btn-primary" type="submit">Enviar</button>
+                        <button class="btn btn-costumer w-100 rounded-pill " type="submit">Enviar</button>
                     </div>
                 </form>
             </div>
