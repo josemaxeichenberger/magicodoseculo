@@ -74,8 +74,22 @@ spl_autoload_register("my_autoload"); // Carrega as classes
     include(__DIR__ . '/header.php');
     ?>
 
-    <!--bread-crumb-->
-    <!--bread-crumb-->
+<div class="iq-breadcrumb" style="background-image: url(./assets/images/pages/01.webp);">
+         <div class="container-fluid">
+            <div class="row align-items-center">
+                  <div class="col-sm-12">
+                      <nav aria-label="breadcrumb" class="text-center">
+                          <h2 class="title">Pricing Plan</h2>
+                          <ol class="breadcrumb justify-content-center">
+                              <li class="breadcrumb-item"><a href="./index.html">Home</a></li> 
+                              <li class="breadcrumb-item active">Pricing Plan</li>
+                          </ol>
+                      </nav>
+                  </div>
+              </div> 
+         </div>
+      </div>      <!--bread-crumb-->
+
 
 
 
