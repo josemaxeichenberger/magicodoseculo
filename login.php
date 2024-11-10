@@ -34,10 +34,6 @@
     <!-- jQuery -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <!-- FormValidation -->
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/formvalidation/0.6.2-dev/css/formValidation.min.css" integrity="sha512-B9GRVQaYJ7aMZO3WC2UvS9xds1D+gWQoNiXiZYRlqIVszL073pHXi0pxWxVycBk0fnacKIE3UHuWfSeETDCe7w==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/formvalidation/0.6.2-dev/js/formValidation.min.js"></script>
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/formvalidation/0.6.2-dev/js/framework/bootstrap.min.js"></script> -->
     <style>
         #emailError {
             position: absolute;
@@ -126,22 +122,30 @@
         </a>
     </div>
 
-    <!-- SweetAlert2 -->
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <!-- Validation Script -->
+     <!-- Wrapper End-->
+    <!-- Library Bundle Script -->
+    <script src="./assets/js/core/libs.min.js"></script>
+    <!-- Plugin Scripts -->
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/formvalidation/0.6.2-dev/js/formValidation.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/formvalidation/0.6.2-dev/js/framework/bootstrap.min.js"></script>
 
-
-    <!-- Additional Scripts -->
+    <!-- Lodash Utility -->
     <script src="./assets/vendor/lodash/lodash.min.js"></script>
+    <!-- External Library Bundle Script -->
     <script src="./assets/js/core/external.min.js"></script>
+    <!-- countdown Script -->
     <script src="./assets/js/plugins/countdown.js"></script>
+    <!-- utility Script -->
     <script src="./assets/js/utility.js"></script>
+    <!-- Setting Script -->
     <script src="./assets/js/setting.js"></script>
     <script src="./assets/js/setting-init.js" defer></script>
+    <!-- Streamit Script -->
     <script src="./assets/js/streamit.js" defer></script>
     <script src="./assets/js/swiper.js" defer></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
     <script>
         $(document).ready(function() {
@@ -167,12 +171,7 @@
                 }
             }).on('err.field.fv', function(e, data) {
                 // Exibir a mensagem de erro abaixo do campo
-                // $('#' + data.field + 'Error').text(data.validatorResult.message);
-                Swal.fire({
-                    icon: "error",
-                    title: "Oops...",
-                    text: data.validatorResult.message,
-                });
+                $('#' + data.field + 'Error').text(data.validatorResult.message);
             }).on('success.field.fv', function(e, data) {
                 // Limpar a mensagem de erro quando for válido
                 $('#' + data.field + 'Error').text('');
