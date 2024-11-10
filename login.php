@@ -88,7 +88,7 @@
                                     <span class="checkmark"></span>
                                     Aceito os termos e condições
                                 </label>
-                                <small class="form-text text-danger" id="termsError"></small>
+                                <small class="form-text text-danger" id="termosError"></small>
 
                                 <div class="full-button">
                                     <div class="iq-button active">
