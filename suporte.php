@@ -79,20 +79,7 @@ spl_autoload_register("my_autoload"); // Carrega as classes
             color: #797979;
             
         }
-        .elemento {
-  position: relative;
-  padding: 10px; /* Ajuste o padding conforme necessário */
-}
 
-        .elemento::after {
-  content: "";
-  position: absolute;
-  top: 0;          /* Posição na parte inferior */
-  left: 5%;           /* Define uma margem à esquerda */
-  width: 80%;         /* Define a largura da borda como 90% */
-  height: 2px;        /* Espessura da borda */
-  background-color: #797979; /* Cor da borda */
-}
     </style>
 </head>
 
