@@ -162,11 +162,9 @@ spl_autoload_register("my_autoload"); // Carrega as classes
                                 <a href="#">
                                     <h3 class="mb-3 line-count-1 text-center blog-heading text-black SFProDisplayBold">Dobre sua Banca</h3>
                                 </a>
-                                <p class="line-count-4 text-black text-center px-3">
+                                <p class="line-count-2 text-black text-center px-3">
                                     Dobra de banca exclusiva para alunos com as melhores técnicas de gestão e estratégia.
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                 </p>
                                 <div class="iq-button mx-auto text-center justify-content-center ">
                                     <a href="#" class="btn mx-auto w-75 d-block text-capitalize position-relative">
