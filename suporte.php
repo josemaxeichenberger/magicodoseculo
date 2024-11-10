@@ -112,6 +112,7 @@ spl_autoload_register("my_autoload"); // Carrega as classes
                     <div class="col-12">
                         <div class="iq-button">
                             <button  class="btn text-uppercase position-relative rounded-pill">
+                                ENVIAR
                                 <i class="fa-solid fa-play ms-0"></i>
                             </button>
                         </div>
