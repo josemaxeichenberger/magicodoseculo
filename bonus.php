@@ -103,7 +103,7 @@ spl_autoload_register("my_autoload"); // Carrega as classes
             <div class="container">
                 <h1 class="text-white">Seus Bônus</h1>
                 <div class="row row-cols-xl-3 row-cols-md-2 row-cols-1">
-                    <div class="col">
+                    <div class="col px-5 px-xl-1">
                         <div class="iq-blog-box">
                             <div class="iq-blog-image clearfix">
                                 <a href="#">
