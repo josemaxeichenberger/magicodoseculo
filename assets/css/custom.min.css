@@ -2133,6 +2133,16 @@ body.uikit .btn-download {
     .iq-card:hover .block-images .card-description.with-transition {
         opacity: 0
     }
+    .card-hover-style-two .block-images:hover .img-box {
+        z-index: 99;
+        -webkit-transform: scale(1.01);
+        transform: scale(1.01);
+        -webkit-transform-origin: center center;
+        transform-origin: center center;
+        -webkit-transition: transform 0.3s ease-in-out;
+        transition: transform 0.3s ease-in-out;
+    }
+    
 }
 
 @media(max-width: 767px) {
@@ -2168,8 +2178,8 @@ body.uikit .btn-download {
 
 .card-hover-style-two .block-images:hover .img-box {
     z-index: 99;
-    -webkit-transform: scale(1.03);
-    transform: scale(1.03);
+    -webkit-transform: scale(1.01);
+    transform: scale(1.01);
     -webkit-transform-origin: center center;
     transform-origin: center center;
     -webkit-transition: transform 0.3s ease-in-out;
@@ -2189,9 +2199,15 @@ li.swiper-active.last .card-hover-style-two .block-images:hover .img-box {
 
 @media(max-width: 767px) {
     .card-hover-style-two .block-images:hover .img-box {
-        -webkit-transform: scale3d(1.1, 1.1, 1) translate3d(2%, 0, 0) perspective(10.25em);
-        transform: scale3d(1.1, 1.1, 1) translate3d(2%, 0, 0) perspective(10.25em)
+        z-index: 99;
+        -webkit-transform: scale(1.01);
+        transform: scale(1.01);
+        -webkit-transform-origin: center center;
+        transform-origin: center center;
+        -webkit-transition: transform 0.3s ease-in-out;
+        transition: transform 0.3s ease-in-out;
     }
+    
 }
 
 .iq-button .btn {
