@@ -36,6 +36,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300&display=swap" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Adicione após jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/formvalidation/0.6.2-dev/js/formValidation.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/formvalidation/0.6.2-dev/js/framework/bootstrap.min.js"></script>
+
 </head>
 
 <body class="">
@@ -87,9 +91,9 @@
                                     <small class="form-text text-danger" id="emailError"></small> <!-- Espaço para mensagem de erro -->
 
                                 </div>
-                               
-                            
-                                
+
+
+
                                 <label class="custom-checkbox mb-3">
                                     <input type="checkbox" name="termos" id="termos" required>
                                     <span class="checkmark"></span>
@@ -107,7 +111,7 @@
                                     </div>
                                 </div>
                             </form>
-                        
+
                         </div>
                     </div>
                 </div>
@@ -115,7 +119,7 @@
         </div>
 
     </main>
-    <?php include_once('./footer.php'); ?>    
+    <?php include_once('./footer.php'); ?>
 
 
     <div id="back-to-top" style="display: none;">
@@ -130,71 +134,62 @@
 
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
-<script>
-    $(document).ready(function() {
-        $('#contactForm').formValidation({
-            fields: {
-                email: {
-                    validators: {
-                        notEmpty: {
-                            message: 'O e-mail é obrigatório'
-                        },
-                        emailAddress: {
-                            message: 'Insira um e-mail válido'
-                        }
+    <script>
+   $(document).ready(function() {
+    $('#contactForm').formValidation({
+        framework: 'bootstrap',
+        fields: {
+            email: {
+                validators: {
+                    notEmpty: {
+                        message: 'O e-mail é obrigatório'
+                    },
+                    emailAddress: {
+                        message: 'Insira um e-mail válido'
                     }
-                },
-                termos: {
-                    validators: {
-                        notEmpty: {
-                            message: 'Você deve concordar com os termos'
-                        }
+                }
+            },
+            termos: {
+                validators: {
+                    notEmpty: {
+                        message: 'Você deve concordar com os termos'
                     }
                 }
             }
-        }).on('err.field.fv', function(e, data) {
-            // Exibir a mensagem de erro abaixo do campo
-            $('#' + data.field + 'Error').text(data.validatorResult.message);
-        }).on('success.field.fv', function(e, data) {
-            // Limpar a mensagem de erro quando for válido
-            $('#' + data.field + 'Error').text('');
-        }).on('success.form.fv', function(e) {
-            e.preventDefault();
+        }
+    })
+    .on('success.form.fv', function(e) {
+        e.preventDefault();
 
-            // Enviar dados via AJAX
-            $.ajax({
-                url: 'login_validate.php',
-                type: 'POST',
-                data: $('#contactForm').serialize(),
-                success: function(response) {
-                    window.location.href = 'index.php'; // Mensagem de sucesso do PHP
-                },
-                error: function(xhr, status, error) {
-                    if (xhr.status === 401) {
-                        Swal.fire({
-                            icon: "error",
-                            title: "Oops...",
-                            text: "E-mail não encontrado. Verifique suas informações!",
-                        });
-                    } else if (xhr.status === 500) {
-                        Swal.fire({
-                            icon: "error",
-                            title: "Oops...",
-                            text: "Erro no servidor. Tente novamente mais tarde!",
-                        });
-                    } else {
-                        Swal.fire({
-                            icon: "error",
-                            title: "Oops...",
-                            text: "E-mail não encontrado. Verifique suas informações!",
-                        });
-                    }
+        // Enviar dados via AJAX
+        $.ajax({
+            url: 'login_validate.php',
+            type: 'POST',
+            data: $('#contactForm').serialize(),
+            success: function(response) {
+                window.location.href = 'index.php'; // Redireciona ao sucesso
+            },
+            error: function(xhr) {
+                let message;
+                if (xhr.status === 401) {
+                    message = "E-mail não encontrado. Verifique suas informações!";
+                } else if (xhr.status === 500) {
+                    message = "Erro no servidor. Tente novamente mais tarde!";
+                } else {
+                    message = "E-mail não encontrado. Verifique suas informações!";
                 }
-            });
 
+                Swal.fire({
+                    icon: "error",
+                    title: "Oops...",
+                    text: message,
+                });
+            }
         });
     });
-</script>
+});
+
+    </script>
 
 
 
