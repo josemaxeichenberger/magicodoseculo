@@ -140,8 +140,8 @@ spl_autoload_register("my_autoload"); // Carrega as classes
                                 </a>
                                 <p class="line-count-4 text-black text-center px-3">
                                     Está na hora de receber sua placa de premiação, ela representa todo o seu esforço e dedicação nesta jornada!
-                                    <br>
                                 </p>
+                                <br>
                                 <div class="iq-button mx-auto text-center justify-content-center ">
                                     <a href="#" class="btn mx-auto w-75 d-block text-capitalize position-relative">
                                         <span class="button-text">Resgatar Placa<i class="fa fa-angle-right ml-2" aria-hidden="true"></i></span>
