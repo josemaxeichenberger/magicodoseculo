@@ -3155,6 +3155,7 @@ li.swiper-active.last .card-hover-style-two .block-images:hover .img-box {
     padding-bottom: 2.5em;
     border: solid;
     border-width: 0 0 .063em;
+    background-color: #6c757d;;
     border-image-source: linear-gradient(270deg, rgba(38, 37, 37, 0) -1.25%, #6c757d 43.69%, rgba(38, 37, 37, 0) 99.08%);
     border-image-slice: 1
 }
