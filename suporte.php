@@ -64,8 +64,8 @@ spl_autoload_register("my_autoload"); // Carrega as classes
         }
         .btn.btn-costumer {
     color: var(--bs-white);
-    background-color: linear-gradient(90deg, rgba(135,41,222,1) 20%, rgba(135,41,222,1) 53%, rgba(82,5,140,1) 100%);
-    border-color: linear-gradient(90deg, rgba(135,41,222,1) 20%, rgba(135,41,222,1) 53%, rgba(82,5,140,1) 100%);
+    background-color:  rgba(135, 41, 222, 1) !important;;
+    border-color:  rgba(135, 41, 222, 1) !important;;
 }
     </style>
 </head>
