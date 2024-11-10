@@ -58,8 +58,9 @@
                                               <h5 class="mb-0 font-size-16 SFProDisplayRegular">Bônus</h5>
                                           </a>
                                       </li>
-                                      <li class="justify-content-center text-center py-2 row">
-                                          <a href="./login.php">
+                                      <li>
+                                          <a href="./login.html"
+                                              class=" mt-1 d-flex justify-content-center gap-2">
                                             
                                               <h5 class="mb-0 font-size-14 fw-normal">Sair</h5>
                                               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"
