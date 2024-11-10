@@ -91,6 +91,7 @@ spl_autoload_register("my_autoload"); // Carrega as classes
   height: 2px;            /* Define altura da linha */
   background-color: rgba(135, 41, 222, 1) !important;; /* Define cor de fundo */
   width: 80%;
+  margin: auto;
 }
 
     </style>
