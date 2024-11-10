@@ -117,7 +117,7 @@ spl_autoload_register("my_autoload"); // Carrega as classes
                                 </a>
                                 <p class="line-count-2">Praesent iaculis, purus ac vehicula mattis, arcu lorem blandit nisl, non laoreet dui mi eget elit. Donec porttitor ex vel augue maximus luctus. Vivamus finibus nibh eu nunc volutpat suscipit.</p>
                                 <div class="iq-button mx-auto text-center justify-content-center ">
-                                    <a href="#" class="btn w-75 d-block text-capitalize position-relative">
+                                    <a href="#" class="btn mx-auto w-75 d-block text-capitalize position-relative">
                                         <span class="button-text">Read More <i class="fa fa-angle-right ml-2" aria-hidden="true"></i></span>
                                     </a>
                                 </div>
