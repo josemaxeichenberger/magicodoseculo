@@ -38,6 +38,11 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/formvalidation/0.6.2-dev/js/formValidation.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/formvalidation/0.6.2-dev/js/framework/bootstrap.min.js"></script>
+    <style>
+        .help-block{
+            display: none;
+        }
+    </style>
 </head>
 
 <body>
@@ -143,11 +148,13 @@
                 }
             }
         }).on('err.field.fv', function(e, data) {
-            alert(data.element.attr('id'));
-            
+            let id = data.element.attr('id');
+            $('#' + id + 'Error').css('border', '1px solid red');
         }).on('success.field.fv', function(e, data) {
-          
+            $('#' + id + 'Error').css('border', 'none');
+
         }).on('success.form.fv', function(e) {
+            $('#' + id + 'Error').css('border', '1px solid green');
             e.preventDefault();
             // Aqui pode colocar sua requisição Ajax para submissão
         });
