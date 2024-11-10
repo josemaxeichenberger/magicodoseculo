@@ -80,11 +80,11 @@ spl_autoload_register("my_autoload"); // Carrega as classes
                     <div class="col-lg-12">
                         <div class="pt-0">
                             <?php
-                              $videos = new videos();
-                              $videos->setId_modulo($_GET['md']);
-                              $videos->setId($_GET['ep']);
-                              $res = $videos->SelectById();
-                              echo $res['video'];
+                            $videos = new videos();
+                            $videos->setId_modulo($_GET['md']);
+                            $videos->setId($_GET['ep']);
+                            $res = $videos->SelectById();
+                            echo $res['video'];
                             ?>
                             <!-- <video id="my-video" poster="https://i.ytimg.com/vi_webp/rKVEoyTedv4/maxresdefault.webp"
                                 class="video-js vjs-big-play-centered w-100" controls preload="auto" data-setup='{}'>
@@ -110,20 +110,14 @@ spl_autoload_register("my_autoload"); // Carrega as classes
                                             <?php echo $res['video_nome']; ?>
                                         </h2>
                                         <div class="slider-ratting d-flex align-items-center ms-lg-3 ms-0">
-                                            <ul class="ratting-start p-0 m-0 list-inline text-warning d-flex align-items-center justify-content-left">
-                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                                                <li><i class="fa fa-star-half" aria-hidden="true"></i></li>
+                                            <ul class="p-0 mt-2 list-inline d-flex flex-wrap movie-tag">
+                                                <li class="trending-list"><a class="text-primary" href="./view-all-movie.html">Action</a></li>
+                                                <li class="trending-list"><a class="text-primary" href="./view-all-movie.html">Adventure</a></li>
+                                                <li class="trending-list"><a class="text-primary" href="./view-all-movie.html">Drama</a></li>
                                             </ul>
                                         </div>
                                     </div>
-                                    <ul class="p-0 mt-2 list-inline d-flex flex-wrap movie-tag">
-                                        <li class="trending-list"><a class="text-primary" href="./view-all-movie.html">Action</a></li>
-                                        <li class="trending-list"><a class="text-primary" href="./view-all-movie.html">Adventure</a></li>
-                                        <li class="trending-list"><a class="text-primary" href="./view-all-movie.html">Drama</a></li>
-                                    </ul>
+
                                     <div class="d-flex flex-wrap align-items-center text-white text-detail flex-wrap mb-4">
                                         <span class="badge bg-secondary">Horror</span>
                                         <span class="ms-3 font-Weight-500 genres-info">1hr 48mins</span>
@@ -131,13 +125,13 @@ spl_autoload_register("my_autoload"); // Carrega as classes
                                             Feb 2017
                                         </span>
                                     </div>
-                                   
+
                                 </div>
-                               
+
                             </div>
                         </div>
                         <!-- Movie Description End --> <!-- Movie Source Start -->
-                        
+
                         <!-- Movie Source End -->
                     </div>
                 </div>
