@@ -195,8 +195,8 @@ spl_autoload_register("my_autoload"); // Carrega as classes
                                                                 <!-- <h5 class="text-capitalize fw-500 position-relative" style=" top:1.2rem;"> <a href="">Play List 1</a> </h5> -->
                                                                 <div class="d-flex align-items-center gap-1 font-size-12">
                                                                     <i class="fa-solid fa-earth-americas text-primary"></i>
-                                                                    <span class="text-body fw-semibold text-capitalize">Public</span>
-                                                                    <button type="button" class="btn d-block ms-auto me-2 btn-lg mb-1 btn-play rounded-circle text-uppercase position-relative mx-0">
+                                                                    <!-- <span class="text-body fw-semibold text-capitalize">Public</span> -->
+                                                                    <button type="button" class="btn d-block ms-auto me-3 btn-lg mb-1 btn-play rounded-circle text-uppercase position-relative mx-0">
 
                                                                         <i class="fa-solid fa-play"></i>
                                                                     </button>
