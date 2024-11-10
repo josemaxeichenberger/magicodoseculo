@@ -6,7 +6,7 @@
                       <div class="d-flex gap-3 gap-xl-0 align-items-center">
                      
                           <div class="logo-hotstar">
-                              <a class="navbar-brand text-primary" href="./index.html">
+                              <a class="navbar-brand text-primary" href="./index.php">
                                   <img class="img-fluid logo" src="assets/identidade/001.png" width="40" height="40" loading="lazy" alt="streamit" />
                               </a>
                           </div>
