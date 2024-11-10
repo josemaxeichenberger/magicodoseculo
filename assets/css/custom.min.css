@@ -2168,8 +2168,8 @@ body.uikit .btn-download {
 
 .card-hover-style-two .block-images:hover .img-box {
     z-index: 99;
-    -webkit-transform: scale3d(1.1, 1.1, 1) translate3d(0, 0, 0) perspective(20.25em);
-    transform: scale3d(1.1, 1.1, 1) translate3d(0, 0, 0) perspective(20.25em);
+    -webkit-transform: scale3d(1.1, 1.1, 1) translate3d(0, 0, 0) perspective(10.25em);
+    transform: scale3d(1.1, 1.1, 1) translate3d(0, 0, 0) perspective(10.25em);
     -webkit-transform-origin: 50% 50%;
     -ms-transform-origin: 50% 50%;
     transform-origin: 50% 50%;
@@ -2179,19 +2179,19 @@ body.uikit .btn-download {
 }
 
 li.swiper-slide-active .card-hover-style-two .block-images:hover .img-box {
-    -webkit-transform: scale3d(1.1, 1.1, 1) translate3d(2%, 0, 0) perspective(20.25em);
-    transform: scale3d(1.1, 1.1, 1) translate3d(2%, 0, 0) perspective(20.25em)
+    -webkit-transform: scale3d(1.1, 1.1, 1) translate3d(2%, 0, 0) perspective(10.25em);
+    transform: scale3d(1.1, 1.1, 1) translate3d(2%, 0, 0) perspective(10.25em)
 }
 
 li.swiper-active.last .card-hover-style-two .block-images:hover .img-box {
-    -webkit-transform: scale3d(1.1, 1.1, 1) translate3d(-6%, 0, 0) perspective(20.25em);
-    transform: scale3d(1.1, 1.1, 1) translate3d(-6%, 0, 0) perspective(20.25em)
+    -webkit-transform: scale3d(1.1, 1.1, 1) translate3d(-6%, 0, 0) perspective(10.25em);
+    transform: scale3d(1.1, 1.1, 1) translate3d(-6%, 0, 0) perspective(10.25em)
 }
 
 @media(max-width: 767px) {
     .card-hover-style-two .block-images:hover .img-box {
-        -webkit-transform: scale3d(1.1, 1.1, 1) translate3d(6%, 0, 0) perspective(20.25em);
-        transform: scale3d(1.1, 1.1, 1) translate3d(6%, 0, 0) perspective(20.25em)
+        -webkit-transform: scale3d(1.1, 1.1, 1) translate3d(6%, 0, 0) perspective(10.25em);
+        transform: scale3d(1.1, 1.1, 1) translate3d(6%, 0, 0) perspective(10.25em)
     }
 }
 
