@@ -40,7 +40,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/formvalidation/0.6.2-dev/js/framework/bootstrap.min.js"></script>
     <style>
         .help-block{
-            display: none;
+            display: none !important;
         }
     </style>
 </head>
