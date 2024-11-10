@@ -116,7 +116,7 @@ spl_autoload_register("my_autoload"); // Carrega as classes
                                     <h3 class="mb-3 line-count-1 blog-heading">Grupo Exclusivo</h3>
                                 </a>
                                 <p class="line-count-2">Praesent iaculis, purus ac vehicula mattis, arcu lorem blandit nisl, non laoreet dui mi eget elit. Donec porttitor ex vel augue maximus luctus. Vivamus finibus nibh eu nunc volutpat suscipit.</p>
-                                <div class="iq-button ">
+                                <div class="iq-button mx-auto ">
                                     <a href="#" class="btn text-capitalize position-relative">
                                         <span class="button-text">Read More <i class="fa fa-angle-right ml-2" aria-hidden="true"></i></span>
                                     </a>
@@ -124,68 +124,7 @@ spl_autoload_register("my_autoload"); // Carrega as classes
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="iq-blog-box">
-                            <div class="iq-blog-image clearfix">
-                                <a href="#">
-                                    <img src="../assets/images/blog/blog2.webp" alt="blogImg-02" class="img-fluid w-100">
-                                </a>
-                            </div>
-                            <div class="iq-blog-detail">
-                                <div class="iq-blog-meta d-flex mb-3">
-                                    <ul class="list-inline mb-0">
-                                        <li class="border-gredient-left">
-                                            <a href="#"> <span>February 2, 2022</span></a>
-                                        </li>
-                                    </ul>
-                                    <ul class="iq-blogtag list-inline">
-                                        <li class="border-gredient-left"><a href="../blog/blog-tag.html"> Trailers </a></li>
-                                    </ul>
-                                </div>
-
-                                <a href="#">
-                                    <h3 class="mb-3 line-count-1 blog-heading">10 teams we can’t wait to use in Soccer 2022 </h3>
-                                </a>
-                                <p class="line-count-2">Praesent iaculis, purus ac vehicula mattis, arcu lorem blandit nisl, non laoreet dui mi eget elit. Donec porttitor ex vel augue maximus luctus. Vivamus finibus nibh eu nunc volutpat suscipit.</p>
-                                <div class="iq-button link-button">
-                                    <a href="#" class="btn text-capitalize position-relative">
-                                        <span class="button-text">Read More <i class="fa fa-angle-right ml-2" aria-hidden="true"></i></span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="iq-blog-box">
-                            <div class="iq-blog-image clearfix">
-                                <a href="#">
-                                    <img src="../assets/images/blog/blog3.webp" alt="blogImg-03" class="img-fluid w-100">
-                                </a>
-                            </div>
-                            <div class="iq-blog-detail">
-                                <div class="iq-blog-meta d-flex mb-3">
-                                    <ul class="list-inline mb-0">
-                                        <li class="border-gredient-left">
-                                            <a href="#"> <span>January 30, 2022</span></a>
-                                        </li>
-                                    </ul>
-                                    <ul class="iq-blogtag list-inline">
-                                        <li class="border-gredient-left"><a href="#">Movie</a></li>
-                                    </ul>
-                                </div>
-
-                                <a href="#">
-                                    <h3 class="mb-3 line-count-1 blog-heading">10 Free Games with Gold of July 2022 are out</h3>
-                                </a>
-                                <p class="line-count-2">Praesent iaculis, purus ac vehicula mattis, arcu lorem blandit nisl, non laoreet dui mi eget elit. Donec porttitor ex vel augue maximus luctus. Vivamus finibus nibh eu nunc volutpat suscipit.</p>
-                                <div class="iq-button link-button">
-                                    <a href="#" class="btn text-capitalize position-relative">
-                                        <span class="button-text">Read More <i class="fa fa-angle-right ml-2" aria-hidden="true"></i></span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                   
                 </div>
             </div>
         </div>
