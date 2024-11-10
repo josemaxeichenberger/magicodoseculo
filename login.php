@@ -77,13 +77,13 @@
                 </div>
                 <form id="contactForm" novalidate="novalidate" class="fv-form fv-form-bootstrap">
                     <h2 class="text-center SFProDisplayRegular">Conecte <br> <span class="SFProDisplayBold">sua conta</span></h2>
-                    <div class="mb-3">
+                    <div class="mb-3 fv">
                         <label class="text-white fw-500 mb-2 SFProDisplayRegular">Email</label>
                         <input type="text" name="email" id="email" class="form-control rounded-0 input-my SFProDisplayRegular" placeholder="Insira seu melhor email" required="">
                         <small class="form-text text-danger" id="emailError"></small>
                     </div>
 
-                    <label class="custom-checkbox mb-3">
+                    <label class="custom-checkbox mb-3 fv">
                         <input type="checkbox" name="termos" id="termos" required="">
                         <span class="checkmark"></span>
                         Aceito os termos e condições
@@ -142,6 +142,10 @@
                     }
                 }
             }
+        }).on('err.field.fv', function(e, data) {
+            $('#' + data.element.attr('id') + 'Error').text(data.result.message);
+        }).on('success.field.fv', function(e, data) {
+            $('#' + data.element.attr('id') + 'Error').text('');
         }).on('success.form.fv', function(e) {
             e.preventDefault();
             // Aqui pode colocar sua requisição Ajax para submissão
