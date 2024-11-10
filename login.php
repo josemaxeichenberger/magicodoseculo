@@ -120,38 +120,53 @@
 
        
        <script>
-    $(document).ready(function() {
-        $('#contactForm').formValidation({
-            framework: 'bootstrap',
-            fields: {
-                email: {
-                    validators: {
-                        notEmpty: {
-                            message: 'O e-mail é obrigatório'
-                        },
-                        emailAddress: {
-                            message: 'Insira um e-mail válido'
-                        }
+   $(document).ready(function() {
+    $('#contactForm').formValidation({
+        framework: 'bootstrap',
+        fields: {
+            email: {
+                validators: {
+                    notEmpty: {
+                        message: 'O e-mail é obrigatório'
+                    },
+                    emailAddress: {
+                        message: 'Insira um e-mail válido'
                     }
-                },
-                termos: {
-                    validators: {
-                        notEmpty: {
-                            message: 'Você deve concordar com os termos'
-                        }
+                }
+            },
+            termos: {
+                validators: {
+                    notEmpty: {
+                        message: 'Você deve concordar com os termos'
                     }
                 }
             }
-        }).on('err.field.fv', function(e, data) {
-            alert(data.element.attr('id'));
-            $('#' + data.element.attr('id') + 'Error').text(data.result.message);
-        }).on('success.field.fv', function(e, data) {
-            $('#' + data.element.attr('id') + 'Error').text('');
-        }).on('success.form.fv', function(e) {
-            e.preventDefault();
-            // Aqui pode colocar sua requisição Ajax para submissão
-        });
+        }
+    }).on('err.field.fv', function(e, data) {
+        var fieldId = data.element.attr('id');
+        // Exibir mensagem de erro
+        $('#' + fieldId + 'Error').text(data.result.message);
+        
+        // Adicionando borda vermelha no campo com erro
+        $('#' + fieldId).css('border', '1px solid red');
+        
+        // Exibindo o erro de "termos"
+        if (fieldId === 'termos') {
+            $('#' + fieldId + 'Error').text(data.result.message);
+        }
+    }).on('success.field.fv', function(e, data) {
+        var fieldId = data.element.attr('id');
+        // Remover mensagem de erro
+        $('#' + fieldId + 'Error').text('');
+        
+        // Remover borda vermelha quando o erro for resolvido
+        $('#' + fieldId).css('border', '');
+    }).on('success.form.fv', function(e) {
+        e.preventDefault();
+        // Aqui pode colocar sua requisição Ajax para submissão
     });
+});
+
 </script>
 
     <!-- Additional Scripts -->
