@@ -29,7 +29,7 @@
                                   </a>
                                   <ul class="dropdown-menu dropdown-menu-end dropdown-user border-0 p-0 m-0"
                                       aria-labelledby="navbarDropdown">
-                                      <li class=" mb-3 justify-content-center text-center pt-5">
+                                      <li class=" mb-3 justify-content-center text-center pt-2">
                                           <img src="./assets/images/user/user1.webp" width="70" class="img-fluid rounded-circle mx-auto" alt="" loading="lazy">
                                       </li>
                                       <li>
