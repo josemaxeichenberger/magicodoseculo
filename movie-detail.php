@@ -119,7 +119,7 @@ spl_autoload_register("my_autoload"); // Carrega as classes
                                                         <i class="fa fa-star" aria-hidden="true"></i>
                                                     </li>
                                                     <li>
-                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star-half" aria-hidden="true"></i>
                                                     </li>
                                                 </ul>
                                             </div>
