@@ -1,7 +1,7 @@
 <?php
-error_reporting(E_ALL); // Exibe todos os tipos de erros
-ini_set('display_errors', 1); // Ativa a exibição de erros
-ini_set('display_startup_errors', 1); // Exibe erros ocorridos na inicialização
+// error_reporting(E_ALL); // Exibe todos os tipos de erros
+// ini_set('display_errors', 1); // Ativa a exibição de erros
+// ini_set('display_startup_errors', 1); // Exibe erros ocorridos na inicialização
 
 function my_autoload($pClassName)
 {
@@ -85,8 +85,6 @@ spl_autoload_register("my_autoload"); // Carrega as classes
         $Destaques->setDestaque('S');
         $Destaques->setBloqueado('N');
         $res = $Destaques->SelectDestaque();
-
-
         ?>
         <div class="position-relative slider-bg d-flex justify-content-end">
           <div class="position-relative my-auto">

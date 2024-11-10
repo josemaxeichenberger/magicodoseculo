@@ -275,6 +275,52 @@ class videos extends ConexaoMysql
             return "Erro ao buscar vídeos: " . $e->getMessage();
         }
     }
+    public function SelectDestaqueMod()
+    {
+        // Preparação da consulta SQL com placeholders para parâmetros
+        $videos = $this->pdo->prepare("
+            SELECT 
+                modulos.id AS modulo_id,
+                modulos.nome AS modulo_nome,
+                modulos.status AS modulo_status,
+                modulos.apresentacao AS modulo_apresentacao,
+                videos.id AS video_id,
+                videos.nome AS video_nome,
+                videos.texto AS video_texto,
+                videos.time AS video_duracao,
+                videos.capa AS video_capa,
+                videos.banner AS video_banner,
+                videos.destaque AS video_destaque,
+                videos.data_liberacao AS video_data_liberacao,
+                videos.bloqueado AS video_bloqueado,
+                videos.capa_bloqueado AS video_capa_bloqueado,
+                videos.indice_aula AS video_indice_aula
+            FROM 
+                modulos
+            JOIN 
+                videos ON modulos.id = videos.id_modulo
+            WHERE 
+                videos.destaque = :destaque
+                AND videos.bloqueado = :bloqueado
+                AND modulos.id = :id_modulo
+            ORDER BY 
+                modulos.id, videos.indice_aula
+        ");
     
+        // Ligação dos valores dos parâmetros usando métodos específicos
+        $videos->bindValue(':destaque', $this->getDestaque());
+        $videos->bindValue(':bloqueado', $this->getBloqueado());
+        $videos->bindValue(':id_modulo', $this->getId_modulo());
+    
+        try {
+            // Execução da consulta
+            $videos->execute();
+            // Retorno dos resultados em um array associativo
+            return $videos->fetchAll(PDO::FETCH_ASSOC);
+        } catch (PDOException $e) {
+            // Captura e retorno da mensagem de erro em caso de falha
+            return "Erro ao buscar vídeos: " . $e->getMessage();
+        }
+    }
     
 }
