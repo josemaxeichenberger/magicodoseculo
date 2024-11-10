@@ -140,8 +140,8 @@ spl_autoload_register("my_autoload"); // Carrega as classes
                                 </a>
                                 <p class="line-count-4 text-black text-center px-3">
                                     Está na hora de receber sua placa de premiação, ela representa todo o seu esforço e dedicação nesta jornada!
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                 </p>
-                                <br>
                                 <div class="iq-button mx-auto text-center justify-content-center ">
                                     <a href="#" class="btn mx-auto w-75 d-block text-capitalize position-relative">
                                         <span class="button-text">Resgatar Placa<i class="fa fa-angle-right ml-2" aria-hidden="true"></i></span>
@@ -164,7 +164,7 @@ spl_autoload_register("my_autoload"); // Carrega as classes
                                 </a>
                                 <p class="line-count-4 text-black text-center px-3">
                                     Dobra de banca exclusiva para alunos com as melhores técnicas de gestão e estratégia.
-                                    <br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                 </p>
                                 <div class="iq-button mx-auto text-center justify-content-center ">
                                     <a href="#" class="btn mx-auto w-75 d-block text-capitalize position-relative">
