@@ -30,7 +30,7 @@
                                   <ul class="dropdown-menu dropdown-menu-end dropdown-user border-0 p-0 m-0"
                                       aria-labelledby="navbarDropdown">
                                       <li class=" mb-3 justify-content-center ">
-                                          <img src="./assets/images/user/user1.webp" class="img-fluid rounded-circle" alt="" loading="lazy">
+                                          <img src="./assets/images/user/user1.webp" width="30" class="img-fluid rounded-circle" alt="" loading="lazy">
                                       </li>
                                       <li>
                                         <h4>Seu Nome</h4>
