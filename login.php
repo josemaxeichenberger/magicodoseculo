@@ -85,7 +85,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <form action="login_validade.php" method="POST" id="contactForm" enctype="multipart/form-data">
+                            <form id="contactForm">
                                 <h2 class="text-center SFProDisplayRegular">Conecte <br> <span class="SFProDisplayBold">sua conta</span></h2>
                                 <div class="mb-3">
                                     <label class="text-white fw-500 mb-2 SFProDisplayRegular">Email</label>
