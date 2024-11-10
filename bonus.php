@@ -88,10 +88,11 @@ spl_autoload_register("my_autoload"); // Carrega as classes
         }
         hr {
   border: none;           /* Remove borda padrão */
-  height: 2px;            /* Define altura da linha */
+  height: 4px;            /* Define altura da linha */
   background-color: rgba(135, 41, 222, 1) !important;; /* Define cor de fundo */
   width: 80%;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
     </style>
