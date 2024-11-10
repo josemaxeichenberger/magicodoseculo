@@ -80,27 +80,22 @@ spl_autoload_register("my_autoload"); // Carrega as classes
                 <form class="row g-3 px-4 px-xl-0 needs-validation" novalidate>
                     <div class="col-12">
                         <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
+
                     </div>
                     <div class="col-12">
                         <input type="text" class="form-control" id="validationCustom02" value="Otto" required>
-                     
+
                     </div>
                     <div class="col-12">
-                        <div class="input-group has-validation">
-                            <input type="email" class="form-control" id="" aria-describedby="inputGroupPrepend" required>
-                          
-                            
-                        </div>
+                        <input type="email" class="form-control" id="" aria-describedby="inputGroupPrepend" required>
+
                     </div>
                     <div class="col-12">
-                        <input type="text" class="form-control" id="validationCustom02" value="Otto" required>
-                        <textarea  class="form-control" name="msg" id="" require rows="5"></textarea>
-                        <div class="valid-feedback">
-                            Looks good!
-                        </div>
+                        <textarea class="form-control" name="msg" id="" require rows="5"></textarea>
+
                     </div>
                     <div class="col-12">
-                        <button class="btn btn-primary" type="submit">Submit form</button>
+                        <button class="btn btn-primary" type="submit">Enviar</button>
                     </div>
                 </form>
             </div>
