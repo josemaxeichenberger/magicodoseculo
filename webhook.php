@@ -3,7 +3,7 @@
 function handleWebhook($data) {
     // MySQL database connection details
     $host = 'localhost';
-    $user = 'magicodoseculo_base';
+    $user = 'magicodoseculo_base'; 
     $password = 'dire@0300';
     $database = 'magicodoseculo_base';
     
