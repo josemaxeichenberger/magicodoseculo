@@ -87,7 +87,7 @@ spl_autoload_register("my_autoload"); // Carrega as classes
 
                     <div class="swiper-slide slide s-bg-1 p-0">
                         <div class="banner-home-swiper-image">
-                        <?php echo $row['video_banner'] ?>
+                        <?php echo $row['video'] ?>
                         </div>
                      
                     </div>
