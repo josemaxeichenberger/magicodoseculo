@@ -73,6 +73,7 @@ spl_autoload_register("my_autoload"); // Carrega as classes
         }
         .fp{
             border-color: #797979;
+            background-color: var(--bs-body);
 
         }
         .fp::placeholder{
