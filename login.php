@@ -145,19 +145,19 @@
     }).on('err.field.fv', function(e, data) {
         var fieldId = data.element.attr('id');
         // Exibir mensagem de erro
-        $('#' + fieldId + 'Error').text(data.result.message).show();
+        // $('#' + fieldId + 'Error').text(data.result.message).show();
         
         // Adicionando borda vermelha no campo com erro
         $('#' + fieldId).css('border', '1px solid red');
         
         // Exibindo o erro de "termos"
         if (fieldId === 'termos') {
-            $('#' + fieldId + 'Error').text(data.result.message).show();
+            // $('#' + fieldId + 'Error').text(data.result.message).show();
         }
     }).on('success.field.fv', function(e, data) {
         var fieldId = data.element.attr('id');
         // Remover mensagem de erro
-        $('#' + fieldId + 'Error').text('').hide();
+        // $('#' + fieldId + 'Error').text('').hide();
         
         // Remover borda vermelha quando o erro for resolvido
         $('#' + fieldId).css('border', '');
