@@ -12,7 +12,7 @@
     <link rel="shortcut icon" href="./assets/identidade/002.png" />
 
     <!-- Library / Plugin Css Build -->
-    <!-- <link rel="stylesheet" href="./assets/css/core/libs.min.css" /> -->
+    <link rel="stylesheet" href="./assets/css/core/libs.min.css" />
     <!-- font-awesome css -->
     <link rel="stylesheet" href="./assets/vendor/font-awesome/css/all.min.css" />
     <!-- Iconly css -->
@@ -38,11 +38,6 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/formvalidation/0.6.2-dev/js/formValidation.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/formvalidation/0.6.2-dev/js/framework/bootstrap.min.js"></script>
-    <style>
-        .help-block{
-            display: none !important;
-        }
-    </style>
 </head>
 
 <body>
@@ -85,7 +80,7 @@
                     <div class="mb-3 fv">
                         <label class="text-white fw-500 mb-2 SFProDisplayRegular">Email</label>
                         <input type="text" name="email" id="email" class="form-control rounded-0 input-my SFProDisplayRegular" placeholder="Insira seu melhor email" required="">
-                        <small class="form-text text-danger" id="emailError"></small>
+                        <small class="form-text text-danger" id="emailError">O e-mail é obrigatório</small>
                     </div>
 
                     <label class="custom-checkbox mb-3 fv">
@@ -148,13 +143,11 @@
                 }
             }
         }).on('err.field.fv', function(e, data) {
-            let id = data.element.attr('id');
-            $('#' + id + 'Error').css('border', '1px solid red !important');
+            alert(data.element.attr('id'));
+            $('#' + data.element.attr('id') + 'Error').text(data.result.message);
         }).on('success.field.fv', function(e, data) {
-            $('#' + id + 'Error').css('border', 'none');
-
+            $('#' + data.element.attr('id') + 'Error').text('');
         }).on('success.form.fv', function(e) {
-            $('#' + id + 'Error').css('border', '1px solid green');
             e.preventDefault();
             // Aqui pode colocar sua requisição Ajax para submissão
         });
