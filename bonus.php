@@ -86,6 +86,12 @@ spl_autoload_register("my_autoload"); // Carrega as classes
             border-top-left-radius: 30px;
             border-top-right-radius: 30px;
         }
+        hr {
+  border: none;           /* Remove borda padrão */
+  height: 2px;            /* Define altura da linha */
+  background-color: #333; /* Define cor de fundo */
+}
+
     </style>
 </head>
 
