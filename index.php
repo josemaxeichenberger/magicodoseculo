@@ -305,7 +305,7 @@ spl_autoload_register("my_autoload"); // Carrega as classes
             <div class="swiper-button swiper-button-prev"></div>
           </div>
         </div>
-      </div>
+      </div> 
     </section>
     <?php
     $modulos = new modulos();
