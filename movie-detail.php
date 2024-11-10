@@ -213,7 +213,6 @@ spl_autoload_register("my_autoload"); // Carrega as classes
                                                                 </ul>
                                                                 <div class="d-flex align-items-center gap-1 font-size-12">
                                                                     <i class="fa-solid fa-earth-americas text-primary"></i>
-                                                                    <span class="text-body fw-semibold text-capitalize"><?php echo $r['video_nome'] ?></span>
                                                                     <button type="button" class="btn d-block ms-auto me-2 btn-lg mb-1 btn-play rounded-circle text-uppercase position-relative mx-0">
 
                                                                         <i class="fa-solid fa-play"></i>
