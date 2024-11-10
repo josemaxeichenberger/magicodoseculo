@@ -2170,9 +2170,9 @@ body.uikit .btn-download {
     z-index: 99;
     -webkit-transform: scale3d(1.1, 1.1, 1) translate3d(0, 0, 0) perspective(10.25em);
     transform: scale3d(1.1, 1.1, 1) translate3d(0, 0, 0) perspective(10.25em);
-    -webkit-transform-origin: 20% 20%;
-    -ms-transform-origin: 20% 20%;
-    transform-origin: 20% 20%;
+    -webkit-transform-origin: 20% 0%;
+    -ms-transform-origin: 20% 0%;
+    transform-origin: 20% 0%;
     -webkit-transition: all .6s ease 0s;
     -o-transition: all .6s ease 0s;
     transition: all .6s ease 0s
