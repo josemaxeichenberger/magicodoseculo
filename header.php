@@ -29,8 +29,8 @@
                                   </a>
                                   <ul class="dropdown-menu dropdown-menu-end dropdown-user border-0 p-0 m-0"
                                       aria-labelledby="navbarDropdown">
-                                      <li class="user-info d-flex align-items-center gap-3 mb-3 rounded-circle">
-                                          <img src="./assets/images/user/user1.webp" class="img-fluid" alt="" loading="lazy">
+                                      <li class="user-info d-flex align-items-center gap-3 mb-3 ">
+                                          <img src="./assets/images/user/user1.webp" class="img-fluid rounded-circle" alt="" loading="lazy">
                                       </li>
                                       <li>
                                         <h4>Seu Nome</h4>
