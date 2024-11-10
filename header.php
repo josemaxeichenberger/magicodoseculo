@@ -58,7 +58,7 @@
                                               <h5 class="mb-0 font-size-16 SFProDisplayRegular">Bônus</h5>
                                           </a>
                                       </li>
-                                      <li class="justify-content-center text-center py-2">
+                                      <li class="justify-content-center text-center py-2 d-flex">
                                           <a href="./login.php">
                                             
                                               <h5 class="mb-0 font-size-14 fw-normal">Sair</h5>
