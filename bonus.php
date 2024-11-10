@@ -71,15 +71,16 @@ spl_autoload_register("my_autoload"); // Carrega as classes
             border-color: rgba(135, 41, 222, 1) !important;
             ;
         }
-        .fp{
+
+        .fp {
             border-color: #797979;
 
         }
-        .fp::placeholder{
-            color: #797979;
-            
-        }
 
+        .fp::placeholder {
+            color: #797979;
+
+        }
     </style>
 </head>
 
@@ -98,312 +99,105 @@ spl_autoload_register("my_autoload"); // Carrega as classes
         include(__DIR__ . '/header.php');
         ?>
 
-<div class="section-padding">
-        <div class="container">
-            <div class="row row-cols-xl-3 row-cols-md-2 row-cols-1">
-                <div class="col">
+        <div class="section-padding">
+            <div class="container">
+                <div class="row row-cols-xl-3 row-cols-md-2 row-cols-1">
+                    <div class="col">
                         <div class="iq-blog-box">
                             <div class="iq-blog-image clearfix">
                                 <a href="../blog/blog-detail.html">
-                                    <img src="../assets/images/blog/blog1.webp" alt="blogImg-01" class="img-fluid w-100">						
+                                    <img src="../assets/images/blog/blog1.webp" alt="blogImg-01" class="img-fluid w-100">
                                 </a>
                             </div>
                             <div class="iq-blog-detail">
                                 <div class="iq-blog-meta d-flex mb-3">
                                     <ul class="list-inline mb-0">
                                         <li class="border-gredient-left">
-                                           <a href="../blog/blog-date.html"> <span>January 1, 2022</span></a>										
+                                            <a href="../blog/blog-date.html"> <span>January 1, 2022</span></a>
                                         </li>
                                     </ul>
                                     <ul class="iq-blogtag list-inline">
                                         <li class="border-gredient-left"><a href="../blog/blog-tag.html">Movie</a></li>
                                     </ul>
                                 </div>
-                        
-                                    <a href="../blog/blog-detail.html">
-                                    <h3 class="mb-3 line-count-1 blog-heading">Emmy 2018: “Game of Throne”  featured having 22 nominee</h3>
+
+                                <a href="../blog/blog-detail.html">
+                                    <h3 class="mb-3 line-count-1 blog-heading">Emmy 2018: “Game of Throne” featured having 22 nominee</h3>
+                                </a>
+                                <p class="line-count-2">Praesent iaculis, purus ac vehicula mattis, arcu lorem blandit nisl, non laoreet dui mi eget elit. Donec porttitor ex vel augue maximus luctus. Vivamus finibus nibh eu nunc volutpat suscipit.</p>
+                                <div class="iq-button link-button">
+                                    <a href="../blog/blog-detail.html" class="btn text-capitalize position-relative">
+                                        <span class="button-text">Read More <i class="fa fa-angle-right ml-2" aria-hidden="true"></i></span>
                                     </a>
-                                      <p class="line-count-2">Praesent iaculis, purus ac vehicula mattis, arcu lorem blandit nisl, non laoreet dui mi eget elit. Donec porttitor ex vel augue maximus luctus. Vivamus finibus nibh eu nunc volutpat suscipit.</p>
-                                    <div class="iq-button link-button">
-                                        <a href="../blog/blog-detail.html" class="btn text-capitalize position-relative">
-                                            <span class="button-text">Read More <i class="fa fa-angle-right ml-2" aria-hidden="true"></i></span>
-                                        </a>
-                                    </div>
+                                </div>
                             </div>
-                        </div>                </div>
-                <div class="col">
+                        </div>
+                    </div>
+                    <div class="col">
                         <div class="iq-blog-box">
                             <div class="iq-blog-image clearfix">
                                 <a href="../blog/blog-detail.html">
-                                    <img src="../assets/images/blog/blog2.webp" alt="blogImg-02" class="img-fluid w-100">						
+                                    <img src="../assets/images/blog/blog2.webp" alt="blogImg-02" class="img-fluid w-100">
                                 </a>
                             </div>
                             <div class="iq-blog-detail">
                                 <div class="iq-blog-meta d-flex mb-3">
                                     <ul class="list-inline mb-0">
                                         <li class="border-gredient-left">
-                                           <a href="../blog/blog-date.html"> <span>February 2, 2022</span></a>										
+                                            <a href="../blog/blog-date.html"> <span>February 2, 2022</span></a>
                                         </li>
                                     </ul>
                                     <ul class="iq-blogtag list-inline">
                                         <li class="border-gredient-left"><a href="../blog/blog-tag.html"> Trailers </a></li>
                                     </ul>
                                 </div>
-                        
-                                    <a href="../blog/blog-detail.html">
-                                    <h3 class="mb-3 line-count-1 blog-heading">10 teams we can’t wait to  use in Soccer 2022 </h3>
+
+                                <a href="../blog/blog-detail.html">
+                                    <h3 class="mb-3 line-count-1 blog-heading">10 teams we can’t wait to use in Soccer 2022 </h3>
+                                </a>
+                                <p class="line-count-2">Praesent iaculis, purus ac vehicula mattis, arcu lorem blandit nisl, non laoreet dui mi eget elit. Donec porttitor ex vel augue maximus luctus. Vivamus finibus nibh eu nunc volutpat suscipit.</p>
+                                <div class="iq-button link-button">
+                                    <a href="../blog/blog-detail.html" class="btn text-capitalize position-relative">
+                                        <span class="button-text">Read More <i class="fa fa-angle-right ml-2" aria-hidden="true"></i></span>
                                     </a>
-                                      <p class="line-count-2">Praesent iaculis, purus ac vehicula mattis, arcu lorem blandit nisl, non laoreet dui mi eget elit. Donec porttitor ex vel augue maximus luctus. Vivamus finibus nibh eu nunc volutpat suscipit.</p>
-                                    <div class="iq-button link-button">
-                                        <a href="../blog/blog-detail.html" class="btn text-capitalize position-relative">
-                                            <span class="button-text">Read More <i class="fa fa-angle-right ml-2" aria-hidden="true"></i></span>
-                                        </a>
-                                    </div>
+                                </div>
                             </div>
-                        </div>                </div>
-                <div class="col">
+                        </div>
+                    </div>
+                    <div class="col">
                         <div class="iq-blog-box">
                             <div class="iq-blog-image clearfix">
                                 <a href="../blog/blog-detail.html">
-                                    <img src="../assets/images/blog/blog3.webp" alt="blogImg-03" class="img-fluid w-100">						
+                                    <img src="../assets/images/blog/blog3.webp" alt="blogImg-03" class="img-fluid w-100">
                                 </a>
                             </div>
                             <div class="iq-blog-detail">
                                 <div class="iq-blog-meta d-flex mb-3">
                                     <ul class="list-inline mb-0">
                                         <li class="border-gredient-left">
-                                           <a href="../blog/blog-date.html"> <span>January 30, 2022</span></a>										
+                                            <a href="../blog/blog-date.html"> <span>January 30, 2022</span></a>
                                         </li>
                                     </ul>
                                     <ul class="iq-blogtag list-inline">
                                         <li class="border-gredient-left"><a href="../blog/blog-tag.html">Movie</a></li>
                                     </ul>
                                 </div>
-                        
-                                    <a href="../blog/blog-detail.html">
-                                    <h3 class="mb-3 line-count-1 blog-heading">10 Free Games with Gold  of July 2022 are out</h3>
-                                    </a>
-                                      <p class="line-count-2">Praesent iaculis, purus ac vehicula mattis, arcu lorem blandit nisl, non laoreet dui mi eget elit. Donec porttitor ex vel augue maximus luctus. Vivamus finibus nibh eu nunc volutpat suscipit.</p>
-                                    <div class="iq-button link-button">
-                                        <a href="../blog/blog-detail.html" class="btn text-capitalize position-relative">
-                                            <span class="button-text">Read More <i class="fa fa-angle-right ml-2" aria-hidden="true"></i></span>
-                                        </a>
-                                    </div>
-                            </div>
-                        </div>                </div>
-                <div class="col">
-                        <div class="iq-blog-box">
-                            <div class="iq-blog-image clearfix">
+
                                 <a href="../blog/blog-detail.html">
-                                    <img src="../assets/images/blog/blog4.webp" alt="blogImg-04" class="img-fluid w-100">						
+                                    <h3 class="mb-3 line-count-1 blog-heading">10 Free Games with Gold of July 2022 are out</h3>
                                 </a>
-                            </div>
-                            <div class="iq-blog-detail">
-                                <div class="iq-blog-meta d-flex mb-3">
-                                    <ul class="list-inline mb-0">
-                                        <li class="border-gredient-left">
-                                           <a href="../blog/blog-date.html"> <span>January 30, 2022</span></a>										
-                                        </li>
-                                    </ul>
-                                    <ul class="iq-blogtag list-inline">
-                                        <li class="border-gredient-left"><a href="../blog/blog-tag.html">Trailers</a></li>
-                                    </ul>
-                                </div>
-                        
-                                    <a href="../blog/blog-detail.html">
-                                    <h3 class="mb-3 line-count-1 blog-heading">Island 2 is still in deving, Magic confirms</h3>
+                                <p class="line-count-2">Praesent iaculis, purus ac vehicula mattis, arcu lorem blandit nisl, non laoreet dui mi eget elit. Donec porttitor ex vel augue maximus luctus. Vivamus finibus nibh eu nunc volutpat suscipit.</p>
+                                <div class="iq-button link-button">
+                                    <a href="../blog/blog-detail.html" class="btn text-capitalize position-relative">
+                                        <span class="button-text">Read More <i class="fa fa-angle-right ml-2" aria-hidden="true"></i></span>
                                     </a>
-                                      <p class="line-count-2">Praesent iaculis, purus ac vehicula mattis, arcu lorem blandit nisl, non laoreet dui mi eget elit. Donec porttitor ex vel augue maximus luctus. Vivamus finibus nibh eu nunc volutpat suscipit.</p>
-                                    <div class="iq-button link-button">
-                                        <a href="../blog/blog-detail.html" class="btn text-capitalize position-relative">
-                                            <span class="button-text">Read More <i class="fa fa-angle-right ml-2" aria-hidden="true"></i></span>
-                                        </a>
-                                    </div>
-                            </div>
-                        </div>                </div>
-                <div class="col">
-                        <div class="iq-blog-box">
-                            <div class="iq-blog-image clearfix">
-                                <a href="../blog/blog-detail.html">
-                                    <img src="../assets/images/blog/blog5.webp" alt="blogImg-05" class="img-fluid w-100">						
-                                </a>
-                            </div>
-                            <div class="iq-blog-detail">
-                                <div class="iq-blog-meta d-flex mb-3">
-                                    <ul class="list-inline mb-0">
-                                        <li class="border-gredient-left">
-                                           <a href="../blog/blog-date.html"> <span>January 30, 2022</span></a>										
-                                        </li>
-                                    </ul>
-                                    <ul class="iq-blogtag list-inline">
-                                        <li class="border-gredient-left"><a href="../blog/blog-tag.html">Trailers</a></li>
-                                    </ul>
                                 </div>
-                        
-                                    <a href="../blog/blog-detail.html">
-                                    <h3 class="mb-3 line-count-1 blog-heading">Drum Gum added in 4.5 Update</h3>
-                                    </a>
-                                      <p class="line-count-2">Praesent iaculis, purus ac vehicula mattis, arcu lorem blandit nisl, non laoreet dui mi eget elit. Donec porttitor ex vel augue maximus luctus. Vivamus finibus nibh eu nunc volutpat suscipit.</p>
-                                    <div class="iq-button link-button">
-                                        <a href="../blog/blog-detail.html" class="btn text-capitalize position-relative">
-                                            <span class="button-text">Read More <i class="fa fa-angle-right ml-2" aria-hidden="true"></i></span>
-                                        </a>
-                                    </div>
                             </div>
-                        </div>                </div>
-                <div class="col">
-                        <div class="iq-blog-box">
-                            <div class="iq-blog-image clearfix">
-                                <a href="../blog/blog-detail.html">
-                                    <img src="../assets/images/blog/blog6.webp" alt="blogImg-06" class="img-fluid w-100">						
-                                </a>
-                            </div>
-                            <div class="iq-blog-detail">
-                                <div class="iq-blog-meta d-flex mb-3">
-                                    <ul class="list-inline mb-0">
-                                        <li class="border-gredient-left">
-                                           <a href="../blog/blog-date.html"> <span>February 2, 2022</span></a>										
-                                        </li>
-                                    </ul>
-                                    <ul class="iq-blogtag list-inline">
-                                        <li class="border-gredient-left"><a href="../blog/blog-tag.html">TV Series</a></li>
-                                    </ul>
-                                </div>
-                        
-                                    <a href="../blog/blog-detail.html">
-                                    <h3 class="mb-3 line-count-1 blog-heading">Racing is about to show  you the beauty of Britain</h3>
-                                    </a>
-                                      <p class="line-count-2">Praesent iaculis, purus ac vehicula mattis, arcu lorem blandit nisl, non laoreet dui mi eget elit. Donec porttitor ex vel augue maximus luctus. Vivamus finibus nibh eu nunc volutpat suscipit.</p>
-                                    <div class="iq-button link-button">
-                                        <a href="../blog/blog-detail.html" class="btn text-capitalize position-relative">
-                                            <span class="button-text">Read More <i class="fa fa-angle-right ml-2" aria-hidden="true"></i></span>
-                                        </a>
-                                    </div>
-                            </div>
-                        </div>                </div>
-                <div class="col">
-                        <div class="iq-blog-box">
-                            <div class="iq-blog-image clearfix">
-                                <a href="../blog/blog-detail.html">
-                                    <img src="../assets/images/blog/blog7.webp" alt="blogImg-07" class="img-fluid w-100">						
-                                </a>
-                            </div>
-                            <div class="iq-blog-detail">
-                                <div class="iq-blog-meta d-flex mb-3">
-                                    <ul class="list-inline mb-0">
-                                        <li class="border-gredient-left">
-                                           <a href="../blog/blog-date.html"> <span>February1, 2022</span></a>										
-                                        </li>
-                                    </ul>
-                                    <ul class="iq-blogtag list-inline">
-                                        <li class="border-gredient-left"><a href="../blog/blog-tag.html">Historical </a></li>
-                                    </ul>
-                                </div>
-                        
-                                    <a href="../blog/blog-detail.html">
-                                    <h3 class="mb-3 line-count-1 blog-heading">Merghani Alonso wins  eSport League</h3>
-                                    </a>
-                                      <p class="line-count-2">Praesent iaculis, purus ac vehicula mattis, arcu lorem blandit nisl, non laoreet dui mi eget elit. Donec porttitor ex vel augue maximus luctus. Vivamus finibus nibh eu nunc volutpat suscipit.</p>
-                                    <div class="iq-button link-button">
-                                        <a href="../blog/blog-detail.html" class="btn text-capitalize position-relative">
-                                            <span class="button-text">Read More <i class="fa fa-angle-right ml-2" aria-hidden="true"></i></span>
-                                        </a>
-                                    </div>
-                            </div>
-                        </div>                </div>
-                <div class="col">
-                        <div class="iq-blog-box">
-                            <div class="iq-blog-image clearfix">
-                                <a href="../blog/blog-detail.html">
-                                    <img src="../assets/images/blog/blog8.webp" alt="blogImg-08" class="img-fluid w-100">						
-                                </a>
-                            </div>
-                            <div class="iq-blog-detail">
-                                <div class="iq-blog-meta d-flex mb-3">
-                                    <ul class="list-inline mb-0">
-                                        <li class="border-gredient-left">
-                                           <a href="../blog/blog-date.html"> <span>February 2, 2022</span></a>										
-                                        </li>
-                                    </ul>
-                                    <ul class="iq-blogtag list-inline">
-                                        <li class="border-gredient-left"><a href="../blog/blog-tag.html"> Trailers </a></li>
-                                    </ul>
-                                </div>
-                        
-                                    <a href="../blog/blog-detail.html">
-                                    <h3 class="mb-3 line-count-1 blog-heading">A Free PC Game is still available Through AE</h3>
-                                    </a>
-                                      <p class="line-count-2">Praesent iaculis, purus ac vehicula mattis, arcu lorem blandit nisl, non laoreet dui mi eget elit. Donec porttitor ex vel augue maximus luctus. Vivamus finibus nibh eu nunc volutpat suscipit.</p>
-                                    <div class="iq-button link-button">
-                                        <a href="../blog/blog-detail.html" class="btn text-capitalize position-relative">
-                                            <span class="button-text">Read More <i class="fa fa-angle-right ml-2" aria-hidden="true"></i></span>
-                                        </a>
-                                    </div>
-                            </div>
-                        </div>                </div>
-                <div class="col">
-                        <div class="iq-blog-box">
-                            <div class="iq-blog-image clearfix">
-                                <a href="../blog/blog-detail.html">
-                                    <img src="../assets/images/blog/blog9.webp" alt="blogImg-09" class="img-fluid w-100">						
-                                </a>
-                            </div>
-                            <div class="iq-blog-detail">
-                                <div class="iq-blog-meta d-flex mb-3">
-                                    <ul class="list-inline mb-0">
-                                        <li class="border-gredient-left">
-                                           <a href="../blog/blog-date.html"> <span>February1, 2022</span></a>										
-                                        </li>
-                                    </ul>
-                                    <ul class="iq-blogtag list-inline">
-                                        <li class="border-gredient-left"><a href="../blog/blog-tag.html">Historical </a></li>
-                                    </ul>
-                                </div>
-                        
-                                    <a href="../blog/blog-detail.html">
-                                    <h3 class="mb-3 line-count-1 blog-heading">How turned Hot Wheels into sheer genius</h3>
-                                    </a>
-                                      <p class="line-count-2">Praesent iaculis, purus ac vehicula mattis, arcu lorem blandit nisl, non laoreet dui mi eget elit. Donec porttitor ex vel augue maximus luctus. Vivamus finibus nibh eu nunc volutpat suscipit.</p>
-                                    <div class="iq-button link-button">
-                                        <a href="../blog/blog-detail.html" class="btn text-capitalize position-relative">
-                                            <span class="button-text">Read More <i class="fa fa-angle-right ml-2" aria-hidden="true"></i></span>
-                                        </a>
-                                    </div>
-                            </div>
-                        </div>                </div>
-                <div class="col">
-                        <div class="iq-blog-box">
-                            <div class="iq-blog-image clearfix">
-                                <a href="../blog/blog-detail.html">
-                                    <img src="../assets/images/blog/blog10.webp" alt="blogImg-10" class="img-fluid w-100">						
-                                </a>
-                            </div>
-                            <div class="iq-blog-detail">
-                                <div class="iq-blog-meta d-flex mb-3">
-                                    <ul class="list-inline mb-0">
-                                        <li class="border-gredient-left">
-                                           <a href="../blog/blog-date.html"> <span>January 30, 2022</span></a>										
-                                        </li>
-                                    </ul>
-                                    <ul class="iq-blogtag list-inline">
-                                        <li class="border-gredient-left"><a href="../blog/blog-tag.html">Movie</a></li>
-                                    </ul>
-                                </div>
-                        
-                                    <a href="../blog/blog-detail.html">
-                                    <h3 class="mb-3 line-count-1 blog-heading">Grab free skin and loot From Phone</h3>
-                                    </a>
-                                      <p class="line-count-2">Praesent iaculis, purus ac vehicula mattis, arcu lorem blandit nisl, non laoreet dui mi eget elit. Donec porttitor ex vel augue maximus luctus. Vivamus finibus nibh eu nunc volutpat suscipit.</p>
-                                    <div class="iq-button link-button">
-                                        <a href="../blog/blog-detail.html" class="btn text-capitalize position-relative">
-                                            <span class="button-text">Read More <i class="fa fa-angle-right ml-2" aria-hidden="true"></i></span>
-                                        </a>
-                                    </div>
-                            </div>
-                        </div>                </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
 
 
 
