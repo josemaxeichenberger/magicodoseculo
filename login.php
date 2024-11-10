@@ -85,7 +85,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <form action="post">
+                            <form action="login_validade.php" method="POST" id="contactForm" enctype="multipart/form-data">
                                 <h2 class="text-center SFProDisplayRegular">Conecte <br> <span class="SFProDisplayBold">sua conta</span></h2>
                                 <div class="mb-3">
                                     <label class="text-white fw-500 mb-2 SFProDisplayRegular">Email</label>
@@ -103,10 +103,10 @@
 
                                 <div class="full-button">
                                     <div class="iq-button active">
-                                        <a href="#" class="btn  text-uppercase position-relative">
+                                        <button type="submit" class="btn  text-uppercase position-relative">
                                             <span class="button-text">ENTRAR</span>
                                             <i class="fa-solid fa-play"></i>
-                                        </a>
+                                        </button>
                                     </div>
                                 </div>
                             </form>
@@ -150,6 +150,73 @@
     <!-- Streamit Script -->
     <script src="./assets/js/streamit.js" defer></script>
     <script src="./assets/js/swiper.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<script>
+    $(document).ready(function() {
+        $('#contactForm').formValidation({
+            fields: {
+                email: {
+                    validators: {
+                        notEmpty: {
+                            message: 'O e-mail é obrigatório'
+                        },
+                        emailAddress: {
+                            message: 'Insira um e-mail válido'
+                        }
+                    }
+                },
+                terms: {
+                    validators: {
+                        notEmpty: {
+                            message: 'Você deve concordar com os termos'
+                        }
+                    }
+                }
+            }
+        }).on('err.field.fv', function(e, data) {
+            // Exibir a mensagem de erro abaixo do campo
+            $('#' + data.field + 'Error').text(data.validatorResult.message);
+        }).on('success.field.fv', function(e, data) {
+            // Limpar a mensagem de erro quando for válido
+            $('#' + data.field + 'Error').text('');
+        }).on('success.form.fv', function(e) {
+            e.preventDefault();
+
+            // Enviar dados via AJAX
+            $.ajax({
+                url: 'login_validate.php',
+                type: 'POST',
+                data: $('#contactForm').serialize(),
+                success: function(response) {
+                    window.location.href = 'index.php'; // Mensagem de sucesso do PHP
+                },
+                error: function(xhr, status, error) {
+                    if (xhr.status === 401) {
+                        Swal.fire({
+                            icon: "error",
+                            title: "Oops...",
+                            text: "E-mail não encontrado. Verifique suas informações!",
+                        });
+                    } else if (xhr.status === 500) {
+                        Swal.fire({
+                            icon: "error",
+                            title: "Oops...",
+                            text: "Erro no servidor. Tente novamente mais tarde!",
+                        });
+                    } else {
+                        Swal.fire({
+                            icon: "error",
+                            title: "Oops...",
+                            text: "E-mail não encontrado. Verifique suas informações!",
+                        });
+                    }
+                }
+            });
+
+        });
+    });
+</script>
 </body>
 
 </html>
