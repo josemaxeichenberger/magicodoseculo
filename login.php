@@ -135,7 +135,7 @@
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
     <script>
-   $(document).ready(function() {
+$(document).ready(function() {
     $('#contactForm').formValidation({
         framework: 'bootstrap',
         fields: {
@@ -157,8 +157,13 @@
                 }
             }
         }
-    })
-    .on('success.form.fv', function(e) {
+    }).on('err.field.fv', function(e, data) {
+        // Exibe a mensagem de erro no elemento pequeno correspondente
+        $('#' + data.element.attr('id') + 'Error').text(data.result.message);
+    }).on('success.field.fv', function(e, data) {
+        // Limpa a mensagem de erro no campo correspondente
+        $('#' + data.element.attr('id') + 'Error').text('');
+    }).on('success.form.fv', function(e) {
         e.preventDefault();
 
         // Enviar dados via AJAX
@@ -167,7 +172,7 @@
             type: 'POST',
             data: $('#contactForm').serialize(),
             success: function(response) {
-                window.location.href = 'index.php'; // Redireciona ao sucesso
+                window.location.href = 'index.php';
             },
             error: function(xhr) {
                 let message;
@@ -188,6 +193,7 @@
         });
     });
 });
+
 
     </script>
 
