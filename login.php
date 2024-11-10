@@ -89,12 +89,12 @@
                             </div>
                             <form id="contactForm">
                                 <h2 class="text-center SFProDisplayRegular">Conecte <br> <span class="SFProDisplayBold">sua conta</span></h2>
-                                <div class="mb-3 fv">
+                                <div class="mb-3 ">
                                     <label class="text-white fw-500 mb-2 SFProDisplayRegular">Email</label>
                                     <input type="text" name="email" id="email" class="form-control rounded-0 input-my SFProDisplayRegular" placeholder="Insira seu melhor email" required="">
                                 </div>
                                 <small class="form-text text-danger emailError" id="emailError"></small>
-                                <div class="mb-3 fv">
+                                <div class="mb-3 ">
                                     <label class="custom-checkbox mb-3 ">
                                         <input type="checkbox" name="termos" id="termos" required="">
                                         <span class="checkmark"></span>
