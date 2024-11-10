@@ -85,7 +85,7 @@
                                 <div class="mb-3 fv">
                                     <label class="text-white fw-500 mb-2 SFProDisplayRegular">Email</label>
                                     <input type="text" name="email" id="email" class="form-control rounded-0 input-my SFProDisplayRegular" placeholder="Insira seu melhor email" required="">
-                                    <small class="form-text text-danger " id="emailError"></small>
+                                    <small class="form-text text-danger emailError" id="emailError"></small>
                                 </div>
                                 <div class="mb-3 fv">
                                 <label class="custom-checkbox mb-3 ">
@@ -93,7 +93,7 @@
                                     <span class="checkmark"></span>
                                     Aceito os termos e condições
                                 </label>
-                                <small class="form-text text-danger" id="termosError"></small>
+                                <small class="form-text text-danger termosError" id="termosError"></small>
                                 </div>
                                 <div class="full-button">
                                     <div class="iq-button active">
@@ -150,10 +150,10 @@
     }).on('err.field.fv', function(e, data) {
         var fieldId = data.element.attr('id');
         // Exibir mensagem de erro
-        $('#' + fieldId + 'Error').text(data.result.message);
+        $('.' + fieldId + 'Error').text(data.result.message);
         
         // Adicionando borda vermelha no campo com erro
-        $('#' + fieldId).css('border', '1px solid red');
+        $('.' + fieldId).css('border', '1px solid red');
         
         // Exibindo o erro de "termos"
         if (fieldId === 'termos') {
