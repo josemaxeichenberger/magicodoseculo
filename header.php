@@ -40,19 +40,19 @@
                                         </h5>
                                         <p class="text-center" style="color:#797979"><?php echo $_SESSION['email']; ?></p>
                                       </li>
-                                      <li class="justify-content-center text-center">
+                                      <li class="justify-content-center text-center py-2">
                                           <a href="/index.php" class=" align-items-center gap-3">
                                           
                                               <h6 class="mb-0 font-size-14 fw-normal">Academy</h6>
                                           </a>
                                       </li>
-                                      <li class="justify-content-center text-center">
+                                      <li class="justify-content-center text-center  py-2">
                                           <a href="./suporte.php" class="align-items-center gap-3">
                                            
                                               <h6 class="mb-0 font-size-14 fw-normal">Suporte</h6>
                                           </a>
                                       </li>
-                                      <li class="justify-content-center text-center">
+                                      <li class="justify-content-center text-center py-2">
                                           <a href="./bonus.php" class="align-items-center gap-3">
                                            
                                               <h6 class="mb-0 font-size-14 fw-normal">Bônus</h6>
