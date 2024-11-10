@@ -80,11 +80,11 @@ spl_autoload_register("my_autoload"); // Carrega as classes
                     <div class="col-lg-12">
                         <div class="pt-0">
                             <?php
-                              $videos = new videos();
-                              $videos->setId_modulo($_GET['md']);
-                              $videos->setId($_GET['ep']);
-                              $res = $videos->SelectById();
-                              echo $res['video'];
+                            $videos = new videos();
+                            $videos->setId_modulo($_GET['md']);
+                            $videos->setId($_GET['ep']);
+                            $res = $videos->SelectById();
+                            echo $res['video'];
                             ?>
                             <!-- <video id="my-video" poster="https://i.ytimg.com/vi_webp/rKVEoyTedv4/maxresdefault.webp"
                                 class="video-js vjs-big-play-centered w-100" controls preload="auto" data-setup='{}'>
@@ -109,27 +109,31 @@ spl_autoload_register("my_autoload"); // Carrega as classes
                                             data-animation-in="fadeInLeft" data-delay-in="0.6" style="opacity: 1; animation-delay: 0.6s">
                                             Aula <?php echo $res['video_indice_aula']; ?>
                                         </h2>
-                                       
+
                                     </div>
                                     <ul class="p-0 mt-2 list-inline d-flex flex-wrap movie-tag">
-                                        <li class="trending-list"><a class="text-primary" >Módulo <?php echo $_GET['md']; ?></a></li>
-                                        <li class="trending-list"><a class="text-primary" > <?php echo $res['video_nome']; ?></a></li>
+                                        <li class="trending-list"><a class="text-primary">Módulo <?php echo $_GET['md']; ?></a></li>
+                                        <li class="trending-list"><a class="text-primary"> <?php echo $res['video_nome']; ?></a></li>
                                     </ul>
 
                                     <div class="d-flex flex-wrap align-items-center text-white text-detail flex-wrap mb-4">
                                         <span class="badge bg-secondary">Horror</span>
-                                        <span class="ms-3 font-Weight-500 genres-info">1hr 48mins</span>
-                                        <span class="trending-year trending-year-list font-Weight-500 genres-info">
-                                            Feb 2017
-                                        </span>
+                                        <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+                                            <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+                                            <label class="btn btn-outline-primary" for="btnradio1"><i class="fa fa-thumbs-up"></i></label>
+                                            <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+                                            <label class="btn btn-outline-primary" for="btnradio2"><i class="fa fa-thumbs-down"></i></label>
+                                        </div>
+                                        <span class="ms-3 font-Weight-500 genres-info"><?php echo $res['video_duracao']; ?></span>
+
                                     </div>
-                                   
+
                                 </div>
-                               
+
                             </div>
                         </div>
                         <!-- Movie Description End --> <!-- Movie Source Start -->
-                        
+
                         <!-- Movie Source End -->
                     </div>
                 </div>
