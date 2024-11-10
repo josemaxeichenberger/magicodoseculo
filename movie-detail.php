@@ -103,7 +103,7 @@ spl_autoload_register("my_autoload"); // Carrega as classes
                                         </p>
                                         <div class="d-flex flex-wrap align-items-center r-mb-23 RightAnimate-two">
                                             <div class="slider-ratting d-flex align-items-center">
-                                            <span class="text-white ms-2 font-size-14 fw-500">4.3/5</span>
+                                            <span class="text-white ms-2 me-2 font-size-14 fw-500">4.3/5</span>
                                                 <ul
                                                     class="ratting-start p-0 m-0 list-inline text-warning d-flex align-items-center justify-content-left">
                                                     <li>
