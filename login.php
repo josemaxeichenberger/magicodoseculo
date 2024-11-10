@@ -72,7 +72,7 @@
                                 <div class="logo-default">
                                     <a class="navbar-brand text-primary" href="./index.html">
                                         <img class="img-fluid logo" src="./assets/images/logo.webp" loading="lazy" alt="streamit">
-                                    </a>
+                                    </a> 
                                 </div>
                             </div>
                             <form id="contactForm" novalidate="novalidate" class="fv-form fv-form-bootstrap">
