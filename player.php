@@ -117,9 +117,9 @@ spl_autoload_register("my_autoload"); // Carrega as classes
                                     </ul>
 
                                     <div class="d-flex flex-wrap align-items-center text-white text-detail flex-wrap mb-4">
-                                        <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+                                        <div class="btn-group" role="group" aria-label="Basic radio toggle button group  ">
                                             <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
-                                            <label class="btn btn-sm btn-outline-primary" for="btnradio1"><i class="fa fa-thumbs-up"></i></label>
+                                            <label class="btn btn-sm btn-outline-primary" for="btnradio1"><i class="fa fa-thumbs-up"></i>&nbsp;632</label>
                                             <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
                                             <label class="btn btn-sm btn-outline-primary" for="btnradio2"><i class="fa fa-thumbs-down"></i></label>
                                         </div>
