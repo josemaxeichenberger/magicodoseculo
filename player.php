@@ -117,10 +117,9 @@ spl_autoload_register("my_autoload"); // Carrega as classes
                                                 <li><i class="fa fa-star" aria-hidden="true"></i></li>
                                                 <li><i class="fa fa-star-half" aria-hidden="true"></i></li>
                                             </ul>
-                                            <span class="text-white ms-2">4.8 (imdb)</span>
                                         </div>
                                     </div>
-                                    <span class="text-white ms-2">  <?php echo $res['video_nome']; ?></span>
+                                    <span class="text-white fs-3 ms-2">  <?php echo $res['video_nome']; ?></span>
                                     <ul class="p-0 mt-2 list-inline d-flex flex-wrap movie-tag">
                                         <li class="trending-list"><a class="text-primary" href="./view-all-movie.html">Action</a></li>
                                         <li class="trending-list"><a class="text-primary" href="./view-all-movie.html">Adventure</a></li>
