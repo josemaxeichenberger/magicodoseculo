@@ -120,7 +120,7 @@ spl_autoload_register("my_autoload"); // Carrega as classes
             </div>
         </section>
         <section class="contact bg-light container-fluid" >
-            <div class="container">
+            <div class="container bg-light">
                 <h1>Suporte <br><span>Especiaalizado</span></h1>
                 <p>
                 Nesta aba você encontra todos os meios de comunicação para ter um suporte especializado, você poderá tirar suas dúvidas e possíveis problemas no decorrer da sua jornada, nossa equipe está pronta ara te ajudar em qualquer questão!
