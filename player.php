@@ -89,57 +89,9 @@ spl_autoload_register("my_autoload"); // Carrega as classes
 
                     <div class="swiper-slide slide s-bg-1 p-0">
                         <div class="banner-home-swiper-image">
-                            <img src="<?php echo $row['video_banner'] ?>" alt="banner-home-swiper-image">
+                        <?php echo $row['video_banner'] ?>
                         </div>
-                        <div class="container-fluid position-relative h-100">
-                            <div class="slider-inner h-100">
-                                <div class="row align-items-center iq-ltr-direction h-100">
-                                    <div class="col-lg-7 col-md-12">
-                                        <h1 class="texture-text big-font-5 letter-spacing-1 line-count-1 text-uppercase mb-0 RightAnimate">
-                                            <?php echo $row['video_nome'] ?>
-                                        </h1>
-                                        <p class="line-count-3 RightAnimate-two">
-                                            <?php echo $row['video_texto'] ?>
-                                        </p>
-                                        <div class="d-flex flex-wrap align-items-center r-mb-23 RightAnimate-two">
-                                            <div class="slider-ratting d-flex align-items-center">
-                                                <span class="text-white ms-2 me-2 font-size-14 fw-500">4.3/5</span>
-                                                <ul
-                                                    class="ratting-start p-0 m-0 list-inline text-warning d-flex align-items-center justify-content-left">
-                                                    <li>
-                                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fa fa-star-half" aria-hidden="true"></i>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            <span class="font-size-14 fw-500 time"> <?php echo $row['video_duracao'] ?></span>
-                                        </div>
-
-
-                                        <div class="RightAnimate-four mt-4">
-                                            <div class="iq-button">
-                                                <a href="play.php?md=<?php echo $row['modulo_id'] ?>&ep=<?php echo $row['video_id'] ?>" class="btn text-uppercase position-relative">
-                                                    <span class="button-text">ASSISTIR AULA </span>
-                                                    <i class="fa-solid fa-play"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
+                     
                     </div>
 
                 <?php }

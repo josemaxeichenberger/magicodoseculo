@@ -211,7 +211,8 @@ class videos extends ConexaoMysql
     videos.data_liberacao AS video_data_liberacao,
     videos.bloqueado AS video_bloqueado,
     videos.capa_bloqueado AS video_capa_bloqueado,
-    videos.indice_aula AS video_indice_aula
+    videos.indice_aula AS video_indice_aula,
+    videos.video AS video
     FROM 
         modulos
     JOIN 
