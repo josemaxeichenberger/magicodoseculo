@@ -79,6 +79,11 @@ spl_autoload_register("my_autoload"); // Carrega as classes
             color: #797979;
             
         }
+        .elemento {
+  position: relative;
+  padding: 10px; /* Ajuste o padding conforme necessário */
+}
+
         .elemento::after {
   content: "";
   position: absolute;
