@@ -90,7 +90,7 @@
                                 <h2 class="text-center SFProDisplayRegular">Conecte <br> <span class="SFProDisplayBold">sua conta</span></h2>
                                 <div class="mb-3">
                                     <label class="text-white fw-500 mb-2 SFProDisplayRegular">Email</label>
-                                    <input type="text" name="email" class="form-control rounded-0 input-my SFProDisplayRegular" required="" placeholder="Insira seu melhor email">
+                                    <input type="text" name="email" class="form-control rounded-0 input-my SFProDisplayRegular" required="" placeholder="Insira seu melhor email" required>
                                     <small class="form-text text-danger" id="emailError"></small> <!-- Espaço para mensagem de erro -->
 
                                 </div>
@@ -98,7 +98,7 @@
                             
                                 
                                 <label class="custom-checkbox mb-3">
-                                    <input type="checkbox" name="terms">
+                                    <input type="checkbox" name="terms" required>
                                     <span class="checkmark"></span>
                                     Aceito os termos e condições
                                 </label>
