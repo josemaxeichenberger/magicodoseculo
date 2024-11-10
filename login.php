@@ -65,44 +65,44 @@
                 <div class="overlay"></div>
             </div>
             <div class="container form-login">
-                <div class="row justify-content-center align-items-center height-self-center">
-                    <div class="col-lg-5 col-md-12 align-self-center">
-                        <div class="user-login-card" style="backdrop-filter:unset;">
-                            <div class="text-center">
-                                <div class="logo-default">
-                                    <a class="navbar-brand text-primary" href="./index.html">
-                                        <img class="img-fluid logo" src="./assets/images/logo.webp" loading="lazy" alt="streamit" />
-                                    </a>
-                                </div>
-                            </div>
-                            <form id="contactForm">
-                                <h2 class="text-center SFProDisplayRegular">Conecte <br> <span class="SFProDisplayBold">sua conta</span></h2>
-                                <div class="mb-3">
-                                    <label class="text-white fw-500 mb-2 SFProDisplayRegular">Email</label>
-                                    <input type="text" name="email" id="email" class="form-control rounded-0 input-my SFProDisplayRegular" placeholder="Insira seu melhor email" required>
-                                    <small class="form-text text-danger" id="emailError"></small>
-                                </div>
-
-                                <label class="custom-checkbox mb-3">
-                                    <input type="checkbox" name="termos" id="termos" required>
-                                    <span class="checkmark"></span>
-                                    Aceito os termos e condições
-                                </label>
-                                <small class="form-text text-danger" id="termosError"></small>
-
-                                <div class="full-button">
-                                    <div class="iq-button active">
-                                        <button type="submit" class="btn text-uppercase position-relative">
-                                            <span class="button-text">ENTRAR</span>
-                                            <i class="fa-solid fa-play"></i>
-                                        </button>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
+    <div class="row justify-content-center align-items-center height-self-center">
+        <div class="col-lg-5 col-md-12 align-self-center">
+            <div class="user-login-card" style="backdrop-filter:unset;">
+                <div class="text-center">
+                    <div class="logo-default">
+                        <a class="navbar-brand text-primary" href="./index.html">
+                            <img class="img-fluid logo" src="./assets/images/logo.webp" loading="lazy" alt="streamit">
+                        </a>
                     </div>
                 </div>
+                <form id="contactForm" novalidate="novalidate" class="fv-form fv-form-bootstrap">
+                    <h2 class="text-center SFProDisplayRegular">Conecte <br> <span class="SFProDisplayBold">sua conta</span></h2>
+                    <div class="mb-3">
+                        <label class="text-white fw-500 mb-2 SFProDisplayRegular">Email</label>
+                        <input type="text" name="email" id="email" class="form-control rounded-0 input-my SFProDisplayRegular" placeholder="Insira seu melhor email" required="">
+                        <small class="form-text text-danger" id="emailError"></small>
+                    </div>
+
+                    <label class="custom-checkbox mb-3">
+                        <input type="checkbox" name="termos" id="termos" required="">
+                        <span class="checkmark"></span>
+                        Aceito os termos e condições
+                    </label>
+                    <small class="form-text text-danger" id="termosError"></small>
+
+                    <div class="full-button">
+                        <div class="iq-button active">
+                            <button type="submit" class="btn text-uppercase position-relative">
+                                <span class="button-text">ENTRAR</span>
+                                <i class="fa-solid fa-play"></i>
+                            </button>
+                        </div>
+                    </div>
+                </form>
             </div>
+        </div>
+    </div>
+</div>
         </div>
     </main>
     
@@ -118,59 +118,39 @@
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <!-- Validation Script -->
     <script>
-        $(document).ready(function() {
-            $('#contactForm').formValidation({
-                framework: 'bootstrap',
-                fields: {
-                    email: {
-                        validators: {
-                            notEmpty: {
-                                message: 'O e-mail é obrigatório'
-                            },
-                            emailAddress: {
-                                message: 'Insira um e-mail válido'
-                            }
+       <script>
+    $(document).ready(function() {
+        $('#contactForm').formValidation({
+            framework: 'bootstrap',
+            fields: {
+                email: {
+                    validators: {
+                        notEmpty: {
+                            message: 'O e-mail é obrigatório'
+                        },
+                        emailAddress: {
+                            message: 'Insira um e-mail válido'
                         }
-                    },
-                    termos: {
-                        validators: {
-                            notEmpty: {
-                                message: 'Você deve concordar com os termos'
-                            }
+                    }
+                },
+                termos: {
+                    validators: {
+                        notEmpty: {
+                            message: 'Você deve concordar com os termos'
                         }
                     }
                 }
-            }).on('err.field.fv', function(e, data) {
-                $('#' + data.element.attr('id') + 'Error').text(data.result.message);
-            }).on('success.field.fv', function(e, data) {
-                $('#' + data.element.attr('id') + 'Error').text('');
-            }).on('success.form.fv', function(e) {
-                e.preventDefault();
-                $.ajax({
-                    url: 'login_validate.php',
-                    type: 'POST',
-                    data: $('#contactForm').serialize(),
-                    success: function(response) {
-                        window.location.href = 'index.php';
-                    },
-                    error: function(xhr) {
-                        let message;
-                        if (xhr.status === 401) {
-                            message = "E-mail não encontrado. Verifique suas informações!";
-                        } else if (xhr.status === 500) {
-                            message = "Erro no servidor. Tente novamente mais tarde!";
-                        } else {
-                            message = "E-mail não encontrado. Verifique suas informações!";
-                        }
-                        Swal.fire({
-                            icon: "error",
-                            title: "Oops...",
-                            text: message,
-                        });
-                    }
-                });
-            });
+            }
+        }).on('err.field.fv', function(e, data) {
+            $('#' + data.element.attr('id') + 'Error').text(data.result.message);
+        }).on('success.field.fv', function(e, data) {
+            $('#' + data.element.attr('id') + 'Error').text('');
+        }).on('success.form.fv', function(e) {
+            e.preventDefault();
+            // Aqui pode colocar sua requisição Ajax para submissão
         });
+    });
+</script>
     </script>
 
     <!-- Additional Scripts -->
