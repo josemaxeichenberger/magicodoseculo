@@ -150,7 +150,7 @@
     }).on('err.field.fv', function(e, data) {
         var fieldId = data.element.attr('id');
         // Exibir mensagem de erro
-        $('#' + fieldId + 'Error').text(data.result.message).show();;
+        $('#' + fieldId + 'Error').append(data.result.message).show();;
         
         // Adicionando borda vermelha no campo com erro
         $('#' + fieldId).css('border', '1px solid red');
