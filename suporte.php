@@ -113,7 +113,7 @@ spl_autoload_register("my_autoload"); // Carrega as classes
                         <input type="email" class="form-control fp" id="" aria-describedby="inputGroupPrepend" required name="email" placeholder="E-mail">
 
                     </div>
-                    <div class="col-12 pb-4">
+                    <div class="col-12 pb-5">
                         <textarea class="form-control fp" name="msg" id="" placeholder="Digite aqui a sua dúvida" require rows="5"></textarea>
 
                     </div>
