@@ -4563,7 +4563,7 @@ fieldset:disabled .btn {
     --bs-dropdown-spacer: 0.125rem;
     --bs-dropdown-font-size: 1rem;
     --bs-dropdown-color: var(--bs-body-color);
-    --bs-dropdown-bg: rgba(37, 37, 37,0.6);
+    --bs-dropdown-bg: rgba(37, 37, 37,0.8);
     --bs-dropdown-border-color: var(--bs-border-color-translucent);
     --bs-dropdown-border-radius: var(--bs-border-radius);
     --bs-dropdown-border-width: var(--bs-border-width);
