@@ -34,7 +34,8 @@
                                       </li>
                                       <li>
                                         <h4><?php 
-                                        echo $nome = explode('@',$_SESSION['email']);
+                                        $nome = explode('@',$_SESSION['email']);
+                                        echo $nome[0];
                                         ?>
                                         </h4>
                                         <p><?php echo $_SESSION['email']; ?></p>
