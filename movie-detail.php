@@ -82,6 +82,7 @@ spl_autoload_register("my_autoload"); // Carrega as classes
                 $Destaques = new videos();
                 $Destaques->setDestaque('S');
                 $Destaques->setBloqueado('N');
+                $Destaques->setId_modulo($_GET['md']);
                 $res = $Destaques->SelectDestaqueMod();
 
                 foreach ($res as $row) { ?>
