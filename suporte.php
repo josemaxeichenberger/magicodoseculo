@@ -101,7 +101,7 @@ spl_autoload_register("my_autoload"); // Carrega as classes
 
         <section class="bg-body py-5">
             <div class="container py3">
-                <img src="assets/identidade/Grupo150.png" width="55" class="mx-auto" alt="">
+                <img src="assets/identidade/Grupo150.png" width="55" class="mx-auto mb-3" alt="">
                 <h1 class="pt-5 text-center">Está com <br> <span class="text-costumer">alguma dúvida?</span> </h1>
                 <form class="row g-3 px-4 px-xl-0 needs-validation" novalidate>
                     <div class="col-12">
