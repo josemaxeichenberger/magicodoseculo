@@ -113,7 +113,7 @@ spl_autoload_register("my_autoload"); // Carrega as classes
                             <div class="iq-blog-detail">
 
                                 <a href="#">
-                                    <h3 class="mb-3 line-count-1 blog-heading text-black">Grupo Exclusivo</h3>
+                                    <h3 class="mb-3 line-count-1 blog-heading text-black SFProDisplayBold">Grupo Exclusivo</h3>
                                 </a>
                                 <p class="line-count-2 text-black">Praesent iaculis, purus ac vehicula mattis, arcu lorem blandit nisl, non laoreet dui mi eget elit. Donec porttitor ex vel augue maximus luctus. Vivamus finibus nibh eu nunc volutpat suscipit.</p>
                                 <div class="iq-button mx-auto text-center justify-content-center ">
