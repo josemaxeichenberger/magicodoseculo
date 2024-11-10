@@ -52,12 +52,12 @@
                                               <h5 class="mb-0 font-size-16 SFProDisplayRegular">Suporte</h5>
                                           </a>
                                       </li>
-                                      <li class="justify-content-center text-center py-2">
+                                      <!-- <li class="justify-content-center text-center py-2">
                                           <a href="./bonus.php" class="align-items-center gap-3">
                                            
                                               <h5 class="mb-0 font-size-16 SFProDisplayRegular">Bônus</h5>
                                           </a>
-                                      </li>
+                                      </li> -->
                                       <li class="py-2 elemento">
                                           <a href="./login.php"
                                               class=" mt-1 d-flex justify-content-center align-content-center gap-2" style="align-items:center !important;">
