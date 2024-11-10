@@ -3186,7 +3186,7 @@ li.swiper-active.last .card-hover-style-two .block-images:hover .img-box {
 }
 
 .iq-blog-box .iq-blog-meta ul li a {
-    color: var(--bs-white)
+    color: var(--bs-backdrop-bg)
 }
 
 .iq-blog-box .iq-blog-meta-cat-tag {
