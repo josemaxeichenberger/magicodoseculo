@@ -23,6 +23,7 @@
     <!-- Animate css -->
     <link rel="stylesheet" href="./assets/vendor/animate.min.css" />
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/formvalidation/0.6.2-dev/css/formValidation.min.css" integrity="sha512-B9GRVQaYJ7aMZO3WC2UvS9xds1D+gWQoNiXiZYRlqIVszL073pHXi0pxWxVycBk0fnacKIE3UHuWfSeETDCe7w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
 
@@ -90,6 +91,8 @@
                                 <div class="mb-3">
                                     <label class="text-white fw-500 mb-2 SFProDisplayRegular">Email</label>
                                     <input type="text" class="form-control rounded-0 input-my SFProDisplayRegular" required="" placeholder="Insira seu melhor email">
+                                    <small class="form-text text-danger" id="emailError"></small> <!-- Espaço para mensagem de erro -->
+
                                 </div>
                                
                             
@@ -99,6 +102,7 @@
                                     <span class="checkmark"></span>
                                     Aceito os termos e condições
                                 </label>
+                                <small class="form-text text-danger" id="termsError"></small> <!-- Espaço para mensagem de erro -->
 
 
                                 <div class="full-button">
