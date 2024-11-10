@@ -118,9 +118,9 @@ spl_autoload_register("my_autoload"); // Carrega as classes
 
                                     <div class="d-flex flex-wrap align-items-center text-white text-detail flex-wrap mb-4">
                                         <div class="btn-group" role="group" aria-label="Basic radio toggle button group  ">
-                                            <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+                                            <input type="radio" class="btn-check rounded-rounded-start-pill" name="btnradio" id="btnradio1" autocomplete="off" checked>
                                             <label class="btn rounded-rounded-start-pill  btn-sm btn-outline-secondary" for="btnradio1"><i class="fa fa-thumbs-up"></i>&nbsp;632</label>
-                                            <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+                                            <input type="radio" class="btn-check rounded-rounded-end-pill" name="btnradio" id="btnradio2" autocomplete="off">
                                             <label class="btn btn-sm rounded-rounded-end-pill  btn-outline-secondary" for="btnradio2"><i class="fa fa-thumbs-down"></i></label>
                                         </div>
                                         <span class="ms-3 font-Weight-500 genres-info"><?php echo $res['video_duracao']; ?></span>
