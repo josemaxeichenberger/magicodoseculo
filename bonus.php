@@ -89,7 +89,8 @@ spl_autoload_register("my_autoload"); // Carrega as classes
         hr {
   border: none;           /* Remove borda padrão */
   height: 2px;            /* Define altura da linha */
-  background-color: #333; /* Define cor de fundo */
+  background-color: rgba(135, 41, 222, 1) !important;; /* Define cor de fundo */
+  width: 80%;
 }
 
     </style>
