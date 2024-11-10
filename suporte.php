@@ -109,8 +109,8 @@ spl_autoload_register("my_autoload"); // Carrega as classes
                         <textarea class="form-control" name="msg" id="" require rows="5"></textarea>
 
                     </div>
-                    <div class="col-12">
-                        <div class="iq-button">
+                    <div class="col-12 full-button">
+                        <div class="iq-button  ">
                             <button  class="btn text-uppercase position-relative rounded-pill">
                                 ENVIAR
                                 <i class="fa-solid fa-play ms-0"></i>
