@@ -38,6 +38,11 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/formvalidation/0.6.2-dev/js/formValidation.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/formvalidation/0.6.2-dev/js/framework/bootstrap.min.js"></script>
+    <style>
+        .help-block{
+            display: none !important;
+        }
+    </style>
 </head>
 
 <body>
@@ -80,7 +85,7 @@
                                 <div class="mb-3 fv">
                                     <label class="text-white fw-500 mb-2 SFProDisplayRegular">Email</label>
                                     <input type="text" name="email" id="email" class="form-control rounded-0 input-my SFProDisplayRegular" placeholder="Insira seu melhor email" required="">
-                                    <small class="form-text text-danger help-block" id="emailError">O e-mail é obrigatório</small>
+                                    <small class="form-text text-danger " id="emailError"></small>
                                 </div>
                                 <div class="mb-3 fv">
                                 <label class="custom-checkbox mb-3 ">
@@ -145,7 +150,7 @@
     }).on('err.field.fv', function(e, data) {
         var fieldId = data.element.attr('id');
         // Exibir mensagem de erro
-        // $('#' + fieldId + 'Error').text(data.result.message).show();
+        $('#' + fieldId + 'Error').text(data.result.message);
         
         // Adicionando borda vermelha no campo com erro
         $('#' + fieldId).css('border', '1px solid red');
@@ -161,6 +166,7 @@
         
         // Remover borda vermelha quando o erro for resolvido
         $('#' + fieldId).css('border', '');
+        
     }).on('success.form.fv', function(e) {
         e.preventDefault();
         // Aqui pode colocar sua requisição Ajax para submissão
