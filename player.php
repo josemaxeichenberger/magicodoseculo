@@ -74,50 +74,21 @@ spl_autoload_register("my_autoload"); // Carrega as classes
     <main class="main-content">
 
         <?php include('./header.php') ?>
-
-        <section id="home-banner-slider" class="iq-main-slider p-0 swiper banner-home-swiper overflow-hidden"
-            data-swiper="home-banner-slider">
-            <div class="slider m-0 p-0 swiper-wrapper home-slider">
-                <?php
-               $videos = new videos();
-               $videos->setId_modulo($_GET['md']);
-               $res = $videos->Select();
-
-                foreach ($res as $row) { ?>
-
-                    <div class="swiper-slide slide s-bg-1 p-0">
-                        <div class="banner-home-swiper-image">
-                        <?php echo $row['video'] ?>
-                        </div>
-                     
-                    </div>
-
-                <?php }
-                ?>
-
-
-            </div>
-            <div class="swiper-banner-button-prev swiper-nav" id="home-banner-slider-prev">
-                <i></i>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 44" width="44" height="44" fill="none" stroke="currentColor">
-                    <circle r="20" cy="22" cx="22"></circle>
-                </svg>
-            </div>
-            <div class="swiper-banner-button-next swiper-nav" id="home-banner-slider-next">
-                <i></i>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 44" width="44" height="44" fill="none" stroke="currentColor">
-                    <circle r="20" cy="22" cx="22"></circle>
-                </svg>
-            </div>
-            <div class="swiper-pagination"></div>
-            <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
-                <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 44" width="44px" height="44px" id="circle" fill="none"
-                    stroke="currentColor">
-                    <circle r="20" cy="22" cx="22" id="test"></circle>
-                </symbol>
-            </svg>
-        </section>
-
+        <div class="iq-main-slider site-video">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="pt-0">
+          <video id="my-video" poster="https://i.ytimg.com/vi_webp/rKVEoyTedv4/maxresdefault.webp"
+            class="video-js vjs-big-play-centered w-100" controls preload="auto" data-setup='{}'>
+            <source src="./assets/images/video/sample-video.mp4" type="video/mp4" />
+            <source src="MY_VIDEO.webm" type="video/webm" />
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 
