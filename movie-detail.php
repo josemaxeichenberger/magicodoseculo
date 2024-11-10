@@ -96,14 +96,14 @@ spl_autoload_register("my_autoload"); // Carrega as classes
                                 <div class="row align-items-center iq-ltr-direction h-100">
                                     <div class="col-lg-7 col-md-12">
                                         <h1 class="texture-text big-font-5 letter-spacing-1 line-count-1 text-uppercase mb-0 RightAnimate">
-                                        <?php echo $row['video_nome'] ?>
+                                            <?php echo $row['video_nome'] ?>
                                         </h1>
-                                        <p class="line-count-3 RightAnimate-two"> 
-                                        <?php echo $row['video_texto'] ?>
+                                        <p class="line-count-3 RightAnimate-two">
+                                            <?php echo $row['video_texto'] ?>
                                         </p>
                                         <div class="d-flex flex-wrap align-items-center r-mb-23 RightAnimate-two">
                                             <div class="slider-ratting d-flex align-items-center">
-                                            <span class="text-white ms-2 me-2 font-size-14 fw-500">4.3/5</span>
+                                                <span class="text-white ms-2 me-2 font-size-14 fw-500">4.3/5</span>
                                                 <ul
                                                     class="ratting-start p-0 m-0 list-inline text-warning d-flex align-items-center justify-content-left">
                                                     <li>
@@ -125,8 +125,8 @@ spl_autoload_register("my_autoload"); // Carrega as classes
                                             </div>
                                             <span class="font-size-14 fw-500 time"> <?php echo $row['video_duracao'] ?></span>
                                         </div>
-                                       
-                                     
+
+
                                         <div class="RightAnimate-four mt-4">
                                             <div class="iq-button">
                                                 <a href="play.php?md=<?php echo $row['modulo_id'] ?>&ep=<?php echo $row['video_id'] ?>" class="btn text-uppercase position-relative">
@@ -136,7 +136,7 @@ spl_autoload_register("my_autoload"); // Carrega as classes
                                             </div>
                                         </div>
                                     </div>
-                                   
+
                                 </div>
                             </div>
                         </div>
@@ -178,35 +178,42 @@ spl_autoload_register("my_autoload"); // Carrega as classes
 
                         <div id="playlist" class="tab-pane animated fadeInUp active show" role="tabpanel">
                             <div class="overflow-hidden">
-
                                 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
-                                    <div class="col mb-4">
-                                        <div class="watchlist-warpper card-hover-style-two rounded-4">
-                                            <div class="block-images position-relative w-100 rounded-4">
-                                                <div class="img-box" style="max-height: 250px;">
-                                                    <a href="watchlist-detail.html" class="position-absolute top-0 bottom-0 start-0 end-0"></a>
-                                                    <img src="./assets/images/movies/playlist/01.webp" alt="movie-card" class="img-fluid rounded-4 object-cover w-100 d-block border-0">
-                                                    <div class="position-relative px-2" style="top: -6rem;">
-                                                        <div class=" align-items-center">
-                                                            <h5 class="text-capitalize fw-500 position-relative" style=" top:1.2rem;"> <a href="">Play List 1</a> </h5>
-                                                            <div class="d-flex align-items-center gap-1 font-size-12">
-                                                                <i class="fa-solid fa-earth-americas text-primary"></i>
-                                                                <span class="text-body fw-semibold text-capitalize">Public</span>
-                                                                <button type="button" class="btn d-block ms-auto me-2 btn-lg mb-1 btn-play rounded-circle text-uppercase position-relative mx-0">
+                                    <?php
+                                    $videos = new videos();
+                                    $videos->setId_modulo($_GET['md']);
+                                    $res = $videos->Select();
+                                    foreach ($res as $r) { ?>
+                                        <div class="col mb-4">
+                                            <div class="watchlist-warpper card-hover-style-two rounded-4">
+                                                <div class="block-images position-relative w-100 rounded-4">
+                                                    <div class="img-box" style="max-height: 250px;">
+                                                        <a href="watchlist-detail.html" class="position-absolute top-0 bottom-0 start-0 end-0"></a>
+                                                        <img src="<?php echo $r['video_capa'] ?>" alt="movie-card" class="img-fluid rounded-4 object-cover w-100 d-block border-0">
+                                                        <div class="position-relative px-2" style="top: -6rem;">
+                                                            <div class=" align-items-center">
+                                                                <h5 class="text-capitalize fw-500 position-relative" style=" top:1.2rem;"> <a href="">Play List 1</a> </h5>
+                                                                <div class="d-flex align-items-center gap-1 font-size-12">
+                                                                    <i class="fa-solid fa-earth-americas text-primary"></i>
+                                                                    <span class="text-body fw-semibold text-capitalize">Public</span>
+                                                                    <button type="button" class="btn d-block ms-auto me-2 btn-lg mb-1 btn-play rounded-circle text-uppercase position-relative mx-0">
 
-                                                                    <i class="fa-solid fa-play"></i>
-                                                                </button>
+                                                                        <i class="fa-solid fa-play"></i>
+                                                                    </button>
+                                                                </div>
+
+
                                                             </div>
 
-
                                                         </div>
-
                                                     </div>
-                                                </div>
 
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    <?php  }
+                                    ?>
+
 
                                 </div>
 
