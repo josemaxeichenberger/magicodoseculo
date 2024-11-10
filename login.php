@@ -98,7 +98,7 @@
                             
                                 
                                 <label class="custom-checkbox mb-3">
-                                    <input type="checkbox" name="termos" required>
+                                    <input type="checkbox" name="termos" id="termos" required>
                                     <span class="checkmark"></span>
                                     Aceito os termos e condições
                                 </label>
