@@ -74,7 +74,7 @@ spl_autoload_register("my_autoload"); // Carrega as classes
         include(__DIR__ . '/header.php');
         ?>
 
-        <section class="bg-body">
+        <section class="bg-body py-5">
             <div class="container py3">
                 <h1>Está com <br>alguma dúvida?</h1>
                 <form class="row g-3 needs-validation" novalidate>
