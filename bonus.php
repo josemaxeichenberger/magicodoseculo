@@ -84,6 +84,7 @@ spl_autoload_register("my_autoload"); // Carrega as classes
         .iq-blog-box{ border-radius: 30px;}
         .iq-blog-box img {
             border-top-left-radius: 30px;
+            border-top-right-radius: 30px;
         }
     </style>
 </head>
