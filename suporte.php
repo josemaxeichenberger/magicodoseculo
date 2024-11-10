@@ -62,6 +62,11 @@ spl_autoload_register("my_autoload"); // Carrega as classes
             background-image: url('assets/alert.svg');
             background-repeat: no-repeat;
         }
+        .btn.btn-primary {
+    color: var(--bs-white);
+    background-color: linear-gradient(90deg, rgba(135,41,222,1) 20%, rgba(135,41,222,1) 53%, rgba(82,5,140,1) 100%);
+    border-color: linear-gradient(90deg, rgba(135,41,222,1) 20%, rgba(135,41,222,1) 53%, rgba(82,5,140,1) 100%);
+}
     </style>
 </head>
 
