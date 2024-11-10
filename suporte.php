@@ -57,16 +57,20 @@ spl_autoload_register("my_autoload"); // Carrega as classes
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300&display=swap" rel="stylesheet">
     <style>
-        .was-validated .form-control:invalid, .form-control.is-invalid{
-            border-color:red !important;
+        .was-validated .form-control:invalid,
+        .form-control.is-invalid {
+            border-color: red !important;
             background-image: url('assets/alert.svg');
             background-repeat: no-repeat;
         }
+
         .btn.btn-costumer {
-    color: var(--bs-white);
-    background-color:  rgba(135, 41, 222, 1) !important;;
-    border-color:  rgba(135, 41, 222, 1) !important;;
-}
+            color: var(--bs-white);
+            background-color: rgba(135, 41, 222, 1) !important;
+            ;
+            border-color: rgba(135, 41, 222, 1) !important;
+            ;
+        }
     </style>
 </head>
 
@@ -106,7 +110,11 @@ spl_autoload_register("my_autoload"); // Carrega as classes
 
                     </div>
                     <div class="col-12">
-                        <button class="btn btn-costumer w-100 rounded-pill " type="submit">Enviar</button>
+                        <div class="iq-button">
+                            <button  class="btn text-uppercase position-relative rounded-circle">
+                                ENVIAR
+                            </button>
+                        </div>
                     </div>
                 </form>
             </div>
