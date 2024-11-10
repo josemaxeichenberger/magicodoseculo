@@ -80,7 +80,7 @@
                     <div class="mb-3 fv">
                         <label class="text-white fw-500 mb-2 SFProDisplayRegular">Email</label>
                         <input type="text" name="email" id="email" class="form-control rounded-0 input-my SFProDisplayRegular" placeholder="Insira seu melhor email" required="">
-                        <small class="form-text text-danger" id="emailError">O e-mail é obrigatório</small>
+                        <small class="form-text text-danger help-block" id="emailError">O e-mail é obrigatório</small>
                     </div>
 
                     <label class="custom-checkbox mb-3 fv">
