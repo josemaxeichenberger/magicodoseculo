@@ -95,8 +95,8 @@ spl_autoload_register("my_autoload"); // Carrega as classes
                             <div class="slider-inner h-100">
                                 <div class="row align-items-center iq-ltr-direction h-100">
                                     <div class="col-lg-7 col-md-12">
-                                        <h1 class="texture-text big-font-5 letter-spacing-1 line-count-1 text-uppercase mb-0 RightAnimate">another
-                                            danger
+                                        <h1 class="texture-text big-font-5 letter-spacing-1 line-count-1 text-uppercase mb-0 RightAnimate">
+                                        <?php echo $row['video_nome'] ?>
                                         </h1>
                                         <div class="d-flex flex-wrap align-items-center r-mb-23 RightAnimate-two">
                                             <div class="slider-ratting d-flex align-items-center">
@@ -126,9 +126,8 @@ spl_autoload_register("my_autoload"); // Carrega as classes
                                             <span class="badge rounded-0 text-white text-uppercase p-2 mx-3 bg-secondary">action</span>
                                             <span class="font-size-14 fw-500 time">2hr 6mins</span>
                                         </div>
-                                        <p class="line-count-3 RightAnimate-two"> Piracy is an act of robbery or criminal violence by ship or
-                                            boat-borne attackers upon another ship or a coastal area, typically with the goal of stealing cargo and
-                                            other valuable items or properties.
+                                        <p class="line-count-3 RightAnimate-two"> 
+                                        <?php echo $row['video_texto'] ?>
                                         </p>
                                         <div class="trending-list RightAnimate-three">
                                             <div class="text-primary genres fw-500"> Genres:
