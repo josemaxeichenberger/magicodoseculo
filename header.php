@@ -33,7 +33,7 @@
                                           <img src="./assets/images/user/user1.webp" width="70" class="img-fluid rounded-circle mx-auto" alt="" loading="lazy">
                                       </li>
                                       <li>
-                                        <h5 class=" SFProDisplayBold text-white text-center"><?php 
+                                        <h5 class=" SFProDisplayBold text-white text-center text-capitalize"><?php 
                                         $nome = explode('@',$_SESSION['email']);
                                         echo $nome[0];
                                         ?>
