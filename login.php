@@ -80,7 +80,7 @@
                                     </a> 
                                 </div>
                             </div>
-                            <!-- <form id="contactForm" novalidate="novalidate" class="fv-form fv-form-bootstrap">
+                            <form id="contactForm" novalidate="novalidate" class="fv-form fv-form-bootstrap">
                                 <h2 class="text-center SFProDisplayRegular">Conecte <br> <span class="SFProDisplayBold">sua conta</span></h2>
                                 <div class="mb-3 fv">
                                     <label class="text-white fw-500 mb-2 SFProDisplayRegular">Email</label>
@@ -100,29 +100,6 @@
                                         <button type="submit" class="btn text-uppercase position-relative">
                                             <span class="button-text">ENTRAR</span>
                                             <i class="fa-solid fa-play"></i>
-                                        </button>
-                                    </div>
-                                </div>
-                            </form> -->
-                            <form id="contactForm">
-                                <div class="form-group mb-3">
-                                    <label class="text-white fw-500 mb-2">E-mail</label>
-                                    <input type="text" class="form-control rounded  rounded-3" name="email" placeholder="Insira o seu melhor e-mail" required="" style="background-color:transparent !important;">
-                                    <small class="form-text text-danger" id="emailError"></small> <!-- Espaço para mensagem de erro -->
-                                </div>
-
-                                <div class="form-group mb-3">
-                                    <label class="list-group-item align-items-center font-size-14 text-white fw-500 ">
-                                        <input class="form-check-input m-0 " type="checkbox" name="terms" required="">
-                                        Ao clicar, você concorda com nossos <a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop">&nbsp; Termos</a>.
-                                    </label>
-                                    <small class="form-text text-danger" id="termsError"></small> <!-- Espaço para mensagem de erro -->
-                                </div>
-
-                                <div class="full-button">
-                                    <div class="iq-button">
-                                        <button type="submit" class="btn text-uppercase position-relative">
-                                            <span class="button-text">CONECTE-SE</span>
                                         </button>
                                     </div>
                                 </div>
