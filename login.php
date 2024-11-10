@@ -170,7 +170,7 @@
             }).on('err.field.fv', function(e, data) {
                 // Exibir a mensagem de erro abaixo do campo
                 $('#' + data.field + 'Error').text(data.validatorResult.message);
-                $('#' + fieldId).css('border', '1px solid red');
+                $('#' + data.field).css('border', '1px solid red');
 
             }).on('success.field.fv', function(e, data) {
                 // Limpar a mensagem de erro quando for válido
