@@ -88,7 +88,7 @@
                                     </a> 
                                 </div>
                             </div>
-                            <form id="contactForm" novalidate="novalidate" class="fv-form fv-form-bootstrap">
+                            <form id="contactForm">
                                 <h2 class="text-center SFProDisplayRegular">Conecte <br> <span class="SFProDisplayBold">sua conta</span></h2>
                                 <div class="mb-3 fv">
                                     <label class="text-white fw-500 mb-2 SFProDisplayRegular">Email</label>
