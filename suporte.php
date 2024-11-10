@@ -101,7 +101,7 @@ spl_autoload_register("my_autoload"); // Carrega as classes
 
                     </div>
                     <div class="col-12">
-                        <button class="btn w-100 rounded-pill btn-primary" type="submit">Enviar</button>
+                        <button class="btn iq-button w-100 rounded-pill btn-primary" type="submit">Enviar</button>
                     </div>
                 </form>
             </div>
