@@ -82,14 +82,14 @@
                                     <input type="text" name="email" id="email" class="form-control rounded-0 input-my SFProDisplayRegular" placeholder="Insira seu melhor email" required="">
                                     <small class="form-text text-danger help-block" id="emailError">O e-mail é obrigatório</small>
                                 </div>
-
-                                <label class="custom-checkbox mb-3 fv">
+                                <div class="mb-3 fv">
+                                <label class="custom-checkbox mb-3 ">
                                     <input type="checkbox" name="termos" id="termos" required="">
                                     <span class="checkmark"></span>
                                     Aceito os termos e condições
                                 </label>
                                 <small class="form-text text-danger" id="termosError"></small>
-
+                                </div>
                                 <div class="full-button">
                                     <div class="iq-button active">
                                         <button type="submit" class="btn text-uppercase position-relative">
