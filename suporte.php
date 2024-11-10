@@ -71,6 +71,14 @@ spl_autoload_register("my_autoload"); // Carrega as classes
             border-color: rgba(135, 41, 222, 1) !important;
             ;
         }
+        .fp{
+            border-color: #D6D6D6;
+
+        }
+        .fp::placeholder{
+            color: #D6D6D6;
+            
+        }
     </style>
 </head>
 
@@ -94,19 +102,19 @@ spl_autoload_register("my_autoload"); // Carrega as classes
                 <h1 class="pt-5 text-center">Está com <br> <span class="text-costumer">alguma dúvida?</span> </h1>
                 <form class="row g-3 px-4 px-xl-0 needs-validation" novalidate>
                     <div class="col-12">
-                        <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
+                        <input type="text" class="form-control fp" id="validationCustom01" value="" name="nome" placeholder="Nome" required>
 
                     </div>
                     <div class="col-12">
-                        <input type="text" class="form-control" id="validationCustom02" value="Otto" required>
+                        <input type="text" class="form-control fp" id="validationCustom02" value="" required name="sobrenome" placeholder="Sobrenome">
 
                     </div>
                     <div class="col-12">
-                        <input type="email" class="form-control" id="" aria-describedby="inputGroupPrepend" required>
+                        <input type="email" class="form-control fp" id="" aria-describedby="inputGroupPrepend" required name="email" placeholder="E-mail">
 
                     </div>
                     <div class="col-12">
-                        <textarea class="form-control" name="msg" id="" require rows="5"></textarea>
+                        <textarea class="form-control fp" name="msg" id="" placeholder="Digite aqui a sua dúvida" require rows="5"></textarea>
 
                     </div>
                     <div class="col-12 full-button">
