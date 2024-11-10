@@ -127,7 +127,7 @@ spl_autoload_register("my_autoload"); // Carrega as classes
                 </form>
             </div>
         </section>
-        <section class="contact bg-light container-fluid">
+        <section class="contact bg-light container-fluid py-5">
             <div class="container bg-light ">
                 <h1 class=" text-center text-dark">Suporte <br><span>Especializado</span></h1>
                 <p class=" text-dark px-2 px-xl-5">
