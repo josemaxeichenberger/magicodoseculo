@@ -202,6 +202,8 @@ spl_autoload_register("my_autoload"); // Carrega as classes
     <!-- Streamit Script -->
     <script src="./assets/js/streamit.js" defer></script>
     <script src="./assets/js/swiper.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
     <script>
         (() => {
             'use strict'
