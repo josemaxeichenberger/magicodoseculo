@@ -70,13 +70,16 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         // Resposta HTTP 200
         http_response_code(200);
         echo json_encode($response);
+        file_put_contents('webhook_response.json', json_encode($response, JSON_PRETTY_PRINT));
     } else {
         http_response_code(400);
         echo json_encode(['message' => 'Dados inválidos']);
+        file_put_contents('webhook_response.json', json_encode($response, JSON_PRETTY_PRINT));
     }
 } else {
     // Se o método da requisição não for POST
     http_response_code(405);
     echo json_encode(['message' => 'Método não permitido']);
+    file_put_contents('webhook_response.json', json_encode($response, JSON_PRETTY_PRINT));
 }
 ?>
