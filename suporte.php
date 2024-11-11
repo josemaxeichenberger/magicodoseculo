@@ -71,16 +71,17 @@ spl_autoload_register("my_autoload"); // Carrega as classes
             border-color: rgba(135, 41, 222, 1) !important;
             ;
         }
-        .fp{
+
+        .fp {
             border-color: #797979;
             background-color: #0F1014;
 
         }
-        .fp::placeholder{
-            color: #797979;
-            
-        }
 
+        .fp::placeholder {
+            color: #797979;
+
+        }
     </style>
 </head>
 
@@ -220,6 +221,17 @@ spl_autoload_register("my_autoload"); // Carrega as classes
                 }, false)
             })
         })()
+        <?php
+        if (isset($_GET['msg'])) { ?>
+            Swal.fire({
+                position: "top-end",
+                icon: "success",
+                title: "E-mail enviado com sucesso!",
+                showConfirmButton: false,
+                timer: 1500
+            });
+        <?php        }
+        ?>
     </script>
 </body>
 
