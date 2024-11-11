@@ -118,7 +118,7 @@ spl_autoload_register("my_autoload"); // Carrega as classes
             <div class="container pt-5">
                 <h1 class="text-white pt-5 text-center align-bottom" ><img src="assets/identidade/Grupo.png" style="margin-top: -8px;" width="55" alt=""> Seus Bônus</h1>
                 <hr class="divider">
-                <div class="row row-cols-xl-3 pt-3 row-cols-md-2 row-cols-1">
+                <div class="row row-cols-xl-1 pt-3 row-cols-md-1 row-cols-1">
                     <div class="col px-5 px-xl-1">
                         <div class="iq-blog-box">
                             <div class="iq-blog-image clearfix">
@@ -142,7 +142,7 @@ spl_autoload_register("my_autoload"); // Carrega as classes
                             </div>
                         </div>
                     </div>
-                    <div class="col px-5 px-xl-1">
+                    <!-- <div class="col px-5 px-xl-1">
                         <div class="iq-blog-box">
                             <div class="iq-blog-image clearfix">
                                 <a href="#">
@@ -191,7 +191,7 @@ spl_autoload_register("my_autoload"); // Carrega as classes
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
