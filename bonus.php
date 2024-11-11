@@ -122,20 +122,20 @@ spl_autoload_register("my_autoload"); // Carrega as classes
                     <div class="col px-5 px-xl-1 m-auto" style="max-width: 38rem;">
                         <div class="iq-blog-box">
                             <div class="iq-blog-image clearfix">
-                                <a href="#">
-                                    <img src="../assets/images/blog/blog1.webp" alt="blogImg-01" class="img-fluid w-100">
+                                <a href="https://chat.whatsapp.com/Hzg6obaAr0yJhbdYAZRUqN">
+                                    <img src="assets/identidade/wpp.png" alt="blogImg-01" class="img-fluid w-100">
                                 </a>
                             </div>
                             <div class="iq-blog-detail ">
 
-                                <a href="#">
+                                <a href="https://chat.whatsapp.com/Hzg6obaAr0yJhbdYAZRUqN">
                                     <h3 class="mb-3 line-count-1 text-center blog-heading text-black SFProDisplayBold">Grupo Exclusivo</h3>
                                 </a>
                                 <p class="line-count-4 text-black text-center px-3">
                                     No grupo exclusivo, você terá acesso a informações privilegiadas e dicas avançadas para maximizar seus resultados.
                                 </p>
                                 <div class="iq-button mx-auto text-center justify-content-center ">
-                                    <a href="#" class="btn mx-auto w-75 d-block text-capitalize position-relative">
+                                    <a href="https://chat.whatsapp.com/Hzg6obaAr0yJhbdYAZRUqN" class="btn mx-auto w-75 d-block text-capitalize position-relative">
                                         <span class="button-text">Entrar no grupo<i class="fa fa-angle-right ml-2" aria-hidden="true"></i></span>
                                     </a>
                                 </div>
