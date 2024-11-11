@@ -7,7 +7,7 @@
                      
                           <div class="logo-hotstar">
                               <a class="navbar-brand text-primary" href="./index.php">
-                                  <img class="img-fluid logo" src="assets/identidade/001.png" width="40" height="40" loading="lazy" alt="streamit" />
+                                  <img class="img-fluid logo" src="assets/identidade/001.png" width="30" height="30" loading="lazy" alt="streamit" />
                               </a>
                           </div>
                           
@@ -24,7 +24,7 @@
                               <li class="nav-item dropdown" id="itemdropdown1">
                                   <a class="nav-link d-flex align-items-center" href="#" id="navbarDropdown" role="button"
                                       data-bs-toggle="dropdown" aria-expanded="false">
-                                      <img src="assets/identidade/MenuIcon.png" width="40" height="40"  alt="">
+                                      <img src="assets/identidade/MenuIcon.png" width="30" height="30"  alt="">
                                       
                                   </a>
                                   <ul class="dropdown-menu dropdown-menu-end dropdown-user border-0 px-3 m-0 rounded-4"
