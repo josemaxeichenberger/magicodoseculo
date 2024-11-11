@@ -143,9 +143,8 @@ spl_autoload_register("my_autoload"); // Carrega as classes
                         </svg>
                     </span>
                     <span class=" px-5  rounded-pill text-center align-content-center   text-black " style="height: 60px; width:80%;background:#D6D6D6;">
-                        @magicosuporte
-                    </span>
-                    <!-- <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg"> -->
+                       <a href="https://www.instagram.com/magicosuporte/">@magicosuporte</a> 
+                    </span>                    
                 </div>
                 <div class="input-group input-group w-100 justify-content-center pb-5">
                     <span class="input-group-text h-75  rounded-circle position-relative bg-black" style="left: 2rem;                 display: flex;                    height: 60px;                    margin-top: 0.5rem;">
