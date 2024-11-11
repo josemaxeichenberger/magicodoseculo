@@ -22,9 +22,8 @@ $uteis = '   <div class="row text-center pt-3 pt-xl-1">
             </a>
           </div> 
            <div class="col-12 mt-2">
-                <a href="https://bit.ly/Cadastro-1pra1-" target="_black" class="btn  mx-1 btn-info btn-sm text-uppercase">Crie sua conta aqui</a>
-                <a href="https://chat.whatsapp.com/HzgjPh43gO9I93j8r07fMi" target="_black" class="btn mx-1 btn-warning btn-sm text-uppercase">GRUPO DE LIVES</a>
-
+                <a href="https://bit.ly/Casa-Licenciada" target="_black" class="btn  mx-1 btn-info btn-sm text-uppercase">Crie sua conta aqui</a>
+                <a href="https://chat.whatsapp.com/Hzg6obaAr0yJhbdYAZRUqN" target="_black" class="btn mx-1 btn-warning btn-sm text-uppercase">GRUPO DE LIVES</a>
            </div>                  
         </div> ';
 
