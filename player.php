@@ -162,7 +162,7 @@ spl_autoload_register("my_autoload"); // Carrega as classes
                                                     <div class="img-box">
                                                         <a href="player.php?md=<?php echo $r['modulo_id'] ?>&ep=<?php echo $r['video_id'] ?> " class="position-absolute top-0 bottom-0 start-0 end-0"></a>
                                                         <?php
-                                                        if ($al['video_bloqueado'] == 'S') { ?>
+                                                        if ($r['video_bloqueado'] == 'S') { ?>
                                                             <img src="<?php echo $r['video_capa_bloqueado'] ?>" alt="movie-card" class="img-fluid rounded-4  w-100 d-block border-0">
 
                                                         <?php } else { ?>
