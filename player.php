@@ -10,7 +10,7 @@ function my_autoload($pClassName)
 }
 
 spl_autoload_register("my_autoload"); // Carrega as classes 
-$link = '<a href="https://drive.google.com/file/d/1ZgWC6dRgu3RO8gKBNxxSAQ_6o5FmgPjH/view?usp=drive_link" class="btn btn-primary">Baixe o material de apoio</a>';
+$link = '';
 
 $uteis = '   <div class="row text-center pt-3 pt-xl-1"> 
           <div class="col-12 mb-2 mt-2">
