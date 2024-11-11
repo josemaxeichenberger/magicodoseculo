@@ -6,7 +6,7 @@ error_reporting(E_ALL);
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-require __DIR__.'/vendor/autoload.php'; // Inclua o autoload do Composer
+require __DIR__.'/vendor/autoload.php';
 
 // Crie uma instância do PHPMailer
 $mail = new PHPMailer(true);
