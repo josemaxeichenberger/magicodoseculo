@@ -1,6 +1,6 @@
       <!--Nav Start-->
       <header class="header-center-home header-default header-sticky">
-          <nav class="nav navbar navbar-expand-xl navbar-light iq-navbar header-hover-menu py-xl-0"  style="padding:0.2rem">
+          <nav class="nav navbar navbar-expand-xl navbar-light iq-navbar header-hover-menu py-xl-1"  style="padding:0.2rem">
               <div class="container-fluid navbar-inner">
                   <div class="d-flex align-items-center justify-content-between w-100 landing-header">
                       <div class="d-flex gap-3 gap-xl-0 align-items-center">
