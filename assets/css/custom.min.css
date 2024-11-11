@@ -6463,3 +6463,7 @@ pre[class*=language-] {
     background-color:  rgba(135, 41, 222, 1) !important;;
     border-color: rgba(135, 41, 222, 1) !important;;
 }
+.text-costumer{
+    color: rgba(135, 41, 222, 1) !important;;
+
+}
