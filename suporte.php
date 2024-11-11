@@ -102,7 +102,7 @@ spl_autoload_register("my_autoload"); // Carrega as classes
             <div class="container py3">
                 <img src="assets/identidade/Grupo150.png" width="55" class="mx-auto mt-5 mb-3 d-block" alt="">
                 <h1 class="pt-5 text-center">Está com <br> <span class="text-costumer">alguma dúvida?</span> </h1>
-                <form class="row g-3 px-4 px-xl-0 needs-validation" novalidate>
+                <form class="row g-3 px-4 px-xl-0 needs-validation" action="sendmail.php" method="POST" enctype="multipart/form-data" novalidate>
                     <div class="col-12">
                         <input type="text" class="form-control fp" id="validationCustom01" value="" name="nome" placeholder="Nome" required>
 
