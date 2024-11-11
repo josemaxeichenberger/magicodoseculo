@@ -163,7 +163,7 @@ spl_autoload_register("my_autoload"); // Carrega as classes
                           </div>
                           <div class="RightAnimate-four">
                             <div class="iq-button">
-                              <a href="movie-detail.php?md=<?php echo $row['modulo_id'] ?>&ep=<?php echo $row['video_id'] ?> " class="btn text-uppercase position-relative">
+                              <a href="player.php?md=<?php echo $row['modulo_id'] ?>&ep=<?php echo $row['video_id'] ?> " class="btn text-uppercase position-relative">
                                 <span class="button-text">ASSISTIR AULA</span>
                                 <i class="fa-solid fa-play"></i>
                               </a>
@@ -201,7 +201,7 @@ spl_autoload_register("my_autoload"); // Carrega as classes
                 <div class="iq-watching-block">
                   <div class="block-images position-relative">
                     <div class="iq-image-box overly-images">
-                      <a href="./movie-detail.html" class="d-block">
+                      <a href="./player.html" class="d-block">
                         <img src="./assets/images/continue-watch/01.webp" alt="movie-card" class="img-fluid object-cover w-100 d-block border-0">
                       </a>
                     </div>
@@ -218,7 +218,7 @@ spl_autoload_register("my_autoload"); // Carrega as classes
                 <div class="iq-watching-block">
                   <div class="block-images position-relative">
                     <div class="iq-image-box overly-images">
-                      <a href="./movie-detail.html" class="d-block">
+                      <a href="./player.html" class="d-block">
                         <img src="./assets/images/continue-watch/02.webp" alt="movie-card" class="img-fluid object-cover w-100 d-block border-0">
                       </a>
                     </div>
@@ -235,7 +235,7 @@ spl_autoload_register("my_autoload"); // Carrega as classes
                 <div class="iq-watching-block">
                   <div class="block-images position-relative">
                     <div class="iq-image-box overly-images">
-                      <a href="./movie-detail.html" class="d-block">
+                      <a href="./player.html" class="d-block">
                         <img src="./assets/images/continue-watch/03.webp" alt="movie-card" class="img-fluid object-cover w-100 d-block border-0">
                       </a>
                     </div>
@@ -252,7 +252,7 @@ spl_autoload_register("my_autoload"); // Carrega as classes
                 <div class="iq-watching-block">
                   <div class="block-images position-relative">
                     <div class="iq-image-box overly-images">
-                      <a href="./movie-detail.html" class="d-block">
+                      <a href="./player.html" class="d-block">
                         <img src="./assets/images/continue-watch/04.webp" alt="movie-card" class="img-fluid object-cover w-100 d-block border-0">
                       </a>
                     </div>
@@ -269,7 +269,7 @@ spl_autoload_register("my_autoload"); // Carrega as classes
                 <div class="iq-watching-block">
                   <div class="block-images position-relative">
                     <div class="iq-image-box overly-images">
-                      <a href="./movie-detail.html" class="d-block">
+                      <a href="./player.html" class="d-block">
                         <img src="./assets/images/continue-watch/05.webp" alt="movie-card" class="img-fluid object-cover w-100 d-block border-0">
                       </a>
                     </div>
@@ -286,7 +286,7 @@ spl_autoload_register("my_autoload"); // Carrega as classes
                 <div class="iq-watching-block">
                   <div class="block-images position-relative">
                     <div class="iq-image-box overly-images">
-                      <a href="./movie-detail.html" class="d-block">
+                      <a href="./player.html" class="d-block">
                         <img src="./assets/images/continue-watch/06.webp" alt="movie-card" class="img-fluid object-cover w-100 d-block border-0">
                       </a>
                     </div>
@@ -339,14 +339,14 @@ spl_autoload_register("my_autoload"); // Carrega as classes
                       <div class="iq-card card-hover">
                         <div class="block-images position-relative w-100">
                           <div class="img-box w-100">
-                            <a href="movie-detail.php?md=<?php echo $al['modulo_id'] ?>&ep=<?php echo $al['video_id'] ?> " class="position-absolute top-0 bottom-0 start-0 end-0"></a>
+                            <a href="player.php?md=<?php echo $al['modulo_id'] ?>&ep=<?php echo $al['video_id'] ?> " class="position-absolute top-0 bottom-0 start-0 end-0"></a>
                             <img src="<?php echo $al['video_capa'] ?>" alt="movie-card" class="img-fluid object-cover w-100 d-block border-0">
                           </div>
                           <div class="card-description with-transition">
                             <div class="cart-content">
                               <div class="content-left">
                                 <h5 class="iq-title text-capitalize">
-                                  <a href="movie-detail.php?md=<?php echo $al['modulo_id'] ?>&ep=<?php echo $al['video_id'] ?> "><?php echo $al['video_nome'] ?></a>
+                                  <a href="player.php?md=<?php echo $al['modulo_id'] ?>&ep=<?php echo $al['video_id'] ?> "><?php echo $al['video_nome'] ?></a>
                                 </h5>
                                 <div class="movie-time d-flex align-items-center my-2">
                                   <span class="movie-time-text font-normal"><?php echo $al['video_duracao'] ?></span>
@@ -358,7 +358,7 @@ spl_autoload_register("my_autoload"); // Carrega as classes
                           <div class="block-social-info align-items-center">
 
                             <div class="iq-button">
-                              <a href="movie-detail.php?md=<?php echo $al['modulo_id'] ?>&ep=<?php echo $al['video_id'] ?> " class="btn text-uppercase position-relative rounded-circle">
+                              <a href="player.php?md=<?php echo $al['modulo_id'] ?>&ep=<?php echo $al['video_id'] ?> " class="btn text-uppercase position-relative rounded-circle">
                                 <i class="fa-solid fa-play ms-0"></i>
                               </a>
                             </div>
