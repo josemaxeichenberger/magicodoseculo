@@ -123,7 +123,7 @@ spl_autoload_register("my_autoload"); // Carrega as classes
                         <div class="iq-blog-box">
                             <div class="iq-blog-image clearfix">
                                 <a href="https://chat.whatsapp.com/Hzg6obaAr0yJhbdYAZRUqN">
-                                    <img src="assets/identidade/wpp.png" alt="blogImg-01" class="img-fluid w-100">
+                                    <img src="assets/identidade/w.png" alt="blogImg-01" class="img-fluid w-100">
                                 </a>
                             </div>
                             <div class="iq-blog-detail ">
