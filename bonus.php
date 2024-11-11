@@ -116,7 +116,7 @@ spl_autoload_register("my_autoload"); // Carrega as classes
 
         <div class="section-padding">
             <div class="container pt-5">
-                <h1 class="text-white pt-5 text-center align-bottom" ><img src="assets/identidade/Grupo.png" style="margin-top: -8px;" width="55" alt=""> Seus Bônus</h1>
+                <h1 class="text-white pt-5 text-center align-bottom SFProDisplayBold" ><img src="assets/identidade/Grupo.png" style="margin-top: -8px;" width="55" alt=""> Seus Bônus</h1>
                 <hr class="divider">
                 <div class="row row-cols-xl-1 pt-3 row-cols-md-1 row-cols-1">
                     <div class="col px-5 px-xl-1 m-auto" style="max-width: 38rem;">
