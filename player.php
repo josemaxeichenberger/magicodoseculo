@@ -211,12 +211,14 @@ $uteisCasaLicenciada = '   <div class="row text-start pt-3 pt-xl-1">
                                             <div class="watchlist-warpper card-hover-style-two rounded-4">
                                                 <div class="block-images position-relative w-100 rounded-4">
                                                     <div class="img-box">
-                                                        <a href="player.php?md=<?php echo $r['modulo_id'] ?>&ep=<?php echo $r['video_id'] ?> " class="position-absolute top-0 bottom-0 start-0 end-0"></a>
+                                                       
                                                         <?php
                                                         if ($r['video_bloqueado'] == 'S') { ?>
+                                                         <a onclick="Block(<?php echo date('d/m/Y',strtotime($r['video_data_liberacao'])) ?>)" class="position-absolute top-0 bottom-0 start-0 end-0"></a>
                                                             <img src="<?php echo $r['video_capa_bloqueado'] ?>" alt="movie-card" class="img-fluid rounded-4  w-100 d-block border-0">
 
                                                         <?php } else { ?>
+                                                            <a href="player.php?md=<?php echo $r['modulo_id'] ?>&ep=<?php echo $r['video_id'] ?> " class="position-absolute top-0 bottom-0 start-0 end-0"></a>
                                                             <img src="<?php echo $r['video_capa'] ?>" alt="movie-card" class="img-fluid rounded-4  w-100 d-block border-0">
 
                                                         <? }
@@ -313,6 +315,17 @@ $uteisCasaLicenciada = '   <div class="row text-start pt-3 pt-xl-1">
     <!-- Streamit Script -->
     <script src="./assets/js/streamit.js" defer></script>
     <script src="./assets/js/swiper.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<script>
+  function Block(data) {
+    Swal.fire({
+      icon: "error",
+      title: "Aviso",
+      text: "Aula será liberada no dia " + data,
+    });
+  }
+</script>
 </body>
 
 </html>
