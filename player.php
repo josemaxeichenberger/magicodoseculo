@@ -116,7 +116,9 @@ spl_autoload_register("my_autoload"); // Carrega as classes
                                         <li class="trending-list"><a class="text-primary">Módulo <?php echo $_GET['md']; ?></a></li>
                                         <li class="trending-list"><a class="text-primary"> <?php echo $res['video_nome']; ?></a></li>
                                     </ul>
-
+                                    <ul class="p-0 mt-2 list-inline d-flex flex-wrap movie-tag">
+                                        <li class="trending-list"><a class="text-primary"> <?php echo $res['video_texto']; ?></a></li>
+                                    </ul>
                                     <div class="d-flex flex-wrap align-items-center text-white text-detail flex-wrap mb-4">
                                         <div class="btn-group" role="group" aria-label="Basic radio toggle button group  ">
                                             <input type="radio" class="btn-check rounded-rounded-start-pill" name="btnradio" id="btnradio1" autocomplete="off" checked>
