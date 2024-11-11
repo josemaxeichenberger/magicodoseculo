@@ -132,7 +132,7 @@ spl_autoload_register("my_autoload"); // Carrega as classes
         </section>
         <section class="contact bg-light container-fluid py-5">
             <div class="container bg-light ">
-                <h1 class=" text-center font-size-20 text-dark">Suporte <br><span>Especializado</span></h1>
+                <h1 class=" text-center text-dark">Suporte <br><span>Especializado</span></h1>
                 <p class=" text-dark mx-auto" style="width: 80%;">
                     Nesta aba você encontra todos os meios de comunicação para ter um suporte especializado, você poderá tirar suas dúvidas e possíveis problemas no decorrer da sua jornada, nossa equipe está pronta ara te ajudar em qualquer questão!
                 </p>
