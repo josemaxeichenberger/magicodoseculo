@@ -19,7 +19,7 @@
                       </nav>
                       <div class="right-panel">
                        
-                          <ul class="navbar-nav align-items-center ms-auto mb-2 mb-xl-0">
+                          <ul class="navbar-nav align-items-center ms-auto mb-2 mb-xl-0" style="display: contents; margin-top:auto;">
                               
                               <li class="nav-item dropdown" id="itemdropdown1">
                                   <a class="nav-link d-flex align-items-center py-0 py-xl-1" href="#" id="navbarDropdown" role="button"
