@@ -22,7 +22,7 @@
                           <ul class="navbar-nav align-items-center ms-auto mb-2 mb-xl-0">
                               
                               <li class="nav-item dropdown" id="itemdropdown1">
-                                  <a class="nav-link d-flex align-items-center p-0" href="#" id="navbarDropdown" role="button"
+                                  <a class="nav-link d-flex align-items-center py-0 py-xl-1" href="#" id="navbarDropdown" role="button"
                                       data-bs-toggle="dropdown" aria-expanded="false">
                                       <img src="assets/identidade/MenuIcon.png" width="30" height="30"  alt="">
                                       
