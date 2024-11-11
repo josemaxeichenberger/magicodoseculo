@@ -96,7 +96,7 @@
                                     <label class="custom-checkbox mb-3 ">
                                         <input type="checkbox" name="termos" id="termos" required="">
                                         <span class="checkmark"></span>
-                                        Ao clicar, você concorda com nossos <a href="#" class="text-costumer" data-bs-toggle="modal" data-bs-target="#staticBackdrop">&nbsp; termos e condições</a> 
+                                        Ao clicar, você concorda com nossos <a href="#" class="text-costumer"  style="color:rgba(135, 41, 222, 1) !important;" data-bs-toggle="modal" data-bs-target="#staticBackdrop">&nbsp; termos e condições</a> 
                                     </label>
                                     <small class="form-text text-danger termosError" id="termosError"></small>
                                 </div>
