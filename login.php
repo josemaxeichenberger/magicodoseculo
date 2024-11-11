@@ -70,7 +70,8 @@
 
         <div class="">
             <div class="banner-wrapper">
-                <img src="assets/identidade/HomeBanner.png" class="img-fluid d-block mx-auto w-100" alt="">
+                <img src="assets/identidade/HomeBanner.png" class="img-fluid d-block d-xl-none  mx-auto w-100" alt="">
+                <img src="assets/identidade/LoginBanner1800x500.png" class="d-none d-xl-block img-fluid d-block mx-auto w-100" alt="">
                 <div class="overlay"></div>
             </div>
             <div class="container form-login">
