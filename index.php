@@ -181,7 +181,7 @@ spl_autoload_register("my_autoload"); // Carrega as classes
       </div>
     </div>
 
-    <section class="continue-watching-block section-padding-top">
+    <section class="continue-watching-block section-padding-top d-none">
       <div class="container-fluid">
         <div class="overflow-hidden">
           <div class="d-flex align-items-center justify-content-between px-md-3 px-1 mb-4">
