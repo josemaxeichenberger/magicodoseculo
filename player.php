@@ -176,6 +176,9 @@ $uteisCasaLicenciada = '   <div class="row text-start pt-3 pt-xl-1">
                                         if($res['modulo_id'] ==4 && $res['video_indice_aula'] ==1){
                                             echo $uteisGrupodelives;
                                         }
+                                        if($res['modulo_id'] ==4 && $res['video_indice_aula'] ==2){
+                                            echo $uteis;
+                                        }
                                     
                                      ?>
                                 </div>
