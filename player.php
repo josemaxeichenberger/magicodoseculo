@@ -214,7 +214,7 @@ $uteisCasaLicenciada = '   <div class="row text-start pt-3 pt-xl-1">
                                                        
                                                         <?php
                                                         if ($r['video_bloqueado'] == 'S') { ?>
-                                                         <a onclick="Block(<?php echo $r['video_data_liberacao']?>)" class="position-absolute top-0 bottom-0 start-0 end-0"></a>
+                                                         <a onclick="Block('<?php echo date('d/m/Y',strtotime($r['video_data_liberacao'])) ?>')" class="position-absolute top-0 bottom-0 start-0 end-0"></a>
                                                             <img src="<?php echo $r['video_capa_bloqueado'] ?>" alt="movie-card" class="img-fluid rounded-4  w-100 d-block border-0">
 
                                                         <?php } else { ?>
