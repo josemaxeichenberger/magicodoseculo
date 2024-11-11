@@ -13,7 +13,7 @@
                           
 
                       </div>
-                      <nav id="navbar_main" class="offcanvas mobile-offcanvas nav navbar navbar-expand-xl hover-nav horizontal-nav mega-menu-content py-xl-0">
+                      <nav id="navbar_main" class="offcanvas mobile-offcanvas nav navbar navbar-expand-xl hover-nav horizontal-nav mega-menu-content py-0">
 
                           <!-- container-fluid.// -->
                       </nav>
