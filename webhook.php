@@ -1,44 +1,44 @@
 <?php
 // Define the handler function to process the webhook
 function handleWebhook($data) {
-    // MySQL database connection details (melhor manter em um arquivo .env para segurança)
+    // MySQL database connection details (ideal para manter em um arquivo .env para segurança)
     $host = 'localhost';
     $user = 'magicodoseculo_base'; 
     $password = 'dire@0300';
     $database = 'magicodoseculo_base';
-    
+
     try {
         // Create a PDO connection
         $pdo = new PDO("mysql:host=$host;dbname=$database", $user, $password);
         $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         
-        $response = []; // Array to hold response messages
-        
-        if (isset($data['status']) && isset($data['customer']['email'])) {
-            $email = $data['customer']['email'];
-            $status = $data['status'];
-            $productID = $data['product']['short_id'] ?? null;
-            $offerName = $data['offer']['name'] ?? null;
+        $response = []; // Array para armazenar mensagens de resposta
 
-            if ($status === 'paid' && $productID && $offerName) {
-                // Check if the email already exists
+        if (isset($data['sale_status_enum_key']) && isset($data['customer']['email'])) {
+            $email = $data['customer']['email'];
+            $status = $data['sale_status_enum_key'];
+            $productID = $data['product']['code'] ?? null;
+            $offerName = $data['product']['name'] ?? null;
+
+            if ($status === 'approved' && $productID && $offerName) {
+                // Verifica se o email já existe
                 $stmt = $pdo->prepare('SELECT * FROM leads WHERE email = ?');
                 $stmt->execute([$email]);
                 $rows = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
                 if (count($rows) > 0) {
-                    // Email exists, update the existing record
+                    // Email existe, atualizar o registro existente
                     $updateStmt = $pdo->prepare('UPDATE leads SET plane = ? WHERE email = ?');
                     $updateStmt->execute([$productID, $email]);
                     $response['message'] = 'Registro atualizado com sucesso!';
                 } else {
-                    // Email does not exist, insert new record
+                    // Email não existe, insira um novo registro
                     $insertStmt = $pdo->prepare('INSERT INTO leads (email, plane, course) VALUES (?, ?, ?)');
                     $insertStmt->execute([$email, $productID, $offerName]);
                     $response['message'] = 'Dado inserido com sucesso!';
                 }
             } elseif (in_array($status, ['refunded', 'chargedback', 'refund_requested'])) {
-                // Handle refund/chargeback status
+                // Lida com status de reembolso ou estorno
                 $stmt = $pdo->prepare('DELETE FROM leads WHERE email = ?');
                 $stmt->execute([$email]);
                 $response['message'] = 'Status de Refund/Chargeback. Email removido.';
@@ -50,7 +50,7 @@ function handleWebhook($data) {
         }
 
     } catch (PDOException $e) {
-        // Handle errors with a message
+        // Lida com erros com uma mensagem
         $response = ['message' => 'Erro ao processar o webhook', 'error' => $e->getMessage()];
     }
 
@@ -60,14 +60,14 @@ function handleWebhook($data) {
     return $response;
 }
 
-// Handling the POST request
+// Tratando a requisição POST
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-    // Get the POST data (assuming JSON body)
+    // Obtém os dados POST (assumindo corpo em JSON)
     $data = json_decode(file_get_contents('php://input'), true);
     
     if ($data) {
         $response = handleWebhook($data);
-        // Send HTTP 200 response
+        // Resposta HTTP 200
         http_response_code(200);
         echo json_encode($response);
     } else {
@@ -75,7 +75,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         echo json_encode(['message' => 'Dados inválidos']);
     }
 } else {
-    // If the request method is not POST
+    // Se o método da requisição não for POST
     http_response_code(405);
     echo json_encode(['message' => 'Método não permitido']);
 }
