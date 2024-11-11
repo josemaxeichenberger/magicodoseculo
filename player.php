@@ -12,7 +12,7 @@ function my_autoload($pClassName)
 spl_autoload_register("my_autoload"); // Carrega as classes 
 $link = '';
 
-$uteisCasaLicenciada = '   <div class="row text-center pt-3 pt-xl-1"> 
+$uteisCasaLicenciada = '   <div class="row text-start pt-3 pt-xl-1"> 
           <div class="col-12 mb-2 mt-2">
             <a class="text-white" target="_blank" rel="noopener noreferrer">
               <svg xmlns="http://www.w3.org/2000/svg" style="width: 25px;" fill="#ffffff" viewBox="0 0 640 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
@@ -25,7 +25,7 @@ $uteisCasaLicenciada = '   <div class="row text-center pt-3 pt-xl-1">
                 <a href="https://bit.ly/Casa-Licenciada" target="_black" class="btn  mx-1 btn-info btn-sm text-uppercase">Crie sua conta aqui</a>
            </div>                  
         </div> ';
-        $uteisGrupodelives = '   <div class="row text-center pt-3 pt-xl-1"> 
+        $uteisGrupodelives = '   <div class="row text-start pt-3 pt-xl-1"> 
         <div class="col-12 mb-2 mt-2">
           <a class="text-white" target="_blank" rel="noopener noreferrer">
             <svg xmlns="http://www.w3.org/2000/svg" style="width: 25px;" fill="#ffffff" viewBox="0 0 640 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
