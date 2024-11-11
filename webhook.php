@@ -14,13 +14,13 @@ function handleWebhook($data) {
         
         $response = []; // Array para armazenar mensagens de resposta
 
-        if (isset($data['sale_status_enum_key']) && isset($data['customer']['email'])) {
+        if (isset($data['customer']['email'])) {
             $email = $data['customer']['email'];
             $status = $data['sale_status_enum_key'];
             $productID = $data['product']['code'] ?? null;
             $offerName = $data['product']['name'] ?? null;
 
-            if ($status === 'approved' && $productID && $offerName) {
+            if ($status === 'approved' ) {
                 // Verifica se o email já existe
                 $stmt = $pdo->prepare('SELECT * FROM leads WHERE email = ?');
                 $stmt->execute([$email]);
