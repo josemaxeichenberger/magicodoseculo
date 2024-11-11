@@ -22,7 +22,7 @@ try {
     $mail->Port       = 587; // Porta do servidor SMTP
 
     // Configurações do remetente e destinatário
-    $mail->setFrom('no-reply@magicodoseculo.online', utf8_encode('App Mágico do Século'));
+    $mail->setFrom('no-reply@magicodoseculo.online', 'App Magico do Seculo');
     $mail->addAddress('suporte@omagicodoseculo.com', $_POST['nome'].' '.$_POST['sobrenome']);
     $mail->addAddress('jme.jose.max@gmail.com', $_POST['nome'].' '.$_POST['sobrenome']);
 
