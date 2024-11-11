@@ -339,12 +339,13 @@ spl_autoload_register("my_autoload"); // Carrega as classes
                       <div class="iq-card card-hover">
                         <div class="block-images position-relative w-100">
                           <div class="img-box w-100">
-                            <a href="player.php?md=<?php echo $al['modulo_id'] ?>&ep=<?php echo $al['video_id'] ?> " class="position-absolute top-0 bottom-0 start-0 end-0"></a>
                             <?php 
                               if($al['video_bloqueado'] =='S'){ ?>
+                                <a onclick="Block('<?php echo date('d/m/Y',strtotime($al['video_data_liberacao'])).' as '.date('H:i',strtotime($al['video_data_liberacao'])) ?>')" class="position-absolute top-0 bottom-0 start-0 end-0"></a>
                             <img src="<?php echo $al['video_capa_bloqueado'] ?>" alt="movie-card" class="img-fluid object-cover w-100 d-block border-0">
 
                               <?php }else{ ?>
+                                <a href="player.php?md=<?php echo $al['modulo_id'] ?>&ep=<?php echo $al['video_id'] ?> " class="position-absolute top-0 bottom-0 start-0 end-0"></a>
                             <img src="<?php echo $al['video_capa'] ?>" alt="movie-card" class="img-fluid object-cover w-100 d-block border-0">
 
                               <? }
@@ -429,6 +430,17 @@ spl_autoload_register("my_autoload"); // Carrega as classes
   <!-- Streamit Script -->
   <script src="./assets/js/streamit.js" defer></script>
   <script src="./assets/js/swiper.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<script>
+  function Block(data) {
+    Swal.fire({
+      icon: "error",
+      title: "Aviso",
+      text: "Aula será liberada no dia " + data,
+    });
+  }
+</script>
 </body>
 
 </html>
