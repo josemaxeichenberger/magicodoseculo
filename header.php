@@ -1,6 +1,6 @@
       <!--Nav Start-->
       <header class="header-center-home header-default header-sticky">
-          <nav class="nav navbar navbar-expand-xl navbar-light iq-navbar header-hover-menu py-xl-0">
+          <nav class="nav navbar navbar-expand-xl navbar-light iq-navbar header-hover-menu py-0">
               <div class="container-fluid navbar-inner">
                   <div class="d-flex align-items-center justify-content-between w-100 landing-header">
                       <div class="d-flex gap-3 gap-xl-0 align-items-center">
@@ -13,7 +13,7 @@
                           
 
                       </div>
-                      <nav id="navbar_main" class="offcanvas mobile-offcanvas nav navbar navbar-expand-xl hover-nav horizontal-nav mega-menu-content py-0">
+                      <nav id="navbar_main" class="offcanvas mobile-offcanvas nav navbar navbar-expand-xl hover-nav horizontal-nav mega-menu-content py-xl-0">
 
                           <!-- container-fluid.// -->
                       </nav>
