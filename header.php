@@ -7,7 +7,7 @@
                      
                           <div class="logo-hotstar">
                               <a class="navbar-brand text-primary" href="./index.php">
-                                  <img class="img-fluid logo" src="assets/identidade/001.png" width="25" height="25" loading="lazy" alt="streamit" />
+                                  <img class="img-fluid logo" src="assets/identidade/001.png" width="30" loading="lazy" alt="streamit" />
                               </a>
                           </div>
                           
