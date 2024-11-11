@@ -221,6 +221,7 @@ class videos extends ConexaoMysql
         videos ON modulos.id = videos.id_modulo
     WHERE 
         modulos.id = :id_modulo
+        and  videos.video ='Ativo'
      ORDER BY 
      modulos.id, videos.indice_aula
 
