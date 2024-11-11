@@ -102,8 +102,8 @@ spl_autoload_register("my_autoload"); // Carrega as classes
         <section class="bg-body py-5">
             <div class="container py3">
                 <img src="assets/identidade/Grupo150.png" width="55" class="mx-auto mt-5 mb-3 d-block" alt="">
-                <h4 class="pt-5 text-center">Está com alguma</h4>
-                <h1 class="text-costumer text-center">Dúvida?</h1>
+                <h4 class="pt-5 text-center SFProDisplayRegular">Está com alguma</h4>
+                <h1 class="text-costumer text-center SFProDisplayBold">Dúvida?</h1>
                 <form class="row g-3 px-4 px-xl-0 needs-validation" action="sendmail.php" method="POST" enctype="multipart/form-data" novalidate>
                     <div class="col-12">
                         <input type="text" class="form-control fp" id="validationCustom01" value="" name="nome" placeholder="Nome" required>
