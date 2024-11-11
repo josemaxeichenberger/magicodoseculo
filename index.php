@@ -4,6 +4,9 @@
 // ini_set('display_startup_errors', 1); // Exibe erros ocorridos na inicialização
 session_start();
 
+if (!isset($_SESSION['email'])) {
+    echo '<script>window.location.href = "login.php"</script>';
+}
 function my_autoload($pClassName)
 {
   include('./Class' . "/" . $pClassName . ".class.php");
