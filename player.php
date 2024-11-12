@@ -56,7 +56,7 @@ $uteisCasaLicenciada = '   <div class="row text-start pt-3 pt-xl-1">
     </div> ';
 ?>
 <!doctype html>
-<html lang="en" data-bs-theme="dark">
+<html lang="pt-br" data-bs-theme="dark">
 
 <head>
     <meta charset="utf-8">
