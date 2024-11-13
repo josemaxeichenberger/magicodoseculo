@@ -385,7 +385,10 @@ $uteis = '   <div class="row text-start pt-3 pt-xl-1">
                     tipo: tipo
                 },
                 success: function(response) { // Função de sucesso
-                    console.log('Sucesso:', response);
+                    var dados = JSON.parse(response);
+                    console.log('Sucesso:', dados);
+                    
+                    $('#likes_res').text()
                 },
                 error: function(error) { // Função de erro
                     console.error('Erro:', error);
