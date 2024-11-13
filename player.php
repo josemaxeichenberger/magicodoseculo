@@ -343,6 +343,7 @@ $uteis = '   <div class="row text-start pt-3 pt-xl-1">
                 },
                 success: function(response) { // Função de sucesso
                     console.log('Sucesso:', response);
+                    getLikes();
                 },
                 error: function(error) { // Função de erro
                     console.error('Erro:', error);
@@ -365,6 +366,7 @@ $uteis = '   <div class="row text-start pt-3 pt-xl-1">
                 },
                 success: function(response) { // Função de sucesso
                     console.log('Sucesso:', response);
+                    getDesLikes();
                 },
                 error: function(error) { // Função de erro
                     console.error('Erro:', error);
