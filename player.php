@@ -358,6 +358,7 @@ $uteis = '   <div class="row text-start pt-3 pt-xl-1">
                 url: 'Controller/Controller.php', // URL do endpoint para onde enviar os dados
                 type: 'POST', // Tipo de requisição
                 data: { // Dados a serem enviados
+                    action:'likeSend',
                     id_video: video,
                     id_usuario: id_usuario,
                     tipo: tipo
