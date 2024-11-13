@@ -123,7 +123,13 @@ spl_autoload_register("my_autoload"); // Carrega as classes
                                     <i class="fa fa-heart" aria-hidden="true"></i>
                                   </li>
                                 </ul>
-                                <span class="text-white me-2 font-size-14 fw-500">4</span>
+                                <?php
+                                    $videos_like = new videos_like();    
+                                    $videos_like->setId_video($row['video_id']);
+                                    $videos_like->setTipo('like');
+                                    $res = $videos_like->SelectCount();
+                                  ?>
+                                <span class="text-white me-2 font-size-14 fw-500"><?php echo $res['total']; ?></span>
 
                               </div>
                               <span class="font-size-14 fw-500"><?php echo $row['video_duracao'] ?></span>
