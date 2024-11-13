@@ -364,9 +364,6 @@ spl_autoload_register("my_autoload"); // Carrega as classes
       </div>
     <?php  }
     ?>
-
-
-
   </main>
   <?php include('./footer.php') ?>
 
