@@ -353,7 +353,7 @@ $uteis = '   <div class="row text-start pt-3 pt-xl-1">
 
         function desLike(video) {
             let id_usuario = '<?php echo $_SESSION['id_user'] ?>';
-            let tipe = 'deslike';
+            let tipo = 'deslike';
             $.ajax({
                 url: 'Controller/Controller.php', // URL do endpoint para onde enviar os dados
                 type: 'POST', // Tipo de requisição
