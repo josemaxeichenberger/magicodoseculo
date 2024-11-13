@@ -163,9 +163,9 @@ $uteisCasaLicenciada = '   <div class="row text-start pt-3 pt-xl-1">
                                     </ul>
                                     <div class="d-flex flex-wrap align-items-center text-white text-detail flex-wrap mb-4">
                                         <div class="btn-group" role="group" aria-label="Basic radio toggle button group  ">
-                                            <input type="radio" class="btn-check rounded-rounded-start-pill" name="btnradio" id="btnradio1" autocomplete="off" checked>
+                                            <input type="radio" onclick=" Like(<?php echo $res['video_id']; ?>)" class="btn-check rounded-rounded-start-pill" name="btnradio" id="btnradio1" autocomplete="off" checked>
                                             <label class="btn rounded-rounded-start-pill  btn-sm btn-outline-secondary" for="btnradio1"><i class="fa fa-thumbs-up"></i>&nbsp;632</label>
-                                            <input type="radio" class="btn-check rounded-rounded-end-pill" name="btnradio" id="btnradio2" autocomplete="off">
+                                            <input type="radio" onclick=" desLike(<?php echo $res['video_id']; ?>)" class="btn-check rounded-rounded-end-pill" name="btnradio" id="btnradio2" autocomplete="off">
                                             <label class="btn btn-sm rounded-rounded-end-pill  btn-outline-secondary" for="btnradio2"><i class="fa fa-thumbs-down"></i></label>
                                         </div>
                                         <span class="ms-3 font-Weight-500 genres-info"><?php echo $res['video_duracao']; ?></span>
@@ -328,6 +328,30 @@ $uteisCasaLicenciada = '   <div class="row text-start pt-3 pt-xl-1">
       text: "Aula será liberada no dia " + data,
     });
   }
+  function Like(video){    
+    let id_usuario = '<?php echo $_SESSION['id_user'] ?>';
+    let tipo = 'like';
+    $.ajax({
+    url: 'Controller/Controller.php',        // URL do endpoint para onde enviar os dados
+    type: 'POST',                   // Tipo de requisição
+    data: {                         // Dados a serem enviados
+        id_video: video,
+        id_usuario: id_usuario,
+        tipo:tipo
+    },
+    success: function(response) {   // Função de sucesso
+        console.log('Sucesso:', response);
+    },
+    error: function(error) {        // Função de erro
+        console.error('Erro:', error);
+    }
+});
+
+  } 
+  function desLike(video){    
+    let id_usuario = '<?php echo $_SESSION['id_user'] ?>';
+    let tipe = 'deslike';    
+  } 
 </script>
 </body>
 
