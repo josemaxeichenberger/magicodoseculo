@@ -166,7 +166,7 @@ $uteis = '   <div class="row text-start pt-3 pt-xl-1">
                                             <input type="radio" onclick=" Like(<?php echo $res['video_id']; ?>)" class="btn-check rounded-rounded-start-pill" name="btnradio" id="btnradio1" autocomplete="off" checked>
                                             <label class="btn rounded-rounded-start-pill  btn-sm btn-outline-secondary" for="btnradio1"><i class="fa fa-thumbs-up"></i>&nbsp;<span id="likes_res"></span> </label>
                                             <input type="radio" onclick=" desLike(<?php echo $res['video_id']; ?>)" class="btn-check rounded-rounded-end-pill" name="btnradio" id="btnradio2" autocomplete="off">
-                                            <label class="btn btn-sm rounded-rounded-end-pill  btn-outline-secondary" for="btnradio2"><i class="fa fa-thumbs-down"></i><span id="deslikes_res"></span></label>
+                                            <label class="btn btn-sm rounded-rounded-end-pill  btn-outline-secondary" for="btnradio2"><i class="fa fa-thumbs-down"></i>&nbsp;<span id="deslikes_res"></span></label>
                                         </div>
                                         <span class="ms-3 font-Weight-500 genres-info"><?php echo $res['video_duracao']; ?></span>
 
