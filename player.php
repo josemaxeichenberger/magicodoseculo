@@ -28,7 +28,7 @@ $uteisCasaLicenciada = '   <div class="row text-start pt-3 pt-xl-1">
                 <a href="https://bit.ly/Casa-Licenciada" target="_black" class="btn  mx-1 btn-info btn-sm text-uppercase">Crie sua conta aqui</a>
            </div>                  
         </div> ';
-        $uteisGrupodelives = '   <div class="row text-start pt-3 pt-xl-1"> 
+$uteisGrupodelives = '   <div class="row text-start pt-3 pt-xl-1"> 
         <div class="col-12 mb-2 mt-2">
           <a class="text-white" target="_blank" rel="noopener noreferrer">
             <svg xmlns="http://www.w3.org/2000/svg" style="width: 25px;" fill="#ffffff" viewBox="0 0 640 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
@@ -41,7 +41,7 @@ $uteisCasaLicenciada = '   <div class="row text-start pt-3 pt-xl-1">
               <a href="https://chat.whatsapp.com/Hzg6obaAr0yJhbdYAZRUqN" target="_black" class="btn mx-1 btn-warning btn-sm text-uppercase">GRUPO DE LIVES</a>
          </div>                  
       </div> ';
-      $uteis = '   <div class="row text-start pt-3 pt-xl-1"> 
+$uteis = '   <div class="row text-start pt-3 pt-xl-1"> 
       <div class="col-12 mb-2 mt-2">
         <a class="text-white" target="_blank" rel="noopener noreferrer">
           <svg xmlns="http://www.w3.org/2000/svg" style="width: 25px;" fill="#ffffff" viewBox="0 0 640 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
@@ -171,19 +171,19 @@ $uteisCasaLicenciada = '   <div class="row text-start pt-3 pt-xl-1">
                                         <span class="ms-3 font-Weight-500 genres-info"><?php echo $res['video_duracao']; ?></span>
 
                                     </div>
-                                    
+
                                     <?php
-                                        if($res['modulo_id'] ==1 && $res['video_indice_aula'] ==2){
-                                            echo $uteisCasaLicenciada;
-                                        }
-                                        if($res['modulo_id'] ==4 && $res['video_indice_aula'] ==1){
-                                            echo $uteisGrupodelives;
-                                        }
-                                        if($res['modulo_id'] ==4 && $res['video_indice_aula'] ==2){
-                                            echo $uteis;
-                                        }
-                                    
-                                     ?>
+                                    if ($res['modulo_id'] == 1 && $res['video_indice_aula'] == 2) {
+                                        echo $uteisCasaLicenciada;
+                                    }
+                                    if ($res['modulo_id'] == 4 && $res['video_indice_aula'] == 1) {
+                                        echo $uteisGrupodelives;
+                                    }
+                                    if ($res['modulo_id'] == 4 && $res['video_indice_aula'] == 2) {
+                                        echo $uteis;
+                                    }
+
+                                    ?>
                                 </div>
 
                             </div>
@@ -214,10 +214,10 @@ $uteisCasaLicenciada = '   <div class="row text-start pt-3 pt-xl-1">
                                             <div class="watchlist-warpper card-hover-style-two rounded-4">
                                                 <div class="block-images position-relative w-100 rounded-4">
                                                     <div class="img-box">
-                                                       
+
                                                         <?php
                                                         if ($r['video_bloqueado'] == 'S') { ?>
-                                                         <a onclick="Block('<?php echo date('d/m/Y',strtotime($r['video_data_liberacao'])).' as '.date('H:i',strtotime($r['video_data_liberacao'])) ?>')" class="position-absolute top-0 bottom-0 start-0 end-0"></a>
+                                                            <a onclick="Block('<?php echo date('d/m/Y', strtotime($r['video_data_liberacao'])) . ' as ' . date('H:i', strtotime($r['video_data_liberacao'])) ?>')" class="position-absolute top-0 bottom-0 start-0 end-0"></a>
                                                             <img src="<?php echo $r['video_capa_bloqueado'] ?>" alt="movie-card" class="img-fluid rounded-4  w-100 d-block border-0">
 
                                                         <?php } else { ?>
@@ -320,39 +320,57 @@ $uteisCasaLicenciada = '   <div class="row text-start pt-3 pt-xl-1">
     <script src="./assets/js/swiper.js" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
-<script>
-  function Block(data) {
-    Swal.fire({
-      icon: "error",
-      title: "Aviso",
-      text: "Aula será liberada no dia " + data,
-    });
-  }
-  function Like(video){    
-    let id_usuario = '<?php echo $_SESSION['id_user'] ?>';
-    let tipo = 'like';
-    $.ajax({
-    url: 'Controller/Controller.php',        // URL do endpoint para onde enviar os dados
-    type: 'POST',                   // Tipo de requisição
-    data: {                         // Dados a serem enviados
-        id_video: video,
-        id_usuario: id_usuario,
-        tipo:tipo
-    },
-    success: function(response) {   // Função de sucesso
-        console.log('Sucesso:', response);
-    },
-    error: function(error) {        // Função de erro
-        console.error('Erro:', error);
-    }
-});
+    <script>
+        function Block(data) {
+            Swal.fire({
+                icon: "error",
+                title: "Aviso",
+                text: "Aula será liberada no dia " + data,
+            });
+        }
 
-  } 
-  function desLike(video){    
-    let id_usuario = '<?php echo $_SESSION['id_user'] ?>';
-    let tipe = 'deslike';    
-  } 
-</script>
+        function Like(video) {
+            let id_usuario = '<?php echo $_SESSION['id_user'] ?>';
+            let tipo = 'like';
+            $.ajax({
+                url: 'Controller/Controller.php', // URL do endpoint para onde enviar os dados
+                type: 'POST', // Tipo de requisição
+                data: { // Dados a serem enviados
+                    id_video: video,
+                    id_usuario: id_usuario,
+                    tipo: tipo
+                },
+                success: function(response) { // Função de sucesso
+                    console.log('Sucesso:', response);
+                },
+                error: function(error) { // Função de erro
+                    console.error('Erro:', error);
+                }
+            });
+
+        }
+
+        function desLike(video) {
+            let id_usuario = '<?php echo $_SESSION['id_user'] ?>';
+            let tipe = 'deslike';
+            $.ajax({
+                url: 'Controller/Controller.php', // URL do endpoint para onde enviar os dados
+                type: 'POST', // Tipo de requisição
+                data: { // Dados a serem enviados
+                    id_video: video,
+                    id_usuario: id_usuario,
+                    tipo: tipo
+                },
+                success: function(response) { // Função de sucesso
+                    console.log('Sucesso:', response);
+                },
+                error: function(error) { // Função de erro
+                    console.error('Erro:', error);
+                }
+            });
+
+        }
+    </script>
 </body>
 
 </html>
