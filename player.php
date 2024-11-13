@@ -373,8 +373,8 @@ $uteis = '   <div class="row text-start pt-3 pt-xl-1">
 
         }
 
-        function  getLikes(video) {
-            let id_usuario = '<?php echo $_GET['ep'] ?>';
+        function  getLikes() {
+            let video = '<?php echo $_GET['ep'] ?>';
             let tipo = 'like';
             $.ajax({
                 url: 'Controller/Controller.php', // URL do endpoint para onde enviar os dados
@@ -393,6 +393,9 @@ $uteis = '   <div class="row text-start pt-3 pt-xl-1">
             });
 
         }
+        setTimeout(()=>{
+            getLikes()
+        },2000);
     </script>
 </body>
 
