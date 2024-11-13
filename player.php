@@ -393,9 +393,10 @@ $uteis = '   <div class="row text-start pt-3 pt-xl-1">
             });
 
         }
-        setTimeout(()=>{
-            getLikes()
-        },2000);
+        setInterval(() => {
+    getLikes();
+}, 2000);
+
     </script>
 </body>
 
