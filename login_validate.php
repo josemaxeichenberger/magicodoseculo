@@ -20,6 +20,7 @@ try {
 
         if ($user) {
        
+            $_SESSION['id_user'] = $user['id'];
             $_SESSION['logui'] = true;
             $_SESSION['email'] = $_POST['email'];
             // Sucesso no login
