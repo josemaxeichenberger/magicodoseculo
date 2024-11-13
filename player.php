@@ -164,9 +164,9 @@ $uteis = '   <div class="row text-start pt-3 pt-xl-1">
                                     <div class="d-flex flex-wrap align-items-center text-white text-detail flex-wrap mb-4">
                                         <div class="btn-group" role="group" aria-label="Basic radio toggle button group  ">
                                             <input type="radio" onclick=" Like(<?php echo $res['video_id']; ?>)" class="btn-check rounded-rounded-start-pill" name="btnradio" id="btnradio1" autocomplete="off" checked>
-                                            <label class="btn rounded-rounded-start-pill  btn-sm btn-outline-secondary" for="btnradio1"><i class="fa fa-thumbs-up"></i>&nbsp;632</label>
+                                            <label class="btn rounded-rounded-start-pill  btn-sm btn-outline-secondary" for="btnradio1"><i class="fa fa-thumbs-up"></i>&nbsp;<span id="likes_res"></span> </label>
                                             <input type="radio" onclick=" desLike(<?php echo $res['video_id']; ?>)" class="btn-check rounded-rounded-end-pill" name="btnradio" id="btnradio2" autocomplete="off">
-                                            <label class="btn btn-sm rounded-rounded-end-pill  btn-outline-secondary" for="btnradio2"><i class="fa fa-thumbs-down"></i></label>
+                                            <label class="btn btn-sm rounded-rounded-end-pill  btn-outline-secondary" for="btnradio2"><i class="fa fa-thumbs-down"></i><span id="deslikes_res"></span></label>
                                         </div>
                                         <span class="ms-3 font-Weight-500 genres-info"><?php echo $res['video_duracao']; ?></span>
 
@@ -361,6 +361,27 @@ $uteis = '   <div class="row text-start pt-3 pt-xl-1">
                     action:'likeSend',
                     id_video: video,
                     id_usuario: id_usuario,
+                    tipo: tipo
+                },
+                success: function(response) { // Função de sucesso
+                    console.log('Sucesso:', response);
+                },
+                error: function(error) { // Função de erro
+                    console.error('Erro:', error);
+                }
+            });
+
+        }
+
+        function  getLikes(video) {
+            let id_usuario = '<?php echo $_GET['ep'] ?>';
+            let tipo = 'like';
+            $.ajax({
+                url: 'Controller/Controller.php', // URL do endpoint para onde enviar os dados
+                type: 'GET', // Tipo de requisição
+                data: { // Dados a serem enviados
+                    action:'likeSend',
+                    id_video: video,
                     tipo: tipo
                 },
                 success: function(response) { // Função de sucesso
