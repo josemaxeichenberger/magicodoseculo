@@ -386,9 +386,32 @@ $uteis = '   <div class="row text-start pt-3 pt-xl-1">
                 },
                 success: function(response) { // Função de sucesso
                     var dados = JSON.parse(response);
-                    console.log( dados.data.total);
+                    console.log( );
                     
-                    $('#likes_res').text()
+                    $('#likes_res').text(dados.data.total)
+                },
+                error: function(error) { // Função de erro
+                    console.error('Erro:', error);
+                }
+            });
+
+        }
+        function  getDesLikes() {
+            let video = '<?php echo $_GET['ep'] ?>';
+            let tipo = 'deslike';
+            $.ajax({
+                url: 'Controller/Controller.php', // URL do endpoint para onde enviar os dados
+                type: 'GET', // Tipo de requisição
+                data: { // Dados a serem enviados
+                    action:'likeSend',
+                    id_video: video,
+                    tipo: tipo
+                },
+                success: function(response) { // Função de sucesso
+                    var dados = JSON.parse(response);
+                    console.log( );
+                    
+                    $('#deslikes_res').text(dados.data.total)
                 },
                 error: function(error) { // Função de erro
                     console.error('Erro:', error);
@@ -398,6 +421,7 @@ $uteis = '   <div class="row text-start pt-3 pt-xl-1">
         }
         setInterval(() => {
     getLikes();
+    getDesLikes();
 }, 2000);
 
     </script>
