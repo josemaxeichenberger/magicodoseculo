@@ -386,7 +386,7 @@ $uteis = '   <div class="row text-start pt-3 pt-xl-1">
                 },
                 success: function(response) { // Função de sucesso
                     var dados = JSON.parse(response);
-                    console.log( dados);
+                    console.log( dados.data.total);
                     
                     $('#likes_res').text()
                 },
