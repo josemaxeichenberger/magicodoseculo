@@ -5,7 +5,7 @@ function my_autoload($pClassName) {
 }
 
 spl_autoload_register("my_autoload"); // Carrega as classes 
-$tabela = "";
+$tabela = "videos_like";
 
 $catch = 'catch (Exception $retorno) {
             return $retorno->getMessage() ;     

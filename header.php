@@ -43,7 +43,7 @@
                                       <li class="justify-content-center text-center py-2">
                                           <a href="/index.php" class=" align-items-center gap-3">
                                           
-                                              <h5 class="mb-0 font-size-16 SFProDisplayRegular ">Academy</h5>
+                                              <h5 class="mb-0 font-size-16 SFProDisplayRegular ">Aulas</h5>
                                           </a>
                                       </li>
                                       <li class="justify-content-center text-center  py-2">
