@@ -47,7 +47,7 @@
                                           </a>
                                       </li>
                                       <li class="justify-content-center text-center  py-2">
-                                          <a href="./suporte.php" class="align-items-center gap-3">
+                                          <a href="https://www.instagram.com/suporte.magico/profilecard/?igsh=eWFrbXgxZ2JnYjJu" class="align-items-center gap-3">
                                            
                                               <h5 class="mb-0 font-size-16 SFProDisplayRegular">Suporte</h5>
                                           </a>

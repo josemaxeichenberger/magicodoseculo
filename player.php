@@ -51,7 +51,7 @@ $uteis = '   <div class="row text-start pt-3 pt-xl-1">
         </a>
       </div> 
        <div class="col-12 mt-2">
-            <a href="https://www.instagram.com/magicosuporte/" target="_black" class="btn mx-1 btn-primary btn-sm text-uppercase">SUPORTE</a>
+            <a href="https://www.instagram.com/suporte.magico/profilecard/?igsh=eWFrbXgxZ2JnYjJu" target="_black" class="btn mx-1 btn-primary btn-sm text-uppercase">SUPORTE</a>
        </div>                  
     </div> ';
 ?>
